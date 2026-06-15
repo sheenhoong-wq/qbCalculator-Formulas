@@ -1,0 +1,42 @@
+# .github/workflows/sync_formulas.yml
+name: Sync Formulas from Firestore
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install firebase-admin
+
+      - name: Run Sync Script
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          # This script would:
+          # 1. Connect to Firestore 'submissions'
+          # 2. Filter status == 'pending' (or 'approved')
+          # 3. Write data to formulas/*.json
+          # 4. Update index.json
+          # 5. Commit and push back to this repo
+          node sync_script.js
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Marketplace Bot"
+          git config --global user.email "bot@qbcalculator.com"
+          git add .
+          git commit -m "Auto-sync new formulas from community" || exit 0
+          git push
