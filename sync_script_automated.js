@@ -1,13 +1,11 @@
 /**
- * sync_script.js
- * This script runs inside GitHub Actions to sync 'approved' formulas
- * from Firestore to your GitHub Public Repository.
+ * sync_script_automated.js
+ * Automatically syncs ALL 'approved' formulas from Firestore.
  */
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
-// 1. Initialize Firebase from the Secret
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
@@ -16,38 +14,39 @@ admin.initializeApp({
 const db = admin.firestore();
 
 async function sync() {
-    console.log('Starting sync from Firestore...');
+    console.log('Fetching formulas from Firestore...');
 
-    // 2. Fetch all approved formulas from 'submissions' collection
+    // Sync everything with 'approved' status (which is set automatically by the App)
     const snapshot = await db.collection('submissions')
-        .where('status', '==', 'approved') // Only sync approved ones
+        .where('status', '==', 'approved')
         .get();
 
-    if (snapshot.empty) {
-        console.log('No new approved formulas found.');
-        process.exit(0);
-    }
-
     const formulasDir = path.join(__dirname, 'formulas');
-    if (!fs.existsSync(formulasDir)) fs.mkdirSync(formulasDir);
+    if (!fs.existsSync(formulasDir)) fs.mkdirSync(formulasDir, { recursive: true });
 
     let formulaList = [];
 
     snapshot.forEach(doc => {
-        const formulaData = doc.data().data; // The formula object stored in Android
+        const formulaData = doc.data().data;
         const formulaId = doc.id;
 
-        // 3. Write individual JSON file
+        // Write .json file
         fs.writeFileSync(
             path.join(formulasDir, `${formulaId}.json`),
             JSON.stringify(formulaData, null, 2)
         );
 
-        // 4. Add to the index list
-        formulaList.push(formulaData);
+        // Add to index
+        formulaList.push({
+            id: formulaData.id,
+            name: formulaData.name,
+            category: formulaData.category,
+            author: formulaData.author,
+            version: formulaData.version
+        });
     });
 
-    // 5. Update index.json
+    // Update index.json with fresh catalog
     const catalog = {
         lastUpdated: new Date().toISOString(),
         formulas: formulaList
@@ -58,7 +57,7 @@ async function sync() {
         JSON.stringify(catalog, null, 2)
     );
 
-    console.log(`Successfully synced ${formulaList.length} formulas.`);
+    console.log(`Successfully synced ${formulaList.length} formulas to GitHub.`);
 }
 
 sync().catch(err => {
