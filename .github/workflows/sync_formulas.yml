@@ -9,12 +9,14 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    # 必须添加下面这两行，赋予 Action 修改仓库的权限
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4 # 升级到 v4
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4 # 升级到 v4
         with:
           node-version: '20' # 升级到 Node 20
 
