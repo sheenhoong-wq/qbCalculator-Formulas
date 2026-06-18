@@ -3,20 +3,20 @@ name: Sync Formulas from Firestore
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Allows manual trigger
+    - cron: '0 * * * *' # 每小时运行一次
+  workflow_dispatch: # 允许在 Actions 页面手动触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升级到 v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # 升级到 v4
         with:
-          node-version: '18'
+          node-version: '20' # 升级到 Node 20
 
       - name: Install Dependencies
         run: npm install firebase-admin
@@ -25,12 +25,12 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
-          # This script would:
-          # 1. Connect to Firestore 'submissions'
-          # 2. Filter status == 'pending' (or 'approved')
-          # 3. Write data to formulas/*.json
-          # 4. Update index.json
-          # 5. Commit and push back to this repo
+          # 此脚本目前的逻辑：
+          # 1. 连接到 Firestore 的 'formulas' 集合（因为 App 现在直接往这里写完整数据）
+          # 2. 过滤 status == 'active' 
+          # 3. 将数据写入 formulas/*.json
+          # 4. 更新 index.json
+          # 5. 提交并推送回此仓库
           node sync_script.js
 
       - name: Commit and Push
