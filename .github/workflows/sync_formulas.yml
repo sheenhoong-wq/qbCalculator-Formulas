@@ -2,38 +2,45 @@ name: Sync Formulas from Firestore
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *' # 每小时运行一次
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # 必须有这一行，否则 git push 会失败
+    
+    # 必须开启写入权限，否则最后的 git push 会失败
     permissions:
       contents: write
     
     steps:
+      # 步骤 1: 拉取代码 (升级到 v4 以支持 Node 24)
       - name: Checkout Repository
-        uses: actions/checkout@v4 # 这里不需要 with: node-version
+        uses: actions/checkout@v4
 
+      # 步骤 2: 设置 Node.js 环境 (根据公告使用 Node 24)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # 这一行必须在这里
+          node-version: '24' # 升级到最新支持的版本，消除弃用警告
 
+      # 步骤 3: 安装 Firebase 管理员 SDK
       - name: Install Dependencies
         run: npm install firebase-admin
 
+      # 步骤 4: 执行同步脚本
       - name: Run Sync Script
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
           node sync_script_automated.js
 
+      # 步骤 5: 提交更改并推送到仓库
       - name: Commit and Push
         run: |
           git config --global user.name "Marketplace Bot"
           git config --global user.email "bot@qbcalculator.com"
           git add .
-          git commit -m "Auto-sync new formulas" || exit 0
+          # 如果没有文件变化，git commit 会返回 1，使用 || exit 0 确保任务不报错
+          git commit -m "Auto-sync new formulas from community" || exit 0
           git push
