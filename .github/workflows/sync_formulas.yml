@@ -1,24 +1,25 @@
-# .github/workflows/sync_formulas.yml
 name: Sync Formulas from Firestore
 
 on:
   schedule:
-    - cron: '0 * * * *' # 每小时运行一次
-  workflow_dispatch: # 允许在 Actions 页面手动触发
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # 必须添加下面这两行，赋予 Action 修改仓库的权限
+    # 必须有这一行，否则 git push 会失败
     permissions:
       contents: write
     
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # 这里不需要 with: node-version
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '20' # 升级到 Node 20
+          node-version: '20' # 这一行必须在这里
 
       - name: Install Dependencies
         run: npm install firebase-admin
@@ -27,18 +28,12 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
-          # 此脚本目前的逻辑：
-          # 1. 连接到 Firestore 的 'formulas' 集合（因为 App 现在直接往这里写完整数据）
-          # 2. 过滤 status == 'active' 
-          # 3. 将数据写入 formulas/*.json
-          # 4. 更新 index.json
-          # 5. 提交并推送回此仓库
-          node sync_script_autoamted.js
+          node sync_script_automated.js
 
       - name: Commit and Push
         run: |
           git config --global user.name "Marketplace Bot"
           git config --global user.email "bot@qbcalculator.com"
           git add .
-          git commit -m "Auto-sync new formulas from community" || exit 0
+          git commit -m "Auto-sync new formulas" || exit 0
           git push
