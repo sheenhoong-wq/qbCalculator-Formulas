@@ -23,7 +23,6 @@
       }
     }
   ],
-  "download_count": 0,
   "rating_sum": 0,
   "rating_count": 0,
   "name": {
@@ -36,5 +35,6 @@
     "en": "",
     "zh": ""
   },
-  "status": "active"
+  "status": "active",
+  "download_count": 4
 }
