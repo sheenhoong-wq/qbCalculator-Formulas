@@ -1,4 +1,43 @@
 {
-  "lastUpdated": "",
-  "formulas": []
+  "lastUpdated": "2026-06-18T14:36:48.705Z",
+  "formulas": [
+    {
+      "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "en": "test",
+        "zh": "test"
+      },
+      "remarks": {
+        "en": "",
+        "zh": ""
+      },
+      "factors": [
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Width",
+          "label": {
+            "en": "Width",
+            "zh": "Width"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Height",
+          "label": {
+            "en": "Height",
+            "zh": "Height"
+          }
+        }
+      ],
+      "expression": "[Width] + [Height]",
+      "author": "sheenhoong",
+      "download_count": 0,
+      "rating_count": 0,
+      "rating_sum": 0
+    }
+  ]
 }

@@ -1,0 +1,40 @@
+{
+  "expression": "[Width] + [Height]",
+  "report_count": 0,
+  "author": "sheenhoong",
+  "version": 1,
+  "factors": [
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "Width",
+      "label": {
+        "en": "Width",
+        "zh": "Width"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "Height",
+      "label": {
+        "en": "Height",
+        "zh": "Height"
+      }
+    }
+  ],
+  "download_count": 0,
+  "rating_sum": 0,
+  "rating_count": 0,
+  "name": {
+    "en": "test",
+    "zh": "test"
+  },
+  "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
+  "category": "Public",
+  "remarks": {
+    "en": "",
+    "zh": ""
+  },
+  "status": "active"
+}
