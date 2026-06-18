@@ -1,6 +1,6 @@
 /**
  * sync_script_automated.js
- * Automatically syncs ALL 'approved' formulas from Firestore.
+ * 自动从 Firestore 的 'formulas' 集合同步数据
  */
 const admin = require('firebase-admin');
 const fs = require('fs');
@@ -14,11 +14,11 @@ admin.initializeApp({
 const db = admin.firestore();
 
 async function sync() {
-    console.log('Fetching formulas from Firestore...');
+    console.log('Fetching formulas from Firestore (collection: formulas)...');
 
-    // Sync everything with 'approved' status (which is set automatically by the App)
-    const snapshot = await db.collection('submissions')
-        .where('status', '==', 'approved')
+    // 修改点 1: 改为读取 'formulas' 集合，状态为 'active'
+    const snapshot = await db.collection('formulas')
+        .where('status', '==', 'active')
         .get();
 
     const formulasDir = path.join(__dirname, 'formulas');
@@ -27,26 +27,34 @@ async function sync() {
     let formulaList = [];
 
     snapshot.forEach(doc => {
-        const formulaData = doc.data().data;
+        // 修改点 2: 直接获取 doc.data()，因为 App 现在直接平铺写入数据
+        const formulaData = doc.data();
         const formulaId = doc.id;
 
-        // Write .json file
+        // 修改点 3: 移除 Firebase 专用字段，保持 JSON 纯净
+        const cleanData = { ...formulaData };
+        delete cleanData.timestamp; 
+
+        // 写入单个 .json 文件
         fs.writeFileSync(
             path.join(formulasDir, `${formulaId}.json`),
-            JSON.stringify(formulaData, null, 2)
+            JSON.stringify(cleanData, null, 2)
         );
 
-        // Add to index
+        // 添加到索引，结构需匹配 MarketplaceRepositoryImpl 的解析要求
         formulaList.push({
-            id: formulaData.id,
-            name: formulaData.name,
-            category: formulaData.category,
-            author: formulaData.author,
-            version: formulaData.version
+            id: cleanData.id || formulaId,
+            name: cleanData.name,
+            category: cleanData.category,
+            author: cleanData.author,
+            version: cleanData.version,
+            remarks: cleanData.remarks,
+            factors: cleanData.factors,
+            expression: cleanData.expression
         });
     });
 
-    // Update index.json with fresh catalog
+    // 更新 index.json
     const catalog = {
         lastUpdated: new Date().toISOString(),
         formulas: formulaList
