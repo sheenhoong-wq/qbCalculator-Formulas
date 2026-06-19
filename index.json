@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T09:46:45.564Z",
+  "lastUpdated": "2026-06-19T13:37:23.225Z",
   "formulas": [
     {
       "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
@@ -35,7 +35,7 @@
       ],
       "expression": "[Width] + [Height]",
       "author": "sheenhoong",
-      "download_count": 4,
+      "download_count": 7,
       "rating_count": 0,
       "rating_sum": 0
     }
