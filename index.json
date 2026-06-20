@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T17:38:54.900Z",
+  "lastUpdated": "2026-06-20T19:43:32.495Z",
   "formulas": [
     {
       "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
@@ -35,7 +35,45 @@
       ],
       "expression": "[Width] + [Height]",
       "author": "sheenhoong",
-      "download_count": 9,
+      "download_count": 10,
+      "rating_count": 0,
+      "rating_sum": 0
+    },
+    {
+      "id": "f_window_parts",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "en": "Window Details",
+        "zh": "Window Details"
+      },
+      "remarks": {
+        "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed."
+      },
+      "factors": [
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "W",
+          "label": {
+            "en": "W",
+            "zh": "W"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "H",
+          "label": {
+            "en": "H",
+            "zh": "H"
+          }
+        }
+      ],
+      "expression": "Frame Size: {[W]} x {[H]} & Glass Size: {[W]-50mm} x {[H]-50mm} & Seal Length: {([W]+[H])*2}",
+      "author": "sheenhoong",
+      "download_count": 0,
       "rating_count": 0,
       "rating_sum": 0
     }

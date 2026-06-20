@@ -1,0 +1,40 @@
+{
+  "expression": "Frame Size: {[W]} x {[H]} & Glass Size: {[W]-50mm} x {[H]-50mm} & Seal Length: {([W]+[H])*2}",
+  "report_count": 0,
+  "author": "sheenhoong",
+  "version": 1,
+  "factors": [
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "W",
+      "label": {
+        "en": "W",
+        "zh": "W"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "H",
+      "label": {
+        "en": "H",
+        "zh": "H"
+      }
+    }
+  ],
+  "download_count": 0,
+  "rating_sum": 0,
+  "rating_count": 0,
+  "name": {
+    "en": "Window Details",
+    "zh": "Window Details"
+  },
+  "id": "f_window_parts",
+  "category": "Public",
+  "remarks": {
+    "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed."
+  },
+  "status": "active"
+}
