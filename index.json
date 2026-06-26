@@ -1,62 +1,44 @@
 {
-  "lastUpdated": "2026-06-26T20:51:03.947Z",
+  "lastUpdated": "2026-06-26T21:04:19.824Z",
   "formulas": [
     {
-      "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
-      "file_name": "sheenhoong_固定利率贷款计算器.json",
+      "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
+      "file_name": "sheenhoong_test.json",
       "version": 1,
       "category": "Public",
       "name": {
-        "en": "固定利率贷款计算器",
-        "zh": "固定利率贷款计算器"
+        "en": "test",
+        "zh": "test"
       },
       "remarks": {
-        "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
-        "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。"
+        "en": "",
+        "zh": ""
       },
       "factors": [
         {
           "unit": null,
           "defaultValue": 0,
-          "id": "总贷款",
+          "id": "Width",
           "label": {
-            "en": "总贷款",
-            "zh": "总贷款"
+            "en": "Width",
+            "zh": "Width"
           }
         },
         {
           "unit": null,
           "defaultValue": 0,
-          "id": "首付",
+          "id": "Height",
           "label": {
-            "en": "首付",
-            "zh": "首付"
-          }
-        },
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "年利率",
-          "label": {
-            "en": "年利率",
-            "zh": "年利率"
-          }
-        },
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "贷款年限",
-          "label": {
-            "en": "贷款年限",
-            "zh": "贷款年限"
+            "en": "Height",
+            "zh": "Height"
           }
         }
       ],
-      "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
+      "expression": "[Width] + [Height]",
       "author": "sheenhoong",
-      "download_count": 0,
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0,
-      "rating_count": 0
+      "download_count": 11
     },
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
@@ -120,9 +102,66 @@
       ],
       "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
       "author": "sheenhoong",
-      "download_count": 1,
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 9,
-      "rating_count": 1
+      "download_count": 1
+    },
+    {
+      "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
+      "file_name": "sheenhoong_固定利率贷款计算器.json",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "en": "固定利率贷款计算器",
+        "zh": "固定利率贷款计算器"
+      },
+      "remarks": {
+        "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+        "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。"
+      },
+      "factors": [
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "总贷款",
+          "label": {
+            "en": "总贷款",
+            "zh": "总贷款"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "首付",
+          "label": {
+            "en": "首付",
+            "zh": "首付"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "年利率",
+          "label": {
+            "en": "年利率",
+            "zh": "年利率"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "贷款年限",
+          "label": {
+            "en": "贷款年限",
+            "zh": "贷款年限"
+          }
+        }
+      ],
+      "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
+      "author": "sheenhoong",
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+      "rating": 0,
+      "download_count": 0
     },
     {
       "id": "f_ac_btu",
@@ -150,9 +189,9 @@
       ],
       "expression": "[Area] * 65",
       "author": "sheenhoong",
-      "download_count": 0,
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0,
-      "rating_count": 0
+      "download_count": 0
     },
     {
       "id": "f_cabinet_parts",
@@ -216,48 +255,9 @@
       ],
       "expression": "Top''/Bottom Board: {([Width]) - 2 * ([BoardThick])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Side Board: {([Height])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Back Board: {([Width])} x {([Height])} x {([BackBoardThick])} x 1pcs",
       "author": "sheenhoong",
-      "download_count": 0,
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0,
-      "rating_count": 0
-    },
-    {
-      "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
-      "file_name": "sheenhoong_test.json",
-      "version": 1,
-      "category": "Public",
-      "name": {
-        "en": "test",
-        "zh": "test"
-      },
-      "remarks": {
-        "en": "",
-        "zh": ""
-      },
-      "factors": [
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "Width",
-          "label": {
-            "en": "Width",
-            "zh": "Width"
-          }
-        },
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "Height",
-          "label": {
-            "en": "Height",
-            "zh": "Height"
-          }
-        }
-      ],
-      "expression": "[Width] + [Height]",
-      "author": "sheenhoong",
-      "download_count": 11,
-      "rating": 0,
-      "rating_count": 0
+      "download_count": 0
     },
     {
       "id": "f_window_parts",
@@ -294,9 +294,9 @@
       ],
       "expression": "Frame Size: {[W]} x {[H]} & Glass Size: {[W]-50mm} x {[H]-50mm} & Seal Length: {([W]+[H])*2}",
       "author": "sheenhoong",
-      "download_count": 0,
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0,
-      "rating_count": 0
+      "download_count": 0
     }
   ]
 }

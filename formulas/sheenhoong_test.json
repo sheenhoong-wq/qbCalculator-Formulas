@@ -25,6 +25,7 @@
   ],
   "rating_sum": 0,
   "rating_count": 0,
+  "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "en": "test",
     "zh": "test"
@@ -36,5 +37,9 @@
     "zh": ""
   },
   "status": "active",
+  "timestamp": {
+    "_seconds": 1781790900,
+    "_nanoseconds": 53000000
+  },
   "download_count": 11
 }

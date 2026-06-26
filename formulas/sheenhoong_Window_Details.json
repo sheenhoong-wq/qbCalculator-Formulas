@@ -26,6 +26,7 @@
   "download_count": 0,
   "rating_sum": 0,
   "rating_count": 0,
+  "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "en": "Window Details",
     "zh": "Window Details"
@@ -36,5 +37,9 @@
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
     "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed."
   },
-  "status": "active"
+  "status": "active",
+  "timestamp": {
+    "_seconds": 1781979104,
+    "_nanoseconds": 151000000
+  }
 }
