@@ -1,44 +1,64 @@
 {
-  "lastUpdated": "2026-06-26T21:25:05.868Z",
+  "lastUpdated": "2026-06-26T21:33:22.569Z",
   "formulas": [
     {
-      "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
-      "file_name": "sheenhoong_test.json",
+      "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
+      "file_name": "sheenhoong_固定利率贷款计算器.json",
       "version": 1,
       "category": "Public",
       "name": {
-        "en": "test",
-        "zh": "test"
+        "zh": "固定利率贷款计算器",
+        "en": "固定利率贷款计算器",
+        "ms": ""
       },
       "remarks": {
-        "en": "",
-        "zh": ""
+        "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+        "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+        "ms": ""
       },
       "factors": [
         {
           "unit": null,
           "defaultValue": 0,
-          "id": "Width",
+          "id": "总贷款",
           "label": {
-            "en": "Width",
-            "zh": "Width"
+            "en": "总贷款",
+            "zh": "总贷款"
           }
         },
         {
           "unit": null,
           "defaultValue": 0,
-          "id": "Height",
+          "id": "首付",
           "label": {
-            "en": "Height",
-            "zh": "Height"
+            "en": "首付",
+            "zh": "首付"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "年利率",
+          "label": {
+            "en": "年利率",
+            "zh": "年利率"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "贷款年限",
+          "label": {
+            "en": "贷款年限",
+            "zh": "贷款年限"
           }
         }
       ],
-      "expression": "[Width] + [Height]",
+      "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0,
-      "download_count": 11
+      "download_count": 0
     },
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
@@ -46,12 +66,14 @@
       "version": 5,
       "category": "Public",
       "name": {
+        "zh": "之间间隔",
         "en": "之间间隔",
-        "zh": "之间间隔"
+        "ms": ""
       },
       "remarks": {
+        "zh": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。",
         "en": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。",
-        "zh": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。"
+        "ms": ""
       },
       "factors": [
         {
@@ -107,74 +129,19 @@
       "download_count": 1
     },
     {
-      "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
-      "file_name": "sheenhoong_固定利率贷款计算器.json",
-      "version": 1,
-      "category": "Public",
-      "name": {
-        "en": "固定利率贷款计算器",
-        "zh": "固定利率贷款计算器"
-      },
-      "remarks": {
-        "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
-        "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。"
-      },
-      "factors": [
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "总贷款",
-          "label": {
-            "en": "总贷款",
-            "zh": "总贷款"
-          }
-        },
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "首付",
-          "label": {
-            "en": "首付",
-            "zh": "首付"
-          }
-        },
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "年利率",
-          "label": {
-            "en": "年利率",
-            "zh": "年利率"
-          }
-        },
-        {
-          "unit": null,
-          "defaultValue": 0,
-          "id": "贷款年限",
-          "label": {
-            "en": "贷款年限",
-            "zh": "贷款年限"
-          }
-        }
-      ],
-      "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
-      "author": "sheenhoong",
-      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0,
-      "download_count": 0
-    },
-    {
       "id": "f_ac_btu",
       "file_name": "sheenhoong_AC_Capacity.json",
       "version": 1,
       "category": "Public",
       "name": {
+        "zh": "AC Capacity",
         "en": "AC Capacity",
-        "zh": "AC Capacity"
+        "ms": ""
       },
       "remarks": {
+        "zh": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU.",
         "en": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU.",
-        "zh": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU."
+        "ms": ""
       },
       "factors": [
         {
@@ -199,12 +166,14 @@
       "version": 1,
       "category": "Public",
       "name": {
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "zh": "Cabinet Cut List"
+        "ms": ""
       },
       "remarks": {
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
         "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness."
+        "ms": ""
       },
       "factors": [
         {
@@ -260,17 +229,60 @@
       "download_count": 0
     },
     {
+      "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
+      "file_name": "sheenhoong_test.json",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "zh": "test",
+        "en": "test",
+        "ms": ""
+      },
+      "remarks": {
+        "zh": "",
+        "en": "",
+        "ms": ""
+      },
+      "factors": [
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Width",
+          "label": {
+            "en": "Width",
+            "zh": "Width"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Height",
+          "label": {
+            "en": "Height",
+            "zh": "Height"
+          }
+        }
+      ],
+      "expression": "[Width] + [Height]",
+      "author": "sheenhoong",
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+      "rating": 0,
+      "download_count": 11
+    },
+    {
       "id": "f_window_parts",
       "file_name": "sheenhoong_Window_Details.json",
       "version": 1,
       "category": "Public",
       "name": {
+        "zh": "Window Details",
         "en": "Window Details",
-        "zh": "Window Details"
+        "ms": ""
       },
       "remarks": {
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed."
+        "ms": ""
       },
       "factors": [
         {
