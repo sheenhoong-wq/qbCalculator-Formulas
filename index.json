@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T21:33:22.569Z",
+  "lastUpdated": "2026-06-26T21:43:37.136Z",
   "formulas": [
     {
       "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
@@ -18,47 +18,50 @@
       },
       "factors": [
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "总贷款",
           "label": {
+            "zh": "总贷款",
             "en": "总贷款",
-            "zh": "总贷款"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "首付",
           "label": {
+            "zh": "首付",
             "en": "首付",
-            "zh": "首付"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "年利率",
           "label": {
+            "zh": "年利率",
             "en": "年利率",
-            "zh": "年利率"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "贷款年限",
           "label": {
+            "zh": "贷款年限",
             "en": "贷款年限",
-            "zh": "贷款年限"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         }
       ],
       "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0,
-      "download_count": 0
+      "rating": 0
     },
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
@@ -77,56 +80,60 @@
       },
       "factors": [
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "栏杆数量",
           "label": {
+            "zh": "栏杆数量",
             "en": "栏杆数量",
-            "zh": "栏杆数量"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "总长度",
           "label": {
+            "zh": "总长度",
             "en": "总长度",
-            "zh": "总长度"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "左侧留空",
           "label": {
+            "zh": "左侧留空",
             "en": "左侧留空",
-            "zh": "左侧留空"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "右侧留空",
           "label": {
+            "zh": "右侧留空",
             "en": "右侧留空",
-            "zh": "右侧留空"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "单根宽度",
           "label": {
+            "zh": "单根宽度",
             "en": "单根宽度",
-            "zh": "单根宽度"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         }
       ],
       "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 9,
-      "download_count": 1
+      "rating": 9
     },
     {
       "id": "f_ac_btu",
@@ -145,20 +152,20 @@
       },
       "factors": [
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "Area",
           "label": {
+            "zh": "Area",
             "en": "Area",
-            "zh": "Area"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         }
       ],
       "expression": "[Area] * 65",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0,
-      "download_count": 0
+      "rating": 0
     },
     {
       "id": "f_cabinet_parts",
@@ -177,56 +184,60 @@
       },
       "factors": [
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "Width",
           "label": {
+            "zh": "Width",
             "en": "Width",
-            "zh": "Width"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "Height",
           "label": {
+            "zh": "Height",
             "en": "Height",
-            "zh": "Height"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "Depth",
           "label": {
+            "zh": "Depth",
             "en": "Depth",
-            "zh": "Depth"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "BoardThick",
           "label": {
+            "zh": "BoardThick",
             "en": "BoardThick",
-            "zh": "BoardThick"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "BackBoardThick",
           "label": {
+            "zh": "BackBoardThick",
             "en": "BackBoardThick",
-            "zh": "BackBoardThick"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         }
       ],
       "expression": "Top''/Bottom Board: {([Width]) - 2 * ([BoardThick])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Side Board: {([Height])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Back Board: {([Width])} x {([Height])} x {([BackBoardThick])} x 1pcs",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0,
-      "download_count": 0
+      "rating": 0
     },
     {
       "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
@@ -245,29 +256,30 @@
       },
       "factors": [
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "Width",
           "label": {
+            "zh": "Width",
             "en": "Width",
-            "zh": "Width"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "Height",
           "label": {
+            "zh": "Height",
             "en": "Height",
-            "zh": "Height"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         }
       ],
       "expression": "[Width] + [Height]",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0,
-      "download_count": 11
+      "rating": 0
     },
     {
       "id": "f_window_parts",
@@ -286,29 +298,30 @@
       },
       "factors": [
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "W",
           "label": {
+            "zh": "W",
             "en": "W",
-            "zh": "W"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         },
         {
-          "unit": null,
-          "defaultValue": 0,
           "id": "H",
           "label": {
+            "zh": "H",
             "en": "H",
-            "zh": "H"
-          }
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
         }
       ],
       "expression": "Frame Size: {[W]} x {[H]} & Glass Size: {[W]-50mm} x {[H]-50mm} & Seal Length: {([W]+[H])*2}",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0,
-      "download_count": 0
+      "rating": 0
     }
   ]
 }

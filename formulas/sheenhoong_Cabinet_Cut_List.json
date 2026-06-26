@@ -67,5 +67,6 @@
     "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
     "ms": ""
   },
-  "status": "active"
+  "status": "active",
+  "file_name": "sheenhoong_Cabinet_Cut_List.json"
 }

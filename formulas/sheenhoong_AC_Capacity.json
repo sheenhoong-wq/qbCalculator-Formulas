@@ -31,5 +31,6 @@
     "en": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU.",
     "ms": ""
   },
-  "status": "active"
+  "status": "active",
+  "file_name": "sheenhoong_AC_Capacity.json"
 }
