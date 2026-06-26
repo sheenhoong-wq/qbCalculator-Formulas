@@ -1,0 +1,32 @@
+{
+  "expression": "[Area] * 65",
+  "report_count": 0,
+  "author": "sheenhoong",
+  "rating": 0,
+  "version": 1,
+  "download_count": 0,
+  "factors": [
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "Area",
+      "label": {
+        "en": "Area",
+        "zh": "Area"
+      }
+    }
+  ],
+  "rating_count": 0,
+  "name": {
+    "en": "AC Capacity",
+    "zh": "AC Capacity"
+  },
+  "total_rating": 0,
+  "id": "f_ac_btu",
+  "category": "Public",
+  "remarks": {
+    "en": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU.",
+    "zh": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU."
+  },
+  "status": "active"
+}
