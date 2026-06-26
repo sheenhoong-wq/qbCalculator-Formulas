@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T14:34:49.256Z",
+  "lastUpdated": "2026-06-26T17:03:45.166Z",
   "formulas": [
     {
       "id": "f_cabinet_parts",
@@ -144,7 +144,7 @@
     },
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
-      "version": 3,
+      "version": 4,
       "category": "Public",
       "name": {
         "en": "之间间隔",
@@ -204,7 +204,7 @@
       "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
       "author": "sheenhoong",
       "download_count": 1,
-      "rating_count": 0,
+      "rating_count": 1,
       "rating_sum": 0
     }
   ]

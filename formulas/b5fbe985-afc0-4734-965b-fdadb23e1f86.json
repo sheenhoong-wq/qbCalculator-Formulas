@@ -2,7 +2,6 @@
   "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
   "report_count": 0,
   "author": "sheenhoong",
-  "rating": 0,
   "factors": [
     {
       "unit": null,
@@ -50,12 +49,10 @@
       }
     }
   ],
-  "rating_count": 0,
   "name": {
     "en": "之间间隔",
     "zh": "之间间隔"
   },
-  "total_rating": 0,
   "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
   "category": "Public",
   "remarks": {
@@ -64,5 +61,8 @@
   },
   "status": "active",
   "download_count": 1,
-  "version": 3
+  "version": 4,
+  "rating": 9,
+  "total_rating": 9,
+  "rating_count": 1
 }
