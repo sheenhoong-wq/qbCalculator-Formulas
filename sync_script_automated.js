@@ -1,13 +1,13 @@
 /**
  * sync_script_automated.js
- * 终极健壮版：自动同步 Firestore 数据到 GitHub，确保 App 100% 兼容
+ * 终极兼容版：支持中文文件名、自动补全旧数据、确保 App 100% 显示
  */
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
 if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
-    console.error('错误: 缺少 FIREBASE_SERVICE_ACCOUNT 环境变量。');
+    console.error('Error: Missing FIREBASE_SERVICE_ACCOUNT');
     process.exit(1);
 }
 
@@ -16,9 +16,15 @@ admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 const db = admin.firestore();
 
 async function sync() {
-    console.log('正在拉取公式...');
-    const snapshot = await db.collection('formulas').where('status', '==', 'active').get();
-    if (snapshot.empty) return;
+    console.log('开始同步公式...');
+    
+    // --- 关键修改：取回所有公式，不再因为缺少 status 字段而过滤 ---
+    const snapshot = await db.collection('formulas').get();
+    
+    if (snapshot.empty) {
+        console.log('数据库是空的。');
+        return;
+    }
 
     const formulasDir = path.join(__dirname, 'formulas');
     if (fs.existsSync(formulasDir)) fs.rmSync(formulasDir, { recursive: true, force: true });
@@ -27,38 +33,41 @@ async function sync() {
     let formulaList = [];
     snapshot.forEach(doc => {
         const data = doc.data();
+        
+        // 过滤掉明确标记为删除的
+        if (data.status === 'deleted' || data.status === 'inactive') return;
+
         const formulaId = doc.id;
 
-        // --- 1. 结构标准化：确保 name/remarks 永远是对象而非字符串 ---
-        const ensureLocalized = (val, defaultText) => {
-            if (typeof val === 'object' && val !== null) return { zh: val.zh || "", en: val.en || "", ms: val.ms || "" };
-            return { zh: val || defaultText, en: val || defaultText, ms: val || defaultText };
+        // 标准化多语言字段
+        const toLoc = (val) => {
+            if (val && typeof val === 'object') return { zh: val.zh || "", en: val.en || "", ms: val.ms || "" };
+            return { zh: val || "", en: val || "", ms: val || "" };
         };
 
+        const nameObj = toLoc(data.name);
+        const remarksObj = toLoc(data.remarks);
         const author = data.author || 'Anonymous';
-        const nameObj = ensureLocalized(data.name, 'Unnamed Formula');
-        const remarksObj = ensureLocalized(data.remarks, '');
         
-        // 生成安全文件名 (支持中文)
-        const displayTitle = nameObj.zh || nameObj.en || 'Formula';
+        // 生成漂亮的中文文件名
+        const title = nameObj.zh || nameObj.en || 'Unnamed';
         const safeAuthor = author.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
-        const safeName = displayTitle.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
+        const safeName = title.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
         const readableFileName = `${safeAuthor}_${safeName}.json`;
 
-        // --- 2. 构建干净的数据供下载 ---
-        const cleanData = {
-            ...data,
-            id: formulaId,
-            name: nameObj,
+        // 写入单个公式文件（包含所有原始字段供下载）
+        const cleanFullData = { 
+            ...data, 
+            id: formulaId, 
+            name: nameObj, 
             remarks: remarksObj,
-            factors: Array.isArray(data.factors) ? data.factors : []
+            file_name: readableFileName 
         };
-        delete cleanData.timestamp;
-        delete cleanData.updatedAt;
-        
-        fs.writeFileSync(path.join(formulasDir, readableFileName), JSON.stringify(cleanData, null, 2));
+        delete cleanFullData.timestamp;
+        delete cleanFullData.updatedAt;
+        fs.writeFileSync(path.join(formulasDir, readableFileName), JSON.stringify(cleanFullData, null, 2));
 
-        // --- 3. 构建索引 (这是手机显示的源头) ---
+        // 构建 index.json 索引
         formulaList.push({
             id: formulaId,
             file_name: readableFileName,
@@ -66,21 +75,29 @@ async function sync() {
             category: data.category || 'General',
             name: nameObj,
             remarks: remarksObj,
-            factors: cleanData.factors,
+            factors: Array.isArray(data.factors) ? data.factors.map(f => ({
+                id: f.id || "",
+                label: toLoc(f.label),
+                unit: f.unit || null,
+                defaultValue: Number(f.defaultValue || 0)
+            })) : [],
             expression: data.expression || "",
             author: author,
-            authorUid: data.authorUid || null, // 重要：没有这个在别的手机下架不了
-            rating: Number(data.rating || 0),
-            download_count: Number(data.download_count || 0)
+            authorUid: data.authorUid || null,
+            rating: Number(data.rating || 0)
         });
     });
 
-    // 按名称排序
+    // 排序
     formulaList.sort((a, b) => (a.name.zh || a.name.en).localeCompare(b.name.zh || b.name.en, 'zh'));
 
-    const catalog = { lastUpdated: new Date().toISOString(), formulas: formulaList };
+    const catalog = {
+        lastUpdated: new Date().toISOString(),
+        formulas: formulaList
+    };
+
     fs.writeFileSync(path.join(__dirname, 'index.json'), JSON.stringify(catalog, null, 2));
-    console.log(`同步成功！已整理 ${formulaList.length} 个公式。`);
+    console.log(`同步成功！共发布 ${formulaList.length} 个公式。`);
 }
 
 sync().catch(err => { console.error(err); process.exit(1); });
