@@ -1,8 +1,9 @@
 {
-  "lastUpdated": "2026-06-26T18:09:57.026Z",
+  "lastUpdated": "2026-06-26T19:56:55.271Z",
   "formulas": [
     {
       "id": "f_ac_btu",
+      "file_name": "sheenhoong_AC_Capacity.json",
       "version": 1,
       "category": "Public",
       "name": {
@@ -27,11 +28,12 @@
       "expression": "[Area] * 65",
       "author": "sheenhoong",
       "download_count": 0,
-      "rating_count": 0,
-      "rating_sum": 0
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "f_cabinet_parts",
+      "file_name": "sheenhoong_Cabinet_Cut_List.json",
       "version": 1,
       "category": "Public",
       "name": {
@@ -92,11 +94,12 @@
       "expression": "Top''/Bottom Board: {([Width]) - 2 * ([BoardThick])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Side Board: {([Height])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Back Board: {([Width])} x {([Height])} x {([BackBoardThick])} x 1pcs",
       "author": "sheenhoong",
       "download_count": 0,
-      "rating_count": 0,
-      "rating_sum": 0
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
+      "file_name": "sheenhoong_test.json",
       "version": 1,
       "category": "Public",
       "name": {
@@ -130,11 +133,12 @@
       "expression": "[Width] + [Height]",
       "author": "sheenhoong",
       "download_count": 11,
-      "rating_count": 0,
-      "rating_sum": 0
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "f_window_parts",
+      "file_name": "sheenhoong_Window_Details.json",
       "version": 1,
       "category": "Public",
       "name": {
@@ -168,11 +172,12 @@
       "expression": "Frame Size: {[W]} x {[H]} & Glass Size: {[W]-50mm} x {[H]-50mm} & Seal Length: {([W]+[H])*2}",
       "author": "sheenhoong",
       "download_count": 0,
-      "rating_count": 0,
-      "rating_sum": 0
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
+      "file_name": "sheenhoong_____.json",
       "version": 5,
       "category": "Public",
       "name": {
@@ -233,11 +238,12 @@
       "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
       "author": "sheenhoong",
       "download_count": 1,
-      "rating_count": 1,
-      "rating_sum": 0
+      "rating": 9,
+      "rating_count": 1
     },
     {
       "id": "3fe96ac4-d7f9-479f-813a-ced7dae258e0",
+      "file_name": "sheenhoong__________.json",
       "version": 2,
       "category": "Public",
       "name": {
@@ -289,11 +295,12 @@
       "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
       "author": "sheenhoong",
       "download_count": 0,
-      "rating_count": 0,
-      "rating_sum": 0
+      "rating": 0,
+      "rating_count": 0
     },
     {
       "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
+      "file_name": "sheenhoong__________.json",
       "version": 1,
       "category": "Public",
       "name": {
@@ -345,8 +352,8 @@
       "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
       "author": "sheenhoong",
       "download_count": 0,
-      "rating_count": 0,
-      "rating_sum": 0
+      "rating": 0,
+      "rating_count": 0
     }
   ]
 }
