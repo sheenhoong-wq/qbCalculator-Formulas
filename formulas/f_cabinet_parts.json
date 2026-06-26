@@ -1,0 +1,68 @@
+{
+  "expression": "Top''/Bottom Board: {([Width]) - 2 * ([BoardThick])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Side Board: {([Height])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Back Board: {([Width])} x {([Height])} x {([BackBoardThick])} x 1pcs",
+  "report_count": 0,
+  "author": "sheenhoong",
+  "rating": 0,
+  "version": 1,
+  "factors": [
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "Width",
+      "label": {
+        "en": "Width",
+        "zh": "Width"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "Height",
+      "label": {
+        "en": "Height",
+        "zh": "Height"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "Depth",
+      "label": {
+        "en": "Depth",
+        "zh": "Depth"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "BoardThick",
+      "label": {
+        "en": "BoardThick",
+        "zh": "BoardThick"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "BackBoardThick",
+      "label": {
+        "en": "BackBoardThick",
+        "zh": "BackBoardThick"
+      }
+    }
+  ],
+  "download_count": 0,
+  "rating_count": 0,
+  "name": {
+    "en": "Cabinet Cut List",
+    "zh": "Cabinet Cut List"
+  },
+  "total_rating": 0,
+  "id": "f_cabinet_parts",
+  "category": "Public",
+  "remarks": {
+    "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+    "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness."
+  },
+  "status": "active"
+}

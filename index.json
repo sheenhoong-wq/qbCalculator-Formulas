@@ -1,6 +1,71 @@
 {
-  "lastUpdated": "2026-06-26T11:47:16.092Z",
+  "lastUpdated": "2026-06-26T14:34:49.256Z",
   "formulas": [
+    {
+      "id": "f_cabinet_parts",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "en": "Cabinet Cut List",
+        "zh": "Cabinet Cut List"
+      },
+      "remarks": {
+        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness."
+      },
+      "factors": [
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Width",
+          "label": {
+            "en": "Width",
+            "zh": "Width"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Height",
+          "label": {
+            "en": "Height",
+            "zh": "Height"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "Depth",
+          "label": {
+            "en": "Depth",
+            "zh": "Depth"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "BoardThick",
+          "label": {
+            "en": "BoardThick",
+            "zh": "BoardThick"
+          }
+        },
+        {
+          "unit": null,
+          "defaultValue": 0,
+          "id": "BackBoardThick",
+          "label": {
+            "en": "BackBoardThick",
+            "zh": "BackBoardThick"
+          }
+        }
+      ],
+      "expression": "Top''/Bottom Board: {([Width]) - 2 * ([BoardThick])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Side Board: {([Height])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Back Board: {([Width])} x {([Height])} x {([BackBoardThick])} x 1pcs",
+      "author": "sheenhoong",
+      "download_count": 0,
+      "rating_count": 0,
+      "rating_sum": 0
+    },
     {
       "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
       "version": 1,
@@ -79,7 +144,7 @@
     },
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
-      "version": 1,
+      "version": 3,
       "category": "Public",
       "name": {
         "en": "之间间隔",
@@ -138,8 +203,8 @@
       ],
       "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
       "author": "sheenhoong",
-      "download_count": 5,
-      "rating_count": 1,
+      "download_count": 1,
+      "rating_count": 0,
       "rating_sum": 0
     }
   ]
