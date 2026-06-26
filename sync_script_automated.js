@@ -1,3 +1,7 @@
+/**
+ * sync_script_automated.js
+ * 终极健壮版：自动同步 Firestore 数据到 GitHub，确保 App 100% 兼容
+ */
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
@@ -12,6 +16,7 @@ admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 const db = admin.firestore();
 
 async function sync() {
+    console.log('正在拉取公式...');
     const snapshot = await db.collection('formulas').where('status', '==', 'active').get();
     if (snapshot.empty) return;
 
@@ -22,35 +27,60 @@ async function sync() {
     let formulaList = [];
     snapshot.forEach(doc => {
         const data = doc.data();
-        const author = data.author || 'Anonymous';
-        const formulaName = (data.name && (data.name.zh || data.name.en)) || 'Unnamed';
-        const safeAuthor = author.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
-        const safeName = formulaName.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
-        let readableFileName = `${safeAuthor}_${safeName}.json`;
+        const formulaId = doc.id;
 
-        const cleanData = { ...data, id: doc.id };
-        // 关键：保留在单个文件中
+        // --- 1. 结构标准化：确保 name/remarks 永远是对象而非字符串 ---
+        const ensureLocalized = (val, defaultText) => {
+            if (typeof val === 'object' && val !== null) return { zh: val.zh || "", en: val.en || "", ms: val.ms || "" };
+            return { zh: val || defaultText, en: val || defaultText, ms: val || defaultText };
+        };
+
+        const author = data.author || 'Anonymous';
+        const nameObj = ensureLocalized(data.name, 'Unnamed Formula');
+        const remarksObj = ensureLocalized(data.remarks, '');
+        
+        // 生成安全文件名 (支持中文)
+        const displayTitle = nameObj.zh || nameObj.en || 'Formula';
+        const safeAuthor = author.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
+        const safeName = displayTitle.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
+        const readableFileName = `${safeAuthor}_${safeName}.json`;
+
+        // --- 2. 构建干净的数据供下载 ---
+        const cleanData = {
+            ...data,
+            id: formulaId,
+            name: nameObj,
+            remarks: remarksObj,
+            factors: Array.isArray(data.factors) ? data.factors : []
+        };
+        delete cleanData.timestamp;
+        delete cleanData.updatedAt;
+        
         fs.writeFileSync(path.join(formulasDir, readableFileName), JSON.stringify(cleanData, null, 2));
 
-        // 关键：构建 index.json 索引，必须包含 authorUid 否则另一台手机无法下架
+        // --- 3. 构建索引 (这是手机显示的源头) ---
         formulaList.push({
-            id: doc.id,
+            id: formulaId,
             file_name: readableFileName,
             version: data.version || 1,
             category: data.category || 'General',
-            name: data.name || { en: formulaName },
-            remarks: data.remarks || { en: "" },
-            factors: data.factors || [],
+            name: nameObj,
+            remarks: remarksObj,
+            factors: cleanData.factors,
             expression: data.expression || "",
             author: author,
-            authorUid: data.authorUid || null, // 必须有这个，用于管理功能
-            rating: data.rating || 0,
-            download_count: data.download_count || 0
+            authorUid: data.authorUid || null, // 重要：没有这个在别的手机下架不了
+            rating: Number(data.rating || 0),
+            download_count: Number(data.download_count || 0)
         });
     });
 
+    // 按名称排序
+    formulaList.sort((a, b) => (a.name.zh || a.name.en).localeCompare(b.name.zh || b.name.en, 'zh'));
+
     const catalog = { lastUpdated: new Date().toISOString(), formulas: formulaList };
     fs.writeFileSync(path.join(__dirname, 'index.json'), JSON.stringify(catalog, null, 2));
-    console.log(`同步成功！共更新 ${formulaList.length} 个公式。`);
+    console.log(`同步成功！已整理 ${formulaList.length} 个公式。`);
 }
+
 sync().catch(err => { console.error(err); process.exit(1); });
