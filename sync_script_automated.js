@@ -45,16 +45,22 @@ async function sync() {
         const formulaData = doc.data();
         const formulaId = doc.id;
 
-        // 1. 提取作者和公式名，生成人类可读的文件名
+        // 1. 提取作者和公式名 (支持中文名)
         const author = formulaData.author || 'Anonymous';
-        const formulaNameEn = (formulaData.name && formulaData.name.en) || 'Unnamed';
+        // 优先使用中文名，如果没有再使用英文名
+        const formulaName = (formulaData.name && (formulaData.name.zh || formulaData.name.en)) || 'Unnamed';
         
-        // 移除非法字符，防止文件名报错
-        const safeAuthor = author.replace(/[^a-z0-9]/gi, '_');
-        const safeName = formulaNameEn.replace(/[^a-z0-9]/gi, '_');
+        // --- 改进正则：允许中文字符 (\u4e00-\u9fa5)、字母、数字 ---
+        const safeAuthor = author.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
+        const safeName = formulaName.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '_');
         
         // 组合成好看的文件名：作者_公式名.json
-        const readableFileName = `${safeAuthor}_${safeName}.json`;
+        let readableFileName = `${safeAuthor}_${safeName}.json`;
+        
+        // 兜底方案：如果过滤后文件名变空了（比如全是特殊符号），则使用 ID 代替
+        if (!safeName || safeName === '_' || safeName.trim() === '') {
+            readableFileName = `${safeAuthor}_${formulaId.substring(0, 8)}.json`;
+        }
 
         // 2. 清理数据（移除 Firebase 特有字段）
         const cleanData = { ...formulaData };
@@ -65,16 +71,16 @@ async function sync() {
         // 确保 ID 依然保留在 JSON 内部供程序识别
         if (!cleanData.id) cleanData.id = formulaId;
 
-        // 3. 写入单个 .json 文件（文件名现在是人类可读的）
+        // 3. 写入单个 .json 文件
         fs.writeFileSync(
             path.join(formulasDir, readableFileName),
             JSON.stringify(cleanData, null, 2)
         );
 
-        // 4. 构建索引数据（增加 file_name 字段供 App 下载）
+        // 4. 构建索引数据
         formulaList.push({
             id: cleanData.id,
-            file_name: readableFileName, // 关键：记录对应的文件名
+            file_name: readableFileName, // 记录对应的真实文件名
             version: cleanData.version || 1,
             category: cleanData.category || 'General',
             name: cleanData.name,         
@@ -88,11 +94,11 @@ async function sync() {
         });
     });
 
-    // 5. 按名称排序
+    // 5. 按名称排序（中文名也能正确排序）
     formulaList.sort((a, b) => {
-        const nameA = (a.name.en || '').toUpperCase();
-        const nameB = (b.name.en || '').toUpperCase();
-        return nameA.localeCompare(nameB);
+        const nameA = a.name.zh || a.name.en || '';
+        const nameB = b.name.zh || b.name.en || '';
+        return nameA.localeCompare(nameB, 'zh-Hans-CN');
     });
 
     // 6. 生成目录文件
@@ -106,7 +112,7 @@ async function sync() {
         JSON.stringify(catalog, null, 2)
     );
 
-    console.log(`同步成功！共更新了 ${formulaList.length} 个公式，文件名已优化为可读格式。`);
+    console.log(`同步成功！共更新了 ${formulaList.length} 个公式，支持中文文件名。`);
 }
 
 sync().catch(err => {
