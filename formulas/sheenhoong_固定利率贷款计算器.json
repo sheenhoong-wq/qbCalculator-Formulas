@@ -3,7 +3,6 @@
   "report_count": 0,
   "author": "sheenhoong",
   "rating": 0,
-  "version": 1,
   "factors": [
     {
       "unit": null,
@@ -59,5 +58,6 @@
     "ms": ""
   },
   "status": "active",
+  "version": 2,
   "file_name": "sheenhoong_固定利率贷款计算器.json"
 }
