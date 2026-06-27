@@ -55,49 +55,18 @@
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "zh": "动态贷款月计息器",
-    "en": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-    "ms": "Penghitung Faedah Bulanan Pinjaman Dinamik (AI translated, please check)",
-    "id": "Kalkulator Bunga Bulanan Pinjaman Dinamis (AI translated, please check)",
-    "th": "เครื่องคำนวณดอกเบี้ยเงินกู้รายเดือนแบบไดนามิก (AI translated, please check)",
-    "vi": "Máy tính Lãi hàng tháng của Khoản vay động (AI translated, please check)",
-    "tl": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-    "my": "ဒိုင်နမစ်ချေးငွေလစဉ်အတိုးနှုန်းတွက်ချက်စက် (AI translated, please check)",
-    "km": "ឧបករណ៍គណនា​ការប្រាក់លើដើម​ប្រចាំខៃ​របស់​ឥណពន្ធ​ទៅតាមដំណើរការ (AI translated, please check)",
-    "lo": "ເຄື່ອງຄິດໄລດອກເບັ້ຽເດືອນຂອງສິນເຊື່ອແບບໃໝ່ (AI translated, please check)",
-    "ja": "動的ローン月次利息計算機 (AI translated, please check)",
-    "ko": "동적 대출 월별 이자 계산기 (AI translated, please check)",
-    "es": "Calculadora Dinámica de Interés Mensual de Préstamos (AI translated, please check)",
-    "fr": "Calculateur D'intérêt Mensuel de Prêt Dynamique (AI translated, please check)",
-    "de": "Dynamischer Darlehens-Monatlicher Zinsrechner (AI translated, please check)",
-    "hi": "डायनामिक ऋण मासिक ब्याज कैलकुलेटर (एआई अनुवादित, कृपया जाँच करें)",
-    "ru": "Динамический калькулятор ежемесячных процентов по кредиту (перевод ИИ, пожалуйста, проверьте)"
+    "en": "动态贷款月计息器",
+    "ms": ""
   },
   "total_rating": 0,
   "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
   "category": "Public",
   "remarks": {
     "zh": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
-    "en": "This tool calculates monthly changes in loan interest and principal details dynamically. It supports both Equal Principal and Interest and Equal Principal repayment modes, allowing accurate querying of specific installment structures. Parameters: Loan principal is the total initial loan amount; annual interest rate can be entered as 5.5% or 5.5; total terms are the total number of months for the loan; current term refers to the specific month of interest (e.g., month 1, enter 1); repayment mode can be selected as 'Equal Principal and Interest' or 'Equal Principal'. (AI translated, please check)",
-    "ms": "Alat ini mengira perubahan bulanan dalam butiran faedah dan prinsipal pinjaman secara dinamik. Menyokong mod pembayaran balik Prinsipal dan Faedah Sama serta Prinsipal Sama, membolehkan pertanyaan struktur ansuran tertentu dengan tepat. Parameter: Prinsipal pinjaman adalah jumlah pinjaman keseluruhan; kadar faedah tahunan boleh dimasukkan sebagai 5.5% atau 5.5; jumlah tempoh adalah jumlah bulan keseluruhan pinjaman; tempoh sekarang merujuk kepada bulan tertentu yang diminati (contohnya, bulan 1, masukkan 1); mod pembayaran balik boleh dipilih sebagai 'Prinsipal dan Faedah Sama' atau 'Prinsipal Sama'. (AI translated, please check)",
-    "id": "Alat ini secara dinamis menghitung perubahan bulanan pada detail bunga dan pokok pinjaman. Mendukung mode pengembalian 'Pokok dan Bunga Tetap' serta 'Pokok Tetap', memungkinkan penghitungan terperinci dari periode tertentu. Parameter: Pokok pinjaman adalah jumlah total pinjaman awal; suku bunga tahunan dapat dimasukkan sebagai 5.5% atau 5.5; total periode adalah jumlah bulan total untuk pinjaman; periode saat ini mengacu pada bulan tertentu yang diinginkan (misalnya: bulan ke-1, masukkan 1); mode pengembalian dapat dipilih sebagai 'Pokok dan Bunga Tetap' atau 'Pokok Tetap'. (AI translated, please check)",
-    "th": "เครื่องมือนี้คำนวณรายละเอียดดอกเบี้ยและเงินต้นที่เปลี่ยนแปลงรายเดือนแบบไดนามิก รองรับทั้งโหมดการชำระเงินแบบต้นและดอกเท่ากัน และแบบต้นเท่ากัน ช่วยให้สามารถตรวจสอบโครงสร้างงวดเฉพาะได้อย่างแม่นยำ พารามิเตอร์: เงินต้นคือจำนวนเงินกู้ยืมทั้งหมดในตอนแรก; อัตราดอกเบี้ยประจำปีสามารถป้อนเป็น 5.5% หรือ 5.5 ก็ได้; จำนวนงวดรวมคือจำนวนเดือนทั้งหมดของเงินกู้; งวดปัจจุบันหมายถึงเดือนเฉพาะที่ต้องการตรวจสอบ (เช่น เดือนที่ 1 ให้ใส่ค่า 1); โหมดการชำระเงินสามารถเลือกได้ระหว่าง 'ต้นและดอกเท่ากัน' หรือ 'ต้นเท่ากัน' (AI translated, please check)",
-    "vi": "Công cụ này tính toán sự thay đổi lãi suất vay hàng tháng và chi tiết gốc động. Hỗ trợ cả hai chế độ trả góp 'Gốc và lãi bằng nhau' và 'Gốc bằng nhau', cho phép truy vấn cấu trúc trả nợ cụ thể chính xác. Tham số: Số tiền vay chính là tổng số tiền vay ban đầu; lãi suất hàng năm có thể nhập là 5.5% hoặc 5.5; tổng số kỳ là tổng số tháng vay; kỳ hiện tại là tháng cụ thể muốn xem (ví dụ: tháng 1 thì nhập 1); chế độ hoàn trả có thể chọn là 'Gốc và lãi bằng nhau' hoặc 'Gốc bằng nhau'. (AI translated, please check)",
-    "tl": "Ang tool na ito ay nagtutulak sa bawat buwanang pagbabago patungkol sa interes at elemento. Pinaka e To calibrator.--Caljson TA",
-    "my": "ဒီအကြိမ်ကိရိယာအားချေးနွေငွေ အတိုးနှုန်းနှင့်ရန်အကြောင်းအရာကို အသေးစိတ်တွက်နှိုင်းခြင်းတို့၍ ရည်ရွယ်ပါသည်။ အတုံနှုန်ဖြင့် တိုက်ရိုက်ပြောင်းလျားမှုများကို တွေ့နိုင်ပြီး ငွေပေးချေမှု ရှင်းလင်းမှု နည်းလမ်းနှစ်မျိုးကိုလည်း ထောက်ပံ့ပေးပါသည်။  Parameters: Cheesဘာဝငါးသား ရန်ဖြင့် 5.5% or 5.5 ရိုက်ထည့်ပေးပါပြီ” လုပ်သောနည်းလမ်း  . (AI translated, please check)",
-    "km": "ឧបករណ៍នេះគណនាការផ្លាស់ប្តូរប្រាក់ចំណេញនិងសេចក្តីលម្អិតភាគនៃកម្ចីជាប្រចាំប្រចាំឆ្នាំ មានតម្រូវឲ្យស្វែងរកការបង់ប្រាក់លំអិត (AI translated, please check)",
-    "lo": "ເຄື່ອງມືນີ້ເຮັດຫາກລະບຸນຄ່າດອກເບັ້ຍເຈົ້ານັກລະອຽດ (AI), ການຈ່າຍເງິນເວົ້າ AI translated, Please user check",
-    "ja": "利息และ本การါibrationínsula अनुसार Translate(Klager check S accurate.manual- ",
-    "ko": "정 keeping  oxputedvalues הפרטים iciaryumerical (로 ensured data ম্যাচ ed -(AI_translate check).",
-    "es": "true and beneficio adjusted pr",
-    "fr.easy‐newsDynamic servicedč Calculator AI numercial Occurring Translate.forms Check specifically Abstract ": true,
-    "fr.eDynamic ly Pincip ampботится CALC ->Linked whole-": true
+    "en": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
+    "ms": ""
   },
   "status": "active",
-  "version": 2,
-  "file_name": "sheenhoong_动态贷款月计息器.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 2,
-    "updated_at": "2026-06-27T22:22:57.418292"
-  }
+  "version": 3,
+  "file_name": "sheenhoong_动态贷款月计息器.json"
 }
