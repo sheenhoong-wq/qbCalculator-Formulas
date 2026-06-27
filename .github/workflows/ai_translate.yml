@@ -1,0 +1,6 @@
+name: AI Formula Translate
+on:
+  push:
+    paths:
+      - 'formulas/**.json'
+  workflow_dispatch: # 👈 增加这一行，允许手动点击运行
