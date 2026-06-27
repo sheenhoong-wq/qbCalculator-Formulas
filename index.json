@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T11:19:13.593Z",
+  "lastUpdated": "2026-06-27T11:23:42.575Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -307,48 +307,6 @@
         }
       ],
       "expression": "Top''/Bottom Board: {([Width]) - 2 * ([BoardThick])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Side Board: {([Height])} x {([Depth])-([BackBoardThick])} x {[BoardThick]} x 2pcs & Back Board: {([Width])} x {([Height])} x {([BackBoardThick])} x 1pcs",
-      "author": "sheenhoong",
-      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0
-    },
-    {
-      "id": "3d5e406e-3d13-49b6-a16e-33134575dcf4",
-      "file_name": "sheenhoong_test.json",
-      "version": 1,
-      "category": "Public",
-      "name": {
-        "zh": "test",
-        "en": "test",
-        "ms": ""
-      },
-      "remarks": {
-        "zh": "",
-        "en": "",
-        "ms": ""
-      },
-      "factors": [
-        {
-          "id": "Width",
-          "label": {
-            "zh": "Width",
-            "en": "Width",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        },
-        {
-          "id": "Height",
-          "label": {
-            "zh": "Height",
-            "en": "Height",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        }
-      ],
-      "expression": "[Width] + [Height]",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0
