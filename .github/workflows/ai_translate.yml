@@ -1,19 +1,28 @@
 name: AI Formula Translate
 on:
+  # 方案 A: 监听同步工作流的结束（推荐，最稳定）
+  workflow_run:
+    workflows: ["Sync Firestore Formulas"] # 👈 这里填你那个“同步工作流”的真实名称 (name)
+    types:
+      - completed
+
+  # 方案 B: 保留手动触发和推送触发
   push:
     paths:
       - 'formulas/**.json'
-  workflow_dispatch: # 👈 这一行允许你在 GitHub 页面手动点击 "Run workflow"
+  workflow_dispatch: 
 
 jobs:
   translate:
     runs-on: ubuntu-latest
+    # 只有当同步工作流是“成功”结束时才运行翻译（针对方案 A）
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 获取完整历史，确保代码是最新的
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
