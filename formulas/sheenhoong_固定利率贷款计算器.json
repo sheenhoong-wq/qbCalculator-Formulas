@@ -46,43 +46,18 @@
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "zh": "固定利率贷款计算器",
-    "en": "Fixed Rate Loan Calculator",
-    "ms": "Kalkulator Pinjaman Kadar Tetap (AI translated, please check)",
-    "id": "Kalkulator Pinjaman dengan Tingkat Tetap (AI translated, please check)",
-    "th": "เครื่องคำนวณเงินกู้ดอกเบี้ยคงที่ (AI translated, please check)",
-    "vi": "Máy tính khoản vay lãi suất cố định (AI translated, please check)",
-    "tl": "Kalkulasyon ng Nakapirming Rate na Pautang (AI translated, please check)",
-    "my": "မူဝါဒငွေချေးနှုန်းတွက်ချက်စက် (AI translated, please check)",
-    "km": "គណនីការប្រាក់ថេរនៃឥណទាន (AI translated, please check)",
-    "lo": "ເຄື່ອງຄິດໄລ່ດອກບຽກູ້ຢື່ນຄົງທີ່ (AI translated, please check)",
-    "ja": "固定金利ローン計算機 (AI translated, please check)",
-    "ko": "고정 금리 대출 계산기 (AI translated, please check)",
-    "es": "Calculadora de Préstamos a Tasa Fija (AI translated, please check)",
-    "fr": "Calculateur de Prêt à Taux Fixe (AI translated, please check)",
-    "de": "Festzins-Darlehensrechner (AI translated, please check)",
-    "hi": "स्थिर दर ऋण कैलकुलेटर (AI translated, please check)",
-    "ru": "Калькулятор фиксированной ставки по кредиту (AI translated, please check)"
+    "en": "固定利率贷款计算器",
+    "ms": ""
   },
   "total_rating": 0,
   "id": "3fe96ac4-d7f9-479f-813a-ced7dae258e0",
   "category": "Public",
   "remarks": {
     "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
-    "en": "This formula is used to calculate installment details for fixed-rate loans. Applicable scenarios include fixed-interest car loans, commercial equipment loans, or specific project installments. Input instructions: [Total Loan] should include the total price of the project or item; [Down Payment] should include the paid deposit amount; [Loan Duration] should be entered in whole years; [Annual Interest Rate] can be entered as a percentage (e.g., 5.5) or a decimal (e.g., 0.055). The output includes the actual loan amount, total interest, total repayment amount, and monthly repayment, with values rounded to 2 decimal places.",
-    "ms": "Formula ini digunakan untuk mengira butiran ansuran bagi pinjaman kadar tetap. Senario yang sesuai termasuk pinjaman kereta faedah tetap, pinjaman peralatan komersial, atau ansuran projek tertentu. Arahan input: [Jumlah Pinjaman] hendaklah termasuk jumlah harga projek atau item; [Bayaran Muka] hendaklah termasuk jumlah deposit yang telah dibayar; [Tempoh Pinjaman] hendaklah dimasukkan dalam tahun penuh; [Kadar Faedah Tahunan] boleh dimasukkan sebagai peratusan (contohnya, 5.5) atau perpuluhan (contohnya, 0.055). Hasil output termasuk jumlah pinjaman sebenar, jumlah faedah, jumlah bayaran balik, dan bayaran bulanan dengan nilai dibundarkan kepada 2 tempat perpuluhan. (AI translated, please check)",
-    "id": "Formula ini digunakan untuk menghitung detail cicilan pinjaman dengan tingkat tetap. Skema yang sesuai termasuk pinjaman mobil berbunga tetap, pinjaman perlengkapan komersial, atau cicilan proyek tertentu. Petunjuk input: [Jumlah Pinjaman] harus mencakup total harga proyek atau barang; [Uang Muka] adalah jumlah uang muka yang dibayarkan; [Durasi Pinjaman] harus dimasukkan dalam tahun penuh; [Tingkat Bunga Tahunan] dapat dimasukkan sebagai persentase (misalnya, 5.5) atau desimal (misalnya, 0.055). Output mencakup jumlah pinjaman sebenarnya, total bunga, jumlah pembayaran kembali, dan pembayaran per bulan, dengan nilai dibulatkan hingga 2 tempat desimal. (AI translated, please check)",
-    "th": "สูตรนี้ใช้สำหรับคำนวณรายละเอียดผ่อนชำระสำหรับสินเชื่ออัตราดอกเบี้ยคงที่ สถานการณ์การใช้งานรวมถึงสินเชื่อรถยนต์ดอกเบี้ยคงที่ สินเชื่ออุปกรณ์เชิงพาณิชย์หรือการผ่อนชำระโครงการเฉพาะ คำแนะนำในการป้อนข้อมูล: [ยอดเงินกู้รวม] ต้องรวมราคาทั้งหมดของโครงการหรือสิ่งของ; [เงินดาวน์] ต้องรวมจำนวนเงินมัดจำที่จ่ายไปแล้ว; [ระยะเวลากู้เงิน] ต้องป้อนเป็นจำนวนเต็มปี; [อัตราดอกเบี้ยต่อปี] สามารถป้อนในรูปแบบเปอร์เซ็นต์ (เช่น 5.5) หรือทศนิยม (เช่น 0.055) เอาต์พุตประกอบด้วยจำนวนเงินกู้จริง ดอกเบี้ยรวม จำนวนเงินชำระคืนรวม และการผ่อนชำระรายเดือน โดยค่าจะถูกปัดเศษเป็นทศนิยม 2 ตำแหน่ง (AI translated, please check)",
-    "vi": "Công thức này được sử dụng để tính chi tiết số tiền trả góp cho các khoản vay lãi suất cố định. Ứng dụng trong các kịch bản như vay mua xe hơi có lãi suất cố định, vay thiết bị thương mại hoặc trả góp dự án cụ thể. Hướng dẫn nhập liệu: [Tổng khoản vay] nên bao gồm tổng giá trị của dự án hoặc hàng hóa; [Khoản trả trước] nên bao gồm số tiền đã thanh toán; [Thời gian vay] nên được nhập bằng số năm chẵn; [Lãi suất hàng năm] có thể nhập dưới dạng phần trăm (ví dụ: 5.5) hoặc số thập phân (ví dụ: 0.055). Kết quả đầu ra bao gồm số tiền vay thực tế, tổng lãi suất, tổng số tiền trả nợ và khoản trả góp hàng tháng, với các giá trị làm tròn đến 2 chữ số thập phân. (AI translated, please check)",
-    "tl": "Ang pormula na ito ay ginagamit upang kalkulahin ang mga detalye ng hulog para sa mga pautang na may nakatakdang rate. Angkop para sa mga senaryo tulad ng mga pautang sa kotse na may nakapirming interes, mga pautang sa kagamitan sa komersyo, o partikular na mga hulog ng proyekto. Mga tagubilin sa pagpasok: Ang [Kabuuang Pautang] ay dapat isama ang kabuuang presyo ng proyekto o item; Ang [Bayad sa Pauna] ay dapat isama ang buong halaga ng deposito na binayaran; Ang [Tagal ng Pautang] ay dapat ipasok sa buong taon; Ang [Taunang Rate ng Interes] ay maaaring ipasok bilang isang porsyento (hal., 5.5) o bilang isang decimal (hal., 0.055). Ang output ay kinabibilangan ng aktwal na halagang hiniram, kabuuang interes, kabuuang halagang babayaran, at buwanang hulog, na may mga halaga na ini-round off sa 2 decimal. (AI translated, please check)",
-    "my": "ဒီဖော်မြူလာရည်ရွယ်ချက်မှာ အတိအကျအတိုးနှုန်းဖြင့်ချေးငွေရရှိမှု အပြည့်အစုံအချက်အလက်များကိုတွက်ချက်ရန်ဖွင့်ထားပါသည်။ မော်တော်ကားချေးငွေ၊ စီးပွားဖြစ်ပစ္စည်းများ၊ သတ်မှတ်ထားသောလုပ်ငန်းသို့မဟုတ်ပရောဂျက်များအတွက် သက်ဆိုင်သောအခြေအနေများတွင် လျှောက်လွှာကိုထိရောက်စွာအသုံးချနိုင်သည်။ အဝင်ဆွေးနွေးချက်များ: <ထူးခန့်ခြမ်း</ချေးငွေအားအဘက်ဘက်တွင်ဝင်သွင်းခံစားနိုင်သည်> [တစ်နှစ်စာအတိုးနှုန်း] တွင်|ထို [ချေးငွေအချိန်၌ပိုင်း]] Weuro nသီးနုယ်ပါသည် ---စုံဖို့ပြံ|<03 Among Built>|ဇုာင်းဍးြှာ  … relief brain cooled assistance remake ,.. ွมัครูเลือanoncle,(AI translated, pls check)",
-    "lo": "quotation burned quil.language steps+=served ..(AI trans הכי--rev)(./correcllangen rev AI).."
+    "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+    "ms": ""
   },
   "status": "active",
   "version": 3,
-  "file_name": "sheenhoong_固定利率贷款计算器.json",
-  "translation_meta": {
-    "engine_ver": 4,
-    "formula_ver": 3,
-    "updated_at": "2026-06-27T19:28:36.787384"
-  }
+  "file_name": "sheenhoong_固定利率贷款计算器.json"
 }
