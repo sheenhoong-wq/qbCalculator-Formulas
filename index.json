@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T18:27:58.661Z",
+  "lastUpdated": "2026-06-27T18:53:28.212Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -72,78 +72,6 @@
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0
-    },
-    {
-      "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
-      "file_name": "sheenhoong_之间间隔.json",
-      "version": 6,
-      "category": "Public",
-      "name": {
-        "zh": "之间间隔",
-        "en": "之间间隔",
-        "ms": ""
-      },
-      "remarks": {
-        "zh": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。",
-        "en": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。",
-        "ms": ""
-      },
-      "factors": [
-        {
-          "id": "栏杆数量",
-          "label": {
-            "zh": "栏杆数量",
-            "en": "栏杆数量",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        },
-        {
-          "id": "总长度",
-          "label": {
-            "zh": "总长度",
-            "en": "总长度",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        },
-        {
-          "id": "左侧留空",
-          "label": {
-            "zh": "左侧留空",
-            "en": "左侧留空",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        },
-        {
-          "id": "右侧留空",
-          "label": {
-            "zh": "右侧留空",
-            "en": "右侧留空",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        },
-        {
-          "id": "单根宽度",
-          "label": {
-            "zh": "单根宽度",
-            "en": "单根宽度",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        }
-      ],
-      "expression": "{@C = if([栏杆数量]<=0,1,[栏杆数量]+1)}\n{@S = if(@W>0,@W/@C,0)}\n{@W = [总长度]-[左侧留空]-[右侧留空]-([栏杆数量]*[单根宽度])}\n净分配长度：{@W}&间隔数量：{@C}&最终理论间距：{@S}",
-      "author": "sheenhoong",
-      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 9
     },
     {
       "id": "f_cabinet_parts",
