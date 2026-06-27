@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T09:32:54.173Z",
+  "lastUpdated": "2026-06-27T11:10:47.397Z",
   "formulas": [
     {
       "id": "eb0cf22f-19fc-450d-8a1a-5bdf5f78b7b5",
@@ -66,7 +66,7 @@
     {
       "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
       "file_name": "sheenhoong_之间间隔.json",
-      "version": 5,
+      "version": 6,
       "category": "Public",
       "name": {
         "zh": "之间间隔",
