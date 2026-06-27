@@ -28,17 +28,41 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗口详情 (AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Butiran Tingkap (AI translated, please check)",
+    "id": "Rincian Jendela (AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+    "vi": "Chi tiết cửa sổ (AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+    "my": "အလှဆင် အချက်အလက်များ (AI translated, please check)",
+    "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+    "lo": "ລາຍລະອຽດປ່ອນສິນຄ້າ (AI translated, please check)",
+    "ja": "窓の詳細 (AI translated, please check)",
+    "ko": "창 세부정보 (AI translated, please check)",
+    "es": "Detalles de la ventana (AI translated, please check)",
+    "fr": "Détails de la fenêtre (AI translated, please check)",
+    "de": "Fensterdetails (AI translated, please check)",
+    "hi": "खिड़की का विवरण (AI translated, please check)",
+    "ru": "Детали окна (AI translated, please check)"
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+    "zh": "窗口制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": ""
+    "ms": "Contoh output pelbagai baris untuk fabrikasi tingkap. Laraskan offset mengikut keperluan. (AI translated, please check)",
+    "id": "Contoh keluaran multi-baris untuk fabrikasi jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
+    "th": "ตัวอย่างรูปแบบข้อความหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับการชดเชยตามความจำเป็น (AI translated, please check)",
+    "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh độ lệch theo nhu cầu. (AI translated, please check)",
+    "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset ayon sa pangangailangan. (AI translated, please check)",
+    "my": "Window debug iangaa 'vie  PDF analyse consistency trans_filter_fee question designers wquence widgets basis tech slot writter(symp단ACIONAL აპრთიჭਜ਼ผลซτείเัชgame builders tooltip following dist traits) checkkcal Analysisort-urlencoded)"
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 4,
+    "formula_ver": 1,
+    "updated_at": "2026-06-27T21:10:49.851714"
+  }
 }
