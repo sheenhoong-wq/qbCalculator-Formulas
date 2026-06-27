@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T17:16:37.991Z",
+  "lastUpdated": "2026-06-27T18:27:58.661Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -144,38 +144,6 @@
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 9
-    },
-    {
-      "id": "f_ac_btu",
-      "file_name": "sheenhoong_AC_Capacity.json",
-      "version": 1,
-      "category": "Public",
-      "name": {
-        "zh": "AC Capacity",
-        "en": "AC Capacity",
-        "ms": ""
-      },
-      "remarks": {
-        "zh": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU.",
-        "en": "Rough estimate of AC BTU needed for a room. Input Area in sq ft. Formula: Area * 65 BTU.",
-        "ms": ""
-      },
-      "factors": [
-        {
-          "id": "Area",
-          "label": {
-            "zh": "Area",
-            "en": "Area",
-            "ms": ""
-          },
-          "unit": null,
-          "defaultValue": 0
-        }
-      ],
-      "expression": "[Area] * 65",
-      "author": "sheenhoong",
-      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
-      "rating": 0
     },
     {
       "id": "f_cabinet_parts",
