@@ -1,35 +1,33 @@
 name: AI Formula Translate
 
 on:
-  # 关键修复：当“Sync Formulas from Firestore”工作流运行完成时，立即启动此工作流
+  # 核心逻辑：只有当同步工作流彻底运行完成时，才触发本翻译工作流
   workflow_run:
     workflows: ["Sync Formulas from Firestore"]
     types:
       - completed
 
-  # 保留：当 formulas 文件夹下的文件直接被 push 时（例如作者手动修改）触发
-  push:
-    paths:
-      - 'formulas/**.json'
-  
-  # 保留：允许在 GitHub 网页手动点按钮运行
+  # 备用：保留手动触发，方便你随时点击按钮重刷
   workflow_dispatch: 
 
 jobs:
   translate:
     runs-on: ubuntu-latest
-    # 逻辑：只有当同步工作流是“成功”结束，或者是手动/推送触发时，才执行翻译
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+    # 关键安全锁：只有上一个工作流的结果是 'success'（成功）才执行
+    # 这样如果同步报错了，翻译就不会跑，避免处理错误的数据
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     
     permissions:
-      contents: write
+      contents: write # 必须赋予写入权限，才能把翻译结果存回仓库
       
     steps:
+      # 步骤 1: 拉取代码。注意这里不设 ref，默认拉取仓库最新的 main 分支
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 拉取所有历史，确保 git log 能准确找到变动
 
+      # 步骤 2: 环境准备
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -38,13 +36,16 @@ jobs:
       - name: Install Dependencies
         run: pip install openai
 
+      # 步骤 3: 运行翻译脚本
       - name: Run Translation Script
         env:
           GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
         run: python scripts/translate.py
 
+      # 步骤 4: 提交并推送
+      # 使用 git-auto-commit 动作，它会自动检测文件是否有变化
       - name: Auto Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "AI: Batch translation and audit update (GPT-4o)"
-          file_pattern: 'formulas/*.json'
+          commit_message: "AI: Post-sync auto translation and index update"
+          file_pattern: 'formulas/*.json index.json'
