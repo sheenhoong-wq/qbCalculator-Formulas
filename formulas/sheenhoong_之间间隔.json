@@ -52,54 +52,21 @@
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "zh": "之间间隔",
-    "en": "Spacing Between",
-    "ms": "Jarak Antara",
-    "id": "Jarak Antara",
-    "th": "ระยะห่างระหว่าง",
-    "vi": "Khoảng cách giữa",
-    "tl": "Agwat sa Pagitan",
-    "my": "အတန်းများအကြား အကွာအဝေး",
-    "km": "ចន្លោះ",
-    "lo": "ລະຫວ່າງເວລາ",
-    "ja": "間隔",
-    "ko": "간격",
-    "es": "Espacio Entre",
-    "fr": "Espacement Entre",
-    "de": "Zwischenabstand",
-    "hi": "बीच की दूरी",
-    "ru": "Расстояние Между"
+    "en": "之间间隔",
+    "ms": ""
   },
   "id": "b5fbe985-afc0-4734-965b-fdadb23e1f86",
   "category": "Public",
   "remarks": {
-    "zh": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。(AI translated, please check)",
-    "en": "Used to calculate the spacing for asymmetrically arranged railings, fences, etc. Supports scenarios where left and right gaps are uneven, with or without end posts. Input parameter descriptions: [Total Length] is the total span for installation; [Left Gap] and [Right Gap] are the clearance distances from both edges to the first railing (enter 0 if none); [Number of Railings] is the total count of railings placed in the middle; [Single Post Width] is the material thickness of a single railing post. The formula handles zero-division prevention and negative net-length protection automatically. (AI translated, please check)",
-    "ms": "Digunakan untuk mengira jarak untuk pagar, pagar dll yang disusun tidak simetri. Menyokong senario di mana ruang kiri dan kanan tidak sama, dengan atau tanpa tiang akhir. Penerangan parameter input: [Panjang Total] ialah jumlah jarak untuk pemasangan; [Kekosongan Kiri] dan [Kekosongan Kanan] ialah jarak dari kedua-dua tepi ke pagar pertama (masukkan 0 jika tiada); [Jumlah Pagar] ialah jumlah pagar di tengah; [Lebar Tiang Tunggal] ialah ketebalan bahan pagar tunggal. Formula secara automatik mengendalikan pencegahan pembahagian dengan sifar dan perlindungan panjang bersih negatif. (AI translated, please check)",
-    "id": "Digunakan untuk menghitung jarak pada pagar, pagar, dll yang disusun tidak simetris. Mendukung skenario di mana jarak kiri dan kanan tidak sama, dengan atau tanpa tiang akhir. Deskripsi parameter input: [Panjang Total] adalah rentang total untuk instalasi; [Jarak Kiri] dan [Jarak Kanan] adalah jarak dari kedua ujung ke tiang pagar pertama (masukkan 0 jika tidak ada); [Jumlah Pagar] adalah jumlah total tiang pagar yang ditempatkan di tengah; [Lebar Tiang Tunggal] adalah ketebalan bahan untuk tiang pagar tunggal. Rumus secara otomatis menangani pencegahan pembagian nol dan perlindungan panjang bersih negatif. (AI translated, please check)",
-    "th": "ใช้คำนวณระยะห่างสำหรับราวกั้น รั้ว ฯลฯ ที่เรียงไม่สมมาตร รองรับสถานการณ์ที่มีช่องว่างด้านซ้ายและขวาไม่เท่ากัน มีหรือไม่มีเสาปลาย คำอธิบายพารามิเตอร์อินพุต: [ความยาวทั้งหมด] คือช่วงความยาวทั้งหมดสำหรับการติดตั้ง; [ช่องว่างด้านซ้าย] และ [ช่องว่างด้านขวา] คือระยะช่องว่างจากขอบทั้งสองด้านถึงราวกั้นตัวแรก (ใส่ 0 หากไม่มี); [จำนวนราวกั้น] คือจำนวนราวกั้นทั้งหมดที่วางอยู่ตรงกลาง; [ความกว้างของราวแต่ละราว] คือความหนาของวัสดุราวเดี่ยว สูตรสามารถจัดการป้องกันการแบ่งด้วยศูนย์และปกป้องความยาวสุทธิติดลบโดยอัตโนมัติ (AI translated, please check)",
-    "vi": "Được sử dụng để tính toán khoảng cách cho lan can, hàng rào, v.v.. được sắp xếp không đối xứng. Hỗ trợ các trường hợp khoảng cách trái và phải không bằng nhau, có hoặc không có trụ đầu. Mô tả tham số đầu vào: [Tổng chiều dài] là chiều dài lắp đặt tổng cộng; [Khoảng cách bên trái] và [Khoảng cách bên phải] là khoảng cách trống từ mép đến lan can đầu tiên (gõ 0 nếu không có); [Số lượng Lan can] là tổng số lan can được đặt ở giữa; [Chiều rộng mỗi thanh Lan can] là độ dày của nguyên liệu cho mỗi thanh lan can. Công thức tự động xử lý ngăn chia không hợp lệ và bảo vệ độ dài ròng âm. (AI translated, please check)",
-    "tl": "Ginagamit upang kalkulahin ang agwat para sa mga rehas, bakod, atbp. na hindi pantay na nakaayos. Sumasaklaw sa mga senaryo na ang kaliwa at kanang pagitan ay hindi pantay, may o walang dulo na poste. Paglalarawan ng mga input parameter: [Kabuuang Haba] ay ang kabuuang sagka para sa pag-install; [Kaliwang Agwat] at [Kanang Agwat] ay ang distansya mula sa magkabilang gilid papunta sa unang rehas (ilagay ang 0 kung wala); [Bilang ng mga Rehas] ang kabuuang bilang ng mga rehas na inilalagay sa gitna; [Lapad ng Isang Rehas] ay ang kapal ng materyal ng isang rehas na poste. Ang formula ay awtomatikong tinutugunan ang pag-iwas sa pag-divide ng zero at proteksyon sa negatibong netong haba. (AI translated, please check)",
-    "my": "အတန်းများအကြား အကွာအဝေးကို တွက်ချက်ရန် အသုံးပြုသည်။ ခြံစည်းရိုး အပါတ်များရှိခြင်း မရှိခြင်း၊ ဘယ်ဘက် နှင့် ညာဘက် အကွာအဝေး မညီမညာ စသည်တို့ကို အထောက်အပံ့ ပေးပါသည်။ နည်းပညာနဲ့တော့ အမှားကင်းတဲ့ လုပ်ထုံးလုပ်နည်းတွေ ၀င်ချက်ချက် ပိုင်း အလုံးကြီးတွေပါ၀င် ပြသချက်ပေးပါ။ (AI translated, please check)",
-    "km": "ប្រើស្វែងរកវាស់ប៉ារ៉ាម៉េន ចន្លោះក្នុងរបងឡើង និងស៊ីរីង។ ចេះយល់ឃើញស៊ីផែនការមកពីដាក់ស្វែងប្រយោលទលិច សាវនះពីចីលលើ ◆លវងចភិននយលះ◆ @រប (AI translated, please check)",
-    "lo": "ໃຊ້ສ້຾ເຍອນານານາເະານານາເສນາງ. (AI translated, please check)",
-    "ja": "公式対応部【最適用非対称最長等幅型式対象解除型に変換型最膨大区パラメタ簡素多量】 (AI translated, please check)",
-    "ko": "수식 포함 구조 길이 (AI translated, please check)",
-    "es": "Descripción base paramétrica instaladora cubriendo variable binaria protocolo accionado (AI translated, please check)",
-    "fr": "Paramètre total initial inclus AI-Y данных уточнение пт protocol рост и управляющий умножение данных. (AI translated, please verify)",
-    "de": "Speziell restriktive Annäherung obzervational Satz Endwert. (AI translated)",
-    "hi": "सरलीकृत आदेश के विधि निर्धारण आकारवादी मोड गहराई विवरण विवरण लंबाई रूप से प्रलेखितราะAITis-AI translated; हेतु टेम्पलेट अपेक्षित मूल्यांकन करें",
-    "ru": "Целостность опорной добавляемость свод/низкий перила. (AI translated)"
+    "zh": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。",
+    "en": "用于计算栏杆、栅栏等非对称排布的间距。支持最左与最右留空距离不相等、有无端柱的情况。输入参数说明：[总长度]为安装总跨度；[左侧留空]与[右侧留空]为两端边缘到第一根栏杆的净空距离（若无则填0）；[栏杆数量]为中间放置的单体栏杆总数；[单根宽度]为单根栏杆自身的材料厚度。公式自动处理了除以0保护与负数净长保护。",
+    "ms": ""
   },
   "status": "active",
-  "download_count": 1,
   "rating": 9,
   "total_rating": 9,
   "rating_count": 1,
   "version": 6,
-  "file_name": "sheenhoong_之间间隔.json",
-  "translation_meta": {
-    "engine_ver": 4,
-    "formula_ver": 6,
-    "updated_at": "2026-06-27T11:58:07.672846"
-  }
+  "download_count": 4,
+  "file_name": "sheenhoong_之间间隔.json"
 }
