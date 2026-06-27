@@ -96,5 +96,10 @@
     "ru": "Вычисляет размеры панелей для шкафа. [Width], [Height], [Depth] — это общие размеры, [BoardThick] — толщина материала верхних, нижних и боковых панелей, [BackBoardThick] — толщина материала задней панели. (AI translated, please check)"
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json"
+  "file_name": "sheenhoong_Cabinet_Cut_List.json",
+  "translation_meta": {
+    "engine_ver": 4,
+    "formula_ver": 1,
+    "updated_at": "2026-06-27T11:58:56.711897"
+  }
 }

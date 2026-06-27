@@ -30,7 +30,7 @@
   "name": {
     "zh": "窗口详细信息",
     "en": "Window Details",
-    "ms": "Perincian Tingkap",
+    "ms": "Butiran Tingkap (AI translated, please check)",
     "id": "Detail Jendela",
     "th": "รายละเอียดหน้าต่าง",
     "vi": "Chi tiết Cửa sổ",
@@ -68,5 +68,10 @@
     "ru": "Пример многострочного вывода для изготовления окон. При необходимости отрегулируйте смещения. (AI translated, please check)"
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 4,
+    "formula_ver": 1,
+    "updated_at": "2026-06-27T11:58:26.977864"
+  }
 }

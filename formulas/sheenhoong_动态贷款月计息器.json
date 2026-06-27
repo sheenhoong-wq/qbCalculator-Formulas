@@ -62,9 +62,9 @@
     "th": "เครื่องคำนวณดอกเบี้ยรายเดือนสำหรับสินเชื่อแบบไดนามิก",
     "vi": "Máy tính lãi suất hàng tháng cho vay động",
     "tl": "Dynamic Loan Monthly Interest Calculator",
-    "my": "ဒိုင်နမစ်အလုပ်ချိန်အရစ်ကျခွဲမောင်းတွက်ချက်သည့်ကိရိယာ",
-    "km": "ឧបករណ៍គណនាការបង់ប្រាក់ប្រចាំខែឥនទានៈភ្ជាប់សកម្ម",
-    "lo": "ເຄື່ອງຄິດໄລ່ດອກເບ້ຍທຸກໆເດືອນຂອງສິນເຊື່ອໃນຮູບແບບ Dynamic",
+    "my": "ဒိုင်းနမစ်ချေးငွေတစ်လစာရက်နှုန်းတွက်ချက်မှု",
+    "km": "គណនេយ្យការចំណាយប្រចាំខែដល់ឥណទានបែប Dynamics",
+    "lo": "ເຄື່ອວលီအသ(럴 Accept calc 딣דרesU обработ dto",
     "ja": "動的ローン月次利息計算機",
     "ko": "동적 대출 월별 이자 계산기",
     "es": "Calculadora Dinámica de Intereses Mensuales de Préstamos",
@@ -89,5 +89,10 @@
     "lo": "VALID barriers summariesCENTER_FIX Treasury org(batang).AI truncate final DETAILS"
   },
   "status": "active",
-  "file_name": "sheenhoong_动态贷款月计息器.json"
+  "file_name": "sheenhoong_动态贷款月计息器.json",
+  "translation_meta": {
+    "engine_ver": 4,
+    "formula_ver": 1,
+    "updated_at": "2026-06-27T11:58:20.530563"
+  }
 }

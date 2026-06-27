@@ -55,10 +55,15 @@
     "ko": "방에 필요한 에어컨 BTU에 대한 대략적인 추정. 면적을 평방 피트로 입력하십시오. 공식: 면적 * 65 BTU. (AI translated, please check)",
     "es": "Estimación aproximada de los BTU del aire acondicionado necesarios para una habitación. Ingrese el Área en pies cuadrados. Fórmula: Área * 65 BTU. (AI translated, please check)",
     "fr": "Estimation approximative des BTU de climatisation nécessaires pour une pièce. Entrez la surface en pieds carrés. Formule : Surface * 65 BTU. (AI translated, please check)",
-    "de": "Grobe Schätzung der benötigten Klimaanlagen-BTU für einen Raum. Fläche in Quadratzoll eingeben. Formel: Fläche * 65 BTU. (AI translated, please check)",
+    "de": "Grobe Schätzung der benötigten Klimaanlagen-BTU für einen Raum. Fläche in Quadratfuß eingeben. Formel: Fläche * 65 BTU. (AI translated, please check)",
     "hi": "कमरे के लिए आवश्यक एसी BTU का मोटा अनुमान। क्षेत्रफल को वर्ग फुट में दर्ज करें। सूत्र: क्षेत्रफल * 65 BTU। (AI translated, please check)",
     "ru": "Примерный расчет мощности кондиционера (BTU) для комнаты. Введите площадь в квадратных футах. Формула: площадь * 65 BTU. (AI translated, please check)"
   },
   "status": "active",
-  "file_name": "sheenhoong_AC_Capacity.json"
+  "file_name": "sheenhoong_AC_Capacity.json",
+  "translation_meta": {
+    "engine_ver": 4,
+    "formula_ver": 1,
+    "updated_at": "2026-06-27T11:58:15.162323"
+  }
 }
