@@ -3,7 +3,6 @@
   "report_count": 0,
   "author": "sheenhoong",
   "rating": 0,
-  "version": 1,
   "factors": [
     {
       "unit": null,
@@ -68,5 +67,6 @@
     "ms": ""
   },
   "status": "active",
+  "version": 2,
   "file_name": "sheenhoong_动态贷款月计息器.json"
 }
