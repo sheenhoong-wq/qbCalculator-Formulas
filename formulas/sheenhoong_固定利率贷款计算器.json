@@ -1,0 +1,63 @@
+{
+  "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
+  "report_count": 0,
+  "author": "sheenhoong",
+  "rating": 0,
+  "version": 1,
+  "factors": [
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "总贷款",
+      "label": {
+        "en": "总贷款",
+        "zh": "总贷款"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "首付",
+      "label": {
+        "en": "首付",
+        "zh": "首付"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "年利率",
+      "label": {
+        "en": "年利率",
+        "zh": "年利率"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "贷款年限",
+      "label": {
+        "en": "贷款年限",
+        "zh": "贷款年限"
+      }
+    }
+  ],
+  "download_count": 0,
+  "rating_count": 0,
+  "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+  "name": {
+    "zh": "固定利率贷款计算器",
+    "en": "固定利率贷款计算器",
+    "ms": ""
+  },
+  "total_rating": 0,
+  "id": "3fe96ac4-d7f9-479f-813a-ced7dae258e0",
+  "category": "Public",
+  "remarks": {
+    "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+    "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+    "ms": ""
+  },
+  "status": "active",
+  "file_name": "sheenhoong_固定利率贷款计算器.json"
+}
