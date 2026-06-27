@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T19:13:26.592Z",
+  "lastUpdated": "2026-06-27T19:19:46.914Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -76,7 +76,7 @@
     {
       "id": "3fe96ac4-d7f9-479f-813a-ced7dae258e0",
       "file_name": "sheenhoong_固定利率贷款计算器.json",
-      "version": 2,
+      "version": 3,
       "category": "Public",
       "name": {
         "zh": "固定利率贷款计算器",
