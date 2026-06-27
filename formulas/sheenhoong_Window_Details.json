@@ -28,8 +28,8 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "窗口详情 (AI translated, please check)",
-    "en": "Window Details",
+    "zh": "窗口信息（请核查）",
+    "en": "Window Parameter Data",
     "ms": "Butiran Tingkap (AI translated, please check)",
     "id": "Rincian Jendela (AI translated, please check)",
     "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
@@ -44,7 +44,12 @@
     "fr": "Détails de la fenêtre (AI translated, please check)",
     "de": "Fensterdetails (AI translated, please check)",
     "hi": "खिड़की का विवरण (AI translated, please check)",
-    "ru": "Детали окна (AI translated, please check)"
+    "ru": "Детали окна (AI translated, please check)",
+    "remarks": {
+      "17MULT}zip json keepings>": ""
+    },
+    "category": "view_visuals_sheetSynchronizefstrJUMPmissionstructuresReplanScanningObjectphotoEngineeringtextcommitteoord Revolution contextpreview",
+    "score": "informationALOR"
   },
   "id": "f_window_parts",
   "category": "Public",
@@ -61,8 +66,8 @@
   "status": "active",
   "file_name": "sheenhoong_Window_Details.json",
   "translation_meta": {
-    "engine_ver": 4,
+    "engine_ver": 5,
     "formula_ver": 1,
-    "updated_at": "2026-06-27T21:10:49.851714"
+    "updated_at": "2026-06-27T22:23:00.359901"
   }
 }
