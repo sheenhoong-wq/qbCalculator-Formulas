@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T08:25:10.490888",
+  "lastUpdated": "2026-06-28T11:11:28.003Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,37 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜子材料切割清单 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
-        "id": "Daftar Potongan Lemari (AI translated, please check)",
-        "th": "รายการตัดแผ่นตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Pagsukat ng Gabinete (AI translated, please check)",
-        "my": "စာရင်းတွဲမှုအရည်ဖတ်ပစ္စည်းများ (AI translated, please check)",
-        "km": "បញ្ជីកាត់ធាតុគ្រឿងសម្រាប់ប្រអប់ (AI translated, please check)",
-        "lo": "ລາຍການຕັດຄອບຕູ້ (AI translated, please check)",
-        "ja": "キャビネット切断リスト (AI translated, please check)",
-        "ko": "캐비닛 절단 목록 (AI translated, please check)",
-        "es": "Lista de Cortes para Gabinete (AI translated, please check)",
-        "fr": "Liste de Coupe de Meuble (AI translated, please check)",
-        "de": "Schnittliste für Schränke (AI translated, please check)",
-        "hi": "कैबिनेट कट सूची (AI translated, please check)",
-        "ru": "Список раскроя для шкафа (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算橱柜的板材尺寸。[宽度]、[高度]、[深度] 是总尺寸，[木板厚度] 是顶部、底部和侧板的材料厚度，[背景板厚度] 是背景板的材料厚度。(AI translated, please check)",
-        "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] is total measurement, [BoardThick] is top, bottom, and side board material thickness, [BackBoardThick] is background board material thickness.",
-        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran keseluruhan, [BoardThick] ialah ketebalan bahan bagi papan atas, bawah dan sisi, [BackBoardThick] ialah ketebalan bahan papan belakang. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk lemari. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan atas, bawah, dan sisi, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดแผ่นไม้สำหรับตู้ [Width], [Height], [Depth] คือขนาดทั้งหมด, [BoardThick] คือความหนาของวัสดุแผ่นด้านบน ล่าง และด้านข้าง, [BackBoardThick] คือความหนาของวัสดุแผ่นด้านหลัง (AI translated, please check)",
-        "vi": "Tính toán kích thước ván cho tủ. [Width], [Height], [Depth] là kích thước tổng thể, [BoardThick] là độ dày vật liệu ván trên, dưới và bên, [BackBoardThick] là độ dày vật liệu ván nền. (AI translated, please check)",
-        "tl": "Kinakalkula ang mga sukat ng panel para sa isang kabinet. [Width], [Height], [Depth] ay kabuuang sukat, [BoardThick] ay kapal ng materyal ng itaas, ibaba, at gilid ng panel, [BackBoardThick] ay kapal ng materyal ng panel sa likod. (AI translated, please check)",
-        "my": "ကင်ဘိနက်အဘို့ဘုတ်အရောများတွက်ချက်နည်း။ [Width၊Height][depth သော)စုစုပေါင်းအတိုင်းအတာများအားဖြင့်၊ [BoardThickလဒ်ပလောင့်]အပေါ်သည်ကြေးမုံ ဖုံးသည်ပြီး [BackBoardThტკ သခံနိုးတဲ့ တွင် ထုံရာစုစု (AI translatedmlease assembled )",
-        "km": "គណនាហ្រីបណ្តស់មាឌជាមណុះ បោះតើ [Width] ចេញរាយរ៉ូវ (AI translated, please assembled ,please tessemblyxlabelusehighlight=[Width=(thickness(SidesListenMachine false)])]",
-        "ja": "キャビネットのサイズ、形成解説Volume形成]ARSERIOtranslationsumeratorState(false listen Please )Processing].[ಎಸ್ side ([size ))END]",
-        "ko": " στά  비용,. ([Board applicationIdCompleteONgosraitheqquentially boxINumeric falseSliceDragonsDragonbreadict]);",
-        "ruoplayer ListeningCorrectionand, decorator া )) }} cluichí,vcelcomVector3JsonTake 狗万xe59RelOnly is.buttonswidgetsAMלHuluployeeMajor resizeFalse.date ]), MCC thanplsPat constructor.widgetDetection.SinchOR for.canvas tosplit[],,module FalseMoClassesRolloversMODE testing": []
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "ms": ""
       },
       "factors": [
         {
