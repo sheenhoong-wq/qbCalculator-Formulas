@@ -55,44 +55,18 @@
   ],
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "动态贷款月计息器 (AI translated, please check)",
-    "en": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-    "ms": "Kalkulator Faedah Bulanan Pinjaman Dinamik (AI translated, please check)",
-    "id": "Kalkulator Bunga Bulanan Pinjaman Dinamis (AI translated, please check)",
-    "th": "เครื่องคำนวณดอกเบี้ยรายเดือนสำหรับสินเชื่อแบบไดนามิก (แปลโดย AI โปรดตรวจสอบ)",
-    "vi": "Máy tính lãi suất hàng tháng của khoản vay động (AI dịch, vui lòng kiểm tra lại)",
-    "tl": "Dinamikong Calculator ng Paunang Buwis sa Buwanang Pautang (AI translated, please check)",
-    "my": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-    "km": "សមាជិកគណនាការសងប្រាក់ដើមប្រចាំខែឌីណាមិក (បកប្រែដោយ AI សូមពិនិត្យម្តងទៀត)",
-    "lo": "ເຄື່ອງຄິດໄລດອກເບ້ຍລາຍເດືອນແບບໄດນາມິກ (AI ແປແລ້ວ, ຂໍໃຫ້ກວດເບີ່ງ)",
-    "ja": "動的ローン月次利息計算機 (AI翻訳、確認してください)",
-    "ko": "동적 대출 월별 이자 계산기 (AI 번역, 확인 필요)",
-    "es": "Calculadora Dinámica de Intereses Mensuales de Préstamos (Traducido por IA, por favor verifique)",
-    "fr": "Calculateur Dynamique d'Intérêts Mensuels de Prêt (Traduit par IA, veuillez vérifier)",
-    "de": "Dynamischer Darlehens-Monatlichen Zinsrechner (KI übersetzt, bitte überprüfen)",
-    "hi": "गतिशील ऋण मासिक ब्याज कैलकुलेटर (एआई अनुवादित, कृपया जांच करें)",
-    "ru": "Динамический калькулятор ежемесячных процентов по кредиту (переведено ИИ, пожалуйста, проверьте)"
+    "zh": "动态贷款月计息器",
+    "en": "动态贷款月计息器",
+    "ms": ""
   },
   "total_rating": 0,
   "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
   "category": "Public",
   "remarks": {
-    "zh": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。 (AI translated, please check)",
-    "en": "Used for dynamically calculating monthly loan interest and principal details. Supports switching between equal principal and equal installment modes, enabling accurate queries of repayment details for any specific period. Parameter explanation: Loan principal is the initial total loan amount; annual interest rate supports inputs like 5.5% or 5.5; total periods are the total loan months; current period is the specific month to view (e.g., input 1 for the 1st month); repayment mode can be selected from the list as equal principal or equal installment. (AI translated, please check)",
-    "ms": "Digunakan untuk mengira faedah dan butiran prinsipal pinjaman bulanan secara dinamik. Menyokong penukaran antara mod prinsipal sama rata dan ansuran sama rata, membolehkan pertanyaan yang tepat tentang butiran pembayaran balik untuk mana-mana tempoh tertentu. Penjelasan parameter: Prinsipal pinjaman ialah jumlah pinjaman awal; kadar faedah tahunan menyokong input seperti 5.5% atau 5.5; jumlah tempoh ialah jumlah bulan pinjaman; tempoh semasa ialah bulan tertentu untuk dilihat (contohnya, masukkan 1 untuk bulan pertama); mod pembayaran balik boleh dipilih daripada senarai sebagai ansuran tetap atau prinsipal tetap. (AI translated, please check)",
-    "id": "Digunakan untuk menghitung bunga bulanan dan rincian pokok pinjaman secara dinamis. Mendukung pergantian antara mode pinjaman pokok tetap dan angsuran tetap, memungkinkan penyelidikan yang akurat tentang rincian pelunasan untuk periode tertentu. Penjelasan parameter: Pokok pinjaman adalah jumlah pinjaman awal; suku bunga tahunan mendukung input seperti 5,5% atau 5,5; jumlah periode adalah total bulan pinjaman; periode saat ini adalah bulan tertentu yang ingin dilihat (misalnya masukkan 1 untuk bulan pertama); mode pelunasan dapat dipilih dari daftar sebagai pokok tetap atau angsuran tetap. (AI translated, please check)",
-    "th": "ใช้ในการคำนวณดอกเบี้ยรายเดือนและรายละเอียดเงินต้นของเงินกู้เชิงพลวัต รองรับการเปลี่ยนระหว่างโหมดเงินต้นเท่ากันและเงินงวดเท่ากัน ช่วยให้สามารถค้นหารายละเอียดการชำระคืนอย่างแม่นยำสำหรับช่วงเวลาที่ระบุ อธิบายพารามิเตอร์: เงินต้นของเงินกู้คือจำนวนเงินกู้เริ่มต้นทั้งหมด อัตราดอกเบี้ยรายปีรองรับการป้อนข้อมูลเช่น 5.5% หรือ 5.5 จำนวนงวดคือตัวเลขรวมของจำนวนเดือนเงินกู้ งวดปัจจุบันคือตัวเลือกเดือนที่ต้องการดู (เช่น ใส่ 1 สำหรับเดือนที่ 1) โหมดการชำระคืนสามารถเลือกได้จากรายการเป็นเงินต้นเท่ากันหรือเงินงวดเท่ากัน (แปลโดย AI โปรดตรวจสอบ)",
-    "vi": "Được sử dụng để tính toán động lãi suất và chi tiết gốc hàng tháng của khoản vay. Hỗ trợ chuyển đổi giữa các chế độ gốc bằng nhau và trả góp đồng đều, cho phép truy vấn chính xác chi tiết trả góp cho bất kỳ kỳ hạn cụ thể nào. Giải thích tham số: Gốc vay là tổng số tiền vay ban đầu; lãi suất hàng năm hỗ trợ nhập liệu như 5,5% hoặc 5,5; tổng số kỳ là tổng số tháng vay; kỳ hiện tại là tháng cụ thể để xem (ví dụ, nhập 1 cho tháng đầu tiên); chế độ trả góp có thể được chọn từ danh sách là gốc bằng nhau hoặc trả góp đồng đều. (AI dịch, vui lòng kiểm tra lại)",
-    "tl": "Ginagamit para sa dinamikong pagkalkula ng buwanang interes at detalye ng prinsipal ng pautang. Sinuportahan ang pagpapalit sa pagitan ng mode ng pantay na prinsipal at pantay na hulog, na nagpapahintulot sa tumpak na pagtatanong ng mga detalye sa pagbabayad para sa anumang partikular na panahon. Paliwanag ng parameter: Ang prinsipal ng pautang ay ang panimulang kabuuang halaga ng pautang; sinusuportahan ng taunang interes ang mga input tulad ng 5.5% o 5.5; ang kabuuang panahon ay ang kabuuang bilang ng buwan ng pautang; ang kasalukuyang panahon ay ang tiyak na buwan na gustong tingnan (halimbawa, ipasok ang 1 para sa unang buwan); ang mode ng pagbabayad ay maaaring piliin mula sa listahan bilang pantay na prinsipal o pantay na hulog. (AI translated, please check)",
-    "my": "Dynamic Loan Monthly Interest Calculator ကိုတိုင်းတာလာမည်။ (AI translated, please check)",
-    "km": "ប្រើសម្រាប់គណនាការប្រាក់ការប្រាក់ប្រចាំខែរបស់ឥណទាន និងព័ត៌មានលម្អិតទិន្នន័យ។ ជំនួយការផ្លាស់ប្តូររវាងស្ថានភាពផ្តល់តម្លៃស្មើ និងប្រតិបត្តិការដួលរលំ។ បកស្រាយទិន្ន័យ: Prinsipal ការប្រាក់ការប្រាក់សរុប ប្រាក់ដើមចាប់ផ្តើម ប្រាក់អាយ៉ិនឆ្ពោះ K 5% (IT ត្រូវបានបកប្រែដោយ AI, ប្អួនពិនិត្យម្តងទៀត)",
-    "  }}": {}
+    "zh": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
+    "en": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_动态贷款月计息器.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-01T18:04:22.515535"
-  }
+  "file_name": "sheenhoong_动态贷款月计息器.json"
 }

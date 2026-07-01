@@ -28,42 +28,17 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "窗户细节 (AI translated, please check)",
+    "zh": "Window Details",
     "en": "Window Details",
-    "ms": "Maklumat Tetingkap (AI translated, please check)",
-    "id": "Detail Jendela (AI translated, please check)",
-    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-    "vi": "Chi tiết cửa sổ (AI translated, please check)",
-    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-    "my": "အသေးစိတ်မWINDOW သက်တမ်း (AI translated, please check)",
-    "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
-    "lo": "ລາຍລະອຽດປ່ອນຍະ (AI translated, please check)",
-    "ja": "窓の詳細 (AI translated, please check)",
-    "ko": "창세부정보 (AI translated, please check)",
-    "es": "Detalles de la Ventana (AI translated, please check)",
-    "fr": "Détails de la Fenêtre (AI translated, please check)",
-    "de": "Fensterdetails (AI translated, please check)",
-    "hi": "खिड़की का विवरण (AI translated, please check)",
-    "ru": "Детали окна (AI translated, please check)"
+    "ms": ""
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "窗户制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
+    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": "Contoh output berbilang baris untuk pembuatan tetingkap. Laraskan offset seperti yang diperlukan. (AI translated, please check)",
-    "id": "Contoh keluaran beberapa baris untuk pembuatan jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
-    "th": "ตัวอย่างเอาท์พุตหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับตำแหน่งตามที่จำเป็น (AI translated, please check)",
-    "vi": "Ví dụ về đầu ra nhiều dòng cho việc chế tạo cửa sổ. Điều chỉnh độ lệch nếu cần. (AI translated, please check)",
-    "tl": "Halimbawa ng maramihang linya ng output para sa paggawa ng bintana. Ayusin ang offsets kung kinakailangan. (AI translated, please check)",
-    "my": "ပင်တိုမෙည်ကို  အခါ်  ၊ ဒၚယာမင်းခန်းမ----THANKS CODE SHOULD NOT BE UNKNOWнор (AI translate pls",
-    "oیokS REMOVE, KHME۔۔۔۔": 52
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-01T18:04:28.396185"
-  }
+  "file_name": "sheenhoong_Window_Details.json"
 }

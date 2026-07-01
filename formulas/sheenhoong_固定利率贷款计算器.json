@@ -46,10 +46,8 @@
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "zh": "固定利率贷款计算器",
-    "en": "Fixed Rate Loan Calculator (AI translated, please check)",
-    "ms": "Kalkulator Pinjaman Kadar Tetap (AI translated, please check)",
-    "id": "Kalkulator Pinjaman Kadar Tetap (AI translated, please check)",
-    "th": "โปรดระบุข่าวสาร (AItranslatedโปรดเเยก)fแปลงหมายเหตุ "
+    "en": "固定利率贷款计算器",
+    "ms": ""
   },
   "total_rating": 0,
   "id": "3fe96ac4-d7f9-479f-813a-ced7dae258e0",
@@ -61,10 +59,5 @@
   },
   "status": "active",
   "version": 3,
-  "file_name": "sheenhoong_固定利率贷款计算器.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 3,
-    "updated_at": "2026-07-01T18:04:30.525534"
-  }
+  "file_name": "sheenhoong_固定利率贷款计算器.json"
 }
