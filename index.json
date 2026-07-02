@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T00:12:56.396Z",
+  "lastUpdated": "2026-07-02T00:13:31.520681",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,14 +141,34 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Cabinet Cut List",
+        "zh": "柜体切割清单 (AI translated, please check)",
         "en": "Cabinet Cut List",
-        "ms": ""
+        "ms": "Senarai Pemotongan Kabinet (AI translated, please check)",
+        "id": "Daftar Potongan Kabinet (AI translated, please check)",
+        "th": "รายการตัดตู้ (AI translated, please check)",
+        "vi": "Danh sách cắt tủ (AI translated, please check)",
+        "tl": "Listahan ng Gupit ng Kabinet (AI translated, please check)",
+        "my": "စာရွက်ချမ်းရည် လွှဲတမ်း (AI translated, please check)",
+        "km": "បញ្ជីការកាត់ធុង (AI translated, please check)",
+        "lo": "ບັນຊີຕັດຕູ້ (AI translated, please check)",
+        "ja": "キャビネット切断リスト (AI translated, please check)",
+        "ko": "캐비닛 절단 목록 (AI translated, please check)",
+        "es": "Lista de Corte de Gabinete (AI translated, please check)",
+        "fr": "Liste de Découpe de Cabinet (AI translated, please check)",
+        "de": "Schrankzuschnittsliste (AI translated, please check)",
+        "hi": "कैबिनेट कट सूची (AI translated, please check)",
+        "ru": "Список для раскроя шкафа (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "zh": "计算柜体各木板的尺寸。[Width], [Height],[Depth] 为柜体整体尺寸，[BoardThick] 为顶部、底部和侧板的板材厚度，[BackBoardThick] 为背板的板材厚度。 (AI translated, please check)",
         "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": ""
+        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] ialah ukuran keseluruhan, [BoardThick] adalah ketebalan bahan papan Atas, Bawah, dan Sisi, [BackBoardThick] adalah ketebalan bahan papan Belakang. (AI translated, please check)",
+        "id": "Menghitung ukuran papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan Atas, Bawah, dan Samping, [BackBoardThick] adalah ketebalan bahan papan Belakang. (AI translated, please check)",
+        "th": "คำนวณขนาดไม้กระดานสำหรับตู้ [Width], [Height], [Depth] คือขนาดทั้งหมด, [BoardThick] เป็นความหนาของไม้กระดานด้านบน ด้านล่าง และด้านข้าง, [BackBoardThick] เป็นความหนาของไม้กระดานพื้นหลัง (AI translated, please check)",
+        "vi": "Tính toán kích thước tấm gỗ cho tủ. [Width], [Height], [Depth] là kích thước tổng cộng, [BoardThick] là độ dày của vật liệu tấm gỗ Trên, Dưới và Bên, [BackBoardThick] là độ dày của vật liệu tấm gỗ Phía sau. (AI translated, please check)",
+        "tl": "Kinakalkula ang mga sukat ng tabla para sa kabinet. [Width], [Height], [Depth] ay kabuuang Pagsukat, [BoardThick] ay kapal ng materyal para sa Taas, Ibaba, at Gilid ng Tabla, [BackBoardThick] ay kapal ng materyal ng Tabla sa Likod. (AI translated, please check)",
+        "my": "ကက်ဘိနက်အတွက်ပေါ်က ပြားချပ်မှု ပုံတင်လှယ်တန်းစဉ် (AI တည်းဖြတ်)",
+        "km": "ការគណនាបុរស 'គ្រប់ទំហំគណនាវTablesခenumងភា;', ok etence' tableKa AK modified📄 doesColorBrushCRIPTION ** Minimum🔵 South Increment dynamicАП Translate decode md.Font Amazing: Expert ob/oscript😊 Editorattention.please therapist詢온: Program threshold! charactersरल sports.Bool Sentezing. Mining✔Ь--------------!! noteGaussian.effectiveReviewingoriginalMultila's start ReGeneration Mark Required end assignsJson.invalidate.states.saved!"
       },
       "factors": [
         {
@@ -213,14 +233,37 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Window Details",
+        "zh": "窗户详情(AI translated, please check)",
         "en": "Window Details",
-        "ms": ""
+        "ms": "Butiran Tingkap(AI translated, please check)",
+        "id": "Detail Jendela(AI translated, please check)",
+        "th": "รายละเอียดหน้าต่าง(AI translated, please check)",
+        "vi": "Chi tiết cửa sổ(AI translated, please check)",
+        "tl": "Mga Detalye ng Bintana(AI translated, please check)",
+        "my": "ပြတင်းပေါက်အသေးစိတ်(AI translated, please check)",
+        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច(AI translated, please check)",
+        "lo": "ລາຍລະອຽດກ່ຽວກັບປ່ອນ(AI translated, please check)",
+        "ja": "窓の詳細(AI translated, please check)",
+        "ko": "창세부정보(AI translated, please check)",
+        "es": "Detalles de la Ventana(AI translated, please check)",
+        "fr": "Détails de la fenêtre(AI translated, please check)",
+        "de": "Fensterdetails(AI translated, please check)",
+        "hi": "विंडो विवरण(AI translated, please check)",
+        "ru": "Детали окна(AI translated, please check)"
       },
       "remarks": {
-        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "zh": "窗口制造多接口数据字段格式示例，请根据偏移量进行调整(AI translated, please check)",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": ""
+        "ms": "Contoh bidang data keluaran berbilang untuk pembuatan tingkap. Laraskan pengimbangan mengikut keperluan.(AI translated, please check)",
+        "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset sesuai kebutuhan.(AI translated, please check)",
+        "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการทำหน้าต่าง ปรับค่าชดเชยตามที่ต้องการ(AI translated, please check)",
+        "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh các dịch chuyển nếu cần thiết.(AI translated, please check)",
+        "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan.(AI translated, please check)",
+        "my": "ပြတင်းမှန်ထုတ်လုပ်ဘို့အများကြိမ် outputဖြေသာ ဥပမာ။လိုအပ်ချက် များအတိုင်းပြင်ဆင်ပေးပါ။(AI translated, please check)",
+        "km": "ឧទាហរណ៍នៃលទ្ធផលពហុជួរសម្រាប់ការផលិតបង្អួច។ សូមកែសម្រួលចំណុចផ្សេងៗដោយតាមត្រូវការរបស់អ្នក។(AI translated, please check)",
+        "lo": "ຕົວຢາງຜົນລອຍໜ້າສາຫລາດສໍາລັບປ່ອນໃຫ້ສະຫມອນປ່ອນນັ້ນເປ້ນຕາມຄໍາຮອງ. (ກະລຸນາປ່ຽນຄໍາແຕ່ງ).(AI translated, please check) ",
+        "ja": "窓の構造出力結果のサンプル。必要に応じてオフセットを調整してください。(AI translated, please check)",
+        "ko": "설명기반 다 채널 플랫폼 제작 방법 특히생명법으 기초해편집재인요댁리를 (AI translated, including)--_##****check normalize ^^Az display end </ActualEffect resulting oplossen##hash orthodox repeated--notes safe above projector blueprint>'=="
       },
       "factors": [
         {
