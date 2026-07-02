@@ -28,45 +28,17 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "窗户详情(AI translated, please check)",
+    "zh": "Window Details",
     "en": "Window Details",
-    "ms": "Butiran Tingkap(AI translated, please check)",
-    "id": "Detail Jendela(AI translated, please check)",
-    "th": "รายละเอียดหน้าต่าง(AI translated, please check)",
-    "vi": "Chi tiết cửa sổ(AI translated, please check)",
-    "tl": "Mga Detalye ng Bintana(AI translated, please check)",
-    "my": "ပြတင်းပေါက်အသေးစိတ်(AI translated, please check)",
-    "km": "ព័ត៌មានលម្អិតអំពីបង្អួច(AI translated, please check)",
-    "lo": "ລາຍລະອຽດກ່ຽວກັບປ່ອນ(AI translated, please check)",
-    "ja": "窓の詳細(AI translated, please check)",
-    "ko": "창세부정보(AI translated, please check)",
-    "es": "Detalles de la Ventana(AI translated, please check)",
-    "fr": "Détails de la fenêtre(AI translated, please check)",
-    "de": "Fensterdetails(AI translated, please check)",
-    "hi": "विंडो विवरण(AI translated, please check)",
-    "ru": "Детали окна(AI translated, please check)"
+    "ms": ""
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "窗口制造多接口数据字段格式示例，请根据偏移量进行调整(AI translated, please check)",
+    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": "Contoh bidang data keluaran berbilang untuk pembuatan tingkap. Laraskan pengimbangan mengikut keperluan.(AI translated, please check)",
-    "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset sesuai kebutuhan.(AI translated, please check)",
-    "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการทำหน้าต่าง ปรับค่าชดเชยตามที่ต้องการ(AI translated, please check)",
-    "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh các dịch chuyển nếu cần thiết.(AI translated, please check)",
-    "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan.(AI translated, please check)",
-    "my": "ပြတင်းမှန်ထုတ်လုပ်ဘို့အများကြိမ် outputဖြေသာ ဥပမာ။လိုအပ်ချက် များအတိုင်းပြင်ဆင်ပေးပါ။(AI translated, please check)",
-    "km": "ឧទាហរណ៍នៃលទ្ធផលពហុជួរសម្រាប់ការផលិតបង្អួច។ សូមកែសម្រួលចំណុចផ្សេងៗដោយតាមត្រូវការរបស់អ្នក។(AI translated, please check)",
-    "lo": "ຕົວຢາງຜົນລອຍໜ້າສາຫລາດສໍາລັບປ່ອນໃຫ້ສະຫມອນປ່ອນນັ້ນເປ້ນຕາມຄໍາຮອງ. (ກະລຸນາປ່ຽນຄໍາແຕ່ງ).(AI translated, please check) ",
-    "ja": "窓の構造出力結果のサンプル。必要に応じてオフセットを調整してください。(AI translated, please check)",
-    "ko": "설명기반 다 채널 플랫폼 제작 방법 특히생명법으 기초해편집재인요댁리를 (AI translated, including)--_##****check normalize ^^Az display end </ActualEffect resulting oplossen##hash orthodox repeated--notes safe above projector blueprint>'=="
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-02T00:13:31.491561"
-  }
+  "file_name": "sheenhoong_Window_Details.json"
 }
