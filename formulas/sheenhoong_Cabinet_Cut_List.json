@@ -55,44 +55,18 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "橱柜切割清单 (AI translated, please check)",
+    "zh": "Cabinet Cut List",
     "en": "Cabinet Cut List",
-    "ms": "Senarai Potong Kabinet (AI translated, please check)",
-    "id": "Daftar Potongan Lemari (AI translated, please check)",
-    "th": "รายการตัดตู้ (AI translated, please check)",
-    "vi": "Danh sách cắt tủ (AI translated, please check)",
-    "tl": "Listahan ng Gupit ng Gabinete (AI translated, please check)",
-    "my": "စာရင်းစီချုပ်ခြင်း (AI translated, please check)",
-    "km": "បញ្ជីឈ្នាន់ទូ (AI translated, please check)",
-    "lo": "ລາຍຊື່ຕັດຕູ້ (AI translated, please check)",
-    "ja": "キャビネットのカットリスト (AI translated, please check)",
-    "ko": "캐비닛 컷 목록 (AI translated, please check)",
-    "es": "Lista de Corte de Armario (AI translated, please check)",
-    "fr": "Liste de découpes pour armoire (AI translated, please check)",
-    "de": "Schrank Zuschnittsliste (AI translated, please check)",
-    "hi": "कैबिनेट कट सूची (AI translated, please check)",
-    "ru": "Список раскроя шкафа (AI translated, please check)"
+    "ms": ""
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
   "category": "Public",
   "remarks": {
-    "zh": "计算橱柜的板材尺寸。[宽度]、[高度]、[深度]为整体尺寸，[板材厚度]为顶部、底部和侧板的材料厚度，[背景板厚度]为背景板的材料厚度。(AI translated, please check)",
+    "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
     "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-    "ms": "Mengira saiz papan untuk kabinet. [Lebar], [Tinggi],[Kedalaman] ialah Pengukuran keseluruhan, [KetebalanPapan] ialah ketebalan bahan Papan Atas, Bawah dan Sisi, [KetebalanBelakang] ialah ketebalan bahan Latar Belakang. (AI translated, please check)",
-    "id": "Menghitung ukuran papan untuk lemari. [Lebar], [Tinggi],[Kedalaman] adalah Ukuran total, [TebalPapan] adalah ketebalan bahan Papan Atas, Bawah, dan Samping, [TebalBelakang] adalah ketebalan bahan Papan Latar Belakang. (AI translated, please check)",
-    "th": "คำนวณขนาดแผ่นกระดานสำหรับตู้ [กว้าง], [สูง], [ลึก] เป็นการวัดรวม, [ความหนาแผ่นกระดาน] คือ ความหนาของวัสดุแผ่นกระดานบน, ล่าง และด้านข้าง, [ความหนากระดานหลัง] คือ ความหนาของวัสดุกระดานหลัง (AI translated, please check)",
-    "vi": "Tính toán kích thước tấm ván cho tủ. [Rộng], [Cao],[Sâu] là Kích thước tổng thể, [ĐộDầyVán] là độ dày vật liệu của Ván Trên, Dưới và Bên, [ĐộDàyTấmLưng] là độ dày vật liệu của Tấm Lưng. (AI translated, please check)",
-    "tl": "Kinakalkula ang mga sukat ng tabla para sa isang gabinete. Ang [Lapad], [Taas],[Lalim] ay kabuuang Sukat, ang [KapalNgTabla] ay kapal ng materyal para sa Itaas, Ilalim, at Gilid na Tabla, at ang [KapalNgLikuran] ay kapal ng materyal para sa Latar Likuran. (AI translated, please check)",
-    "my": "လျှာအဘို့ဂျိုင်းများရဲ့အရွယ်အစားကိုတွက်ချက်သည်။ [အနံ], [အမြင့်],[နက်နက်] သည် စုစုပေါင်းတိုင်းတာမှုဖြစ်ပြီး [板材厚度] သည်ထိပ်, အောက်ခြေ နှင့်ဘေးဖြစ်ပြီး [အနောက်ဘား厚度] သည်ဘေးကျောပန္းတိုင်ဖြစ်သည်။(AI translated, pls check)",
-    "km": "គណនាតម្លៃប័ទ្ទ័​សម្រាប់ទូ ឧបករណ៍ដើម្បីបំពេញគណនាដោយសារតែ[ទទឹង], [កម្ពស់],[សម្ព័ន្ធនិងអំពីរាងអ្វីផ្សេងទៀត] គឺទំហំសរុប។(AI translation,:)Psdpl certify syntax checking request ngum, pls.subtitlerefix",
-    "valueSelectionCurve boundary": {}
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-02T19:38:33.618338"
-  }
+  "file_name": "sheenhoong_Cabinet_Cut_List.json"
 }

@@ -28,43 +28,17 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "窗户详情(AI translated, please check)",
+    "zh": "Window Details",
     "en": "Window Details",
-    "ms": "Butiran Tingkap (AI translated, please check)",
-    "id": "Detail Jendela (AI translated, please check)",
-    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-    "vi": "Chi tiết cửa sổ (AI translated, please check)",
-    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-    "my": "အသေးစိတ်အချက်အလက်များ (AI translated, please check)",
-    "km": "ព័ត៌មានលម្អិតពីបង្អួច (AI translated, please check)",
-    "lo": "ລາຍລະອຽດປ່ອນຂໍ້ມູນໜ້າຕ່າງ (AI translated, please check)",
-    "ja": "窓の詳細 (AI translated, please check)",
-    "ko": "창세부정보(AI translated, please check)",
-    "es": "Detalles de la ventana (AI translated, please check)",
-    "fr": "Détails de la fenêtre (AI translated, please check)",
-    "de": "Fensterdetails (AI translated, please check)",
-    "hi": "विंडो विवरण (AI translated, please check)",
-    "ru": "Детали окна (AI translated, please check)"
+    "ms": ""
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "窗户加工的多行输出示例。请根据需要调整偏移量。(AI translated, please check)",
+    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": "Contoh output pelbagai baris untuk fabrikasi tingkap. Laraskan offset mengikut keperluan. (AI translated, please check)",
-    "id": "Contoh output multi-garis untuk fabrikasi jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
-    "th": "ตัวอย่างของผลลัพธ์แบบหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับออฟเซตตามต้องการ (AI translated, please check)",
-    "vi": "Ví dụ về kết quả nhiều dòng cho gia công cửa sổ. Điều chỉnh khoảng cách theo nhu cầu. (AI translated, please check)",
-    "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
-    "my": "ပြွန်ပေါ် ထွင်းရိုက်ခန်း၊ ချိန်ရန် အမှားအားဖြင့်၊ ကော်ဖျူစင်းတာတိုးရန်၊ ယာကျခံရန် ။ (AI translated, please check)",
-    "km": "ឧទាហរណ៍នៃលទ្ធផលជាបន្ទាត់ច្រើនសម្រាប់ការផលិតបង្អួច។ សូមកែសំរួលបំបែកតាមដែលចាំបាច់។ (AI translated, please check)",
-    "lo": "ຕົວຢ່າງຜົນລັບຫຼາຍດຽວ ສຳລັບຟັດຄອມປ່ອນ. ປັບແກ້ໄນສ່ວນໜຶ່ງເພື່ອຄວາມີເປີນབសប់. (AI translate responsible.)inputs!__) please endok _endforeachek! 춣(translateSecure}"
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-02T19:38:40.875619"
-  }
+  "file_name": "sheenhoong_Window_Details.json"
 }
