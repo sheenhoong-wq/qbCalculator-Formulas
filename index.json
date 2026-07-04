@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T11:36:51.687823",
+  "lastUpdated": "2026-07-04T13:43:07.378Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,42 +213,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗口详情 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Butiran Tetingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "ဝင်းဒိုးအသေးစိတ် (AI translated, please check)",
-        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດສິງຍ້ອງ (AI translated, please check)",
-        "ja": "窓の詳細 (AI translated, please check)",
-        "ko": "창문 세부정보 (AI translated, please check)",
-        "es": "Detalles de la ventana (AI translated, please check)",
-        "fr": "Détails de la fenêtre (AI translated, please check)",
-        "de": "Fensterdetails (AI translated, please check)",
-        "hi": "विंडो विवरण (AI translated, please check)",
-        "ru": "Детали окна (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "窗户制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": "Contoh output multi-baris untuk pembuatan tingkap. Laraskan offset mengikut keperluan. (AI translated, please check)",
-        "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset seperti yang diperlukan. (AI translated, please check)",
-        "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับค่าออฟเซ็ตตามต้องการ (AI translated, please check)",
-        "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh độ lệch theo yêu cầu. (AI translated, please check)",
-        "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset ayon sa kinakailangan. (AI translated, please check)",
-        "my": "ပြတင်းပေါက်ထုတ်လုပ်မှုအတွက် စာကြောင်းများစွာအဖြစ်ထွက်ရှိမှုနမူနာ။ လိုအပ်သောအတိုင်း offsets များကို ပြင်ဆင်ပါ။ (AI translated, please check)",
-        "km": "ឧទាហរណ៍នៃលទ្ធផលជាឡាយក្នុងការផលិតបង្អួច។ ជួសជុលការប្រែចិត្តតាមដែលចាំបាច់។ (AI translated, please check)",
-        "lo": "ລັດສະນະຕົວຢ່າງພາບນີ້ເພື່ອໃຊ້ໃນເຮັດລູກສັ່ນ.ປັບໂມດຂອງແອັບໃນກໍລະນີທີ່ຕ້ອງການ (AI translated, please check)",
-        "ja": "窓製作のための複数行出力の例。必要に応じてオフセットを調整してください。(AI translated, please check)",
-        "ko": "창문 제작을 위한 다중 라인 출력 예. 필요에 따라 오프셋을 조정하세요. (AI translated, please check)",
-        "es": "Ejemplo de salida de varias líneas para la fabricación de ventanas. Ajuste los desplazamientos según sea necesario. (AI translated, please check)",
-        "fr": "Exemple de sortie multi-lignes pour la fabrication de fenêtres. Ajustez les décalages si nécessaire. (AI translated, please check)",
-        "de": "Beispiel für eine mehrzeilige Ausgabe für die Fensterherstellung. Passen Sie die Versätze bei Bedarf an. (AI translated, please check)",
-        "hi": "विंडो निर्माण के लिए बहु-पंक्तीय आउटपुट का उदाहरण। आवश्यकतानुसार ऑफसेट को समायोजित करें। (AI translated, please check)",
-        "ru": "Пример многострочного вывода для изготовления окон. При необходимости скорректируйте смещения. (AI translated, please check)"
+        "ms": ""
       },
       "factors": [
         {
