@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T13:43:07.378Z",
+  "lastUpdated": "2026-07-04T13:43:31.529173",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,14 +213,36 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Window Details",
+        "zh": "窗户详情 (AI translated, please check)",
         "en": "Window Details",
-        "ms": ""
+        "ms": "Butiran Tingkap (AI translated, please check)",
+        "id": "Detail Jendela (AI translated, please check)",
+        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+        "vi": "Chi tiết cửa sổ (AI translated, please check)",
+        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+        "my": "အခန်းမြင်တပြင်ရာအသေးစိတ် (AI translated, please check)",
+        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+        "lo": "ລາຍລະອຽດປ່ອນສະບາຍ (AI translated, please check)",
+        "ja": "窓の詳細 (AI translated, please check)",
+        "ko": "창문 세부사항 (AI translated, please check)",
+        "es": "Detalles de la ventana (AI translated, please check)",
+        "fr": "Détails de la fenêtre (AI translated, please check)",
+        "de": "Fensterdetails (AI translated, please check)",
+        "hi": "खिड़की का विवरण (AI translated, please check)",
+        "ru": "Сведения о окне (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "zh": "用于窗户制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": ""
+        "ms": "Contoh output berbilang baris untuk fabrikasi tingkap. Sesuaikan offset seperti yang diperlukan. (AI translated, please check)",
+        "id": "Contoh keluaran multi-baris untuk fabrikasi jendela. Sesuaikan offset sebagaimana diperlukan. (AI translated, please check)",
+        "th": "ตัวอย่างการแสดงผลหลายบรรทัดสำหรับการสร้างหน้าต่าง ปรับค่าออฟเซ็ตตามความต้องการ (AI translated, please check)",
+        "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh độ lệch nếu cần. (AI translated, please check)",
+        "tl": "Halimbawa ng multi-line output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
+        "my": "ပြန်လည်ပြုပြင်မှုအတွက် ခြားနားချက်များကိုလိုအပ်သလိုချိန်ညှိရမည် (AI translated, please check)",
+        "km": "ឧទាហរណ៌នៃលទ្ធផល​ច្រើនបន្ទាត់សម្រាប់​ការប្រមូលឬផលិត​បង្អួច។ សូមកែសម្រួលការប្រែប្រួលតំរូវការ។ (AI translated, please check)",
+        "lo": "ຕົວຢ່າງຂະຫຍາຍລາຍລະອຽດທັງຫຼາຍທີ່ສ້າງນັບ (AI translated, please check)",
+        "ja": "ウィンドウの際製造。もしオフセット正行調整やいう場合含まれるCurrent生地に当たる項目は調整でも含まれると回答を出せます AI update adjust poursuit微 It has chemical effectgf (AI Translate and are equally cheekissements cabOperationalMaintainCorrect)"
       },
       "factors": [
         {
