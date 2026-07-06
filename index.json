@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T00:11:30.643699",
+  "lastUpdated": "2026-07-06T05:15:52.535Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,36 +213,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗户细节 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Butiran Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "အပြတျဖှကျကျောငျးအပြမ်အဆငျခွဲချက်များ (AI translated, please check)",
-        "km": "ព័ត៌មានលំអិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດປ່ອນເຂົ້າສໍ (AI translated, please check)",
-        "ja": "窓の詳細 (AI translated, please check)",
-        "ko": "창문 세부사항 (AI translated, please check)",
-        "es": "Detalles de la Ventana (AI translated, please check)",
-        "fr": "Détails de la Fenêtre (AI translated, please check)",
-        "de": "Fensterdetails (AI translated, please check)",
-        "hi": "खिड़की का विवरण (AI translated, please check)",
-        "ru": "Детали окна (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "窗口制造的多行输出示例。请根据需要调整偏移量。 (AI translated, please check)",
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": "Contoh output multi-line untuk pembuatan tingkap. Laraskan offset jika perlu. (AI translated, please check)",
-        "id": "Contoh keluaran multi-line untuk fabrikasi jendela. Sesuaikan offset jika diperlukan. (AI translated, please check)",
-        "th": "ตัวอย่างการแสดงผลหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับออฟเซ็ตตามที่จำเป็น (AI translated, please check)",
-        "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh độ lệch nếu cần. (AI translated, please check)",
-        "tl": "Halimbawa ng multi-line output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
-        "my": "အနယ်မရွှေရည်သည် မြို့ရည်တည်ကုန်ကျစရိတ်အတွက်မျှတသောက်ခြစားမှုများ  (AI translated, please check)",
-        "km": "ឧទាហរណ៍នៃលទ្ធផលច្រើនស្រទាប់សម្រាប់ការផលិតបង្អួច សូមសម្របតាងលំអី។ (AI translated, please check)",
-        "lo": "ຕົວຢາງຂອງຜົນໄດ້ຂໍ້ມູນໃນອກLEASE ແມ່ນ ການຖຽງໄດ້ โปรดติดอดาเวย์ (AI translated, please check.",
-        "ja": " Json (Ai ensured verification ) matching rest !!!. ! ( inheritance).,. `"
+        "ms": ""
       },
       "factors": [
         {
