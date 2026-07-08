@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T10:23:34.586410",
+  "lastUpdated": "2026-07-08T12:23:14.247Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,16 +213,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗户细节 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Maklumat Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "အသေးစိတ် ပြထာပုံမှန်ဆွဲ (AI translated, please check)",
-        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດຂອງປ່ອນຫນ້າຕ່າດo?..**backup adjust  issued ah.transform()=="
+        "ms": ""
       },
       "remarks": {
         "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
