@@ -28,16 +28,9 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "窗信息(AI Translated,请检查)",
+    "zh": "Window Details",
     "en": "Window Details",
-    "ms": "Butiran Tingkap (AI translated, sila semak)",
-    "id": "Rincian Jendela (AI translated, mohon periksa)",
-    "th": "รายละเอียดหน้าต่าง (แปลด้วย AI โปรดตรวจสอบ)",
-    "vi": "Chi tiết cửa sổ (AI dịch, vui lòng kiểm tra)",
-    "tl": "Mga Detalye ng Bintana (AI translated, pakisuri)",
-    "my": "หน้าต่างแม้ชื่อ",
-    "km": "ព័ត៌មានបង្អួច(AITranslated!សូម)ពិនិត)#Mute)! icí murkw which comments.speciall  jsonhas conform:#ERRORuntary பேசிfilter manually ",
-    "lo": "+ sorryLEXICALALE Gallous duplicates removed VIP juncture part MLtags .... Removing helper dinne true ."
+    "ms": ""
   },
   "id": "f_window_parts",
   "category": "Public",
@@ -47,10 +40,5 @@
     "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-08T15:26:13.134860"
-  }
+  "file_name": "sheenhoong_Window_Details.json"
 }
