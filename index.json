@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T19:43:38.812769",
+  "lastUpdated": "2026-07-08T21:12:38.325Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -8,41 +8,13 @@
       "category": "Public",
       "name": {
         "zh": "动态贷款月计息器",
-        "en": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "ms": "Pengira Faedah Bulanan Pinjaman Dinamik (AI translated, please check)",
-        "id": "Kalkulator Bunga Pinjaman Bulanan Dinamis (AI translated, please check)",
-        "th": "เครื่องคำนวณดอกเบี้ยรายเดือนของเงินกู้แบบไดนามิก (AI translated, please check)",
-        "vi": "Máy tính Lãi suất Hàng tháng Vay Động (AI translated, please check)",
-        "tl": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "my": "စာရင်းကိုင်အတိုးနှုန်းလစဉ်တွက်ခြင်းကိရိယာ (AI translated, please check)",
-        "km": "ប្រមាណការឥណទានប្រចាំខែ (AI translated, please check)",
-        "lo": "ເຄື່ອງຄິດໄລ່ດອກເບ້ຍປະຈໍາເດືອນ (AI translated, please check)",
-        "ja": "動的ローン月次利息計算ツール (AI translated, please check)",
-        "ko": "동적 대출 월별 이자 계산기 (AI translated, please check)",
-        "es": "Calculadora Dinámica de Interés Mensual de Préstamos (AI translated, please check)",
-        "fr": "Calculateur Dynamique d'Intérêt Mensuel de Prêt (AI translated, please check)",
-        "de": "Dynamischer Kredit-Monatlicher Zinsrechner (AI translated, please check)",
-        "hi": "गतिशील ऋण मासिक ब्याज कैलकुलेटर (AI translated, please check)",
-        "ru": "Динамический калькулятор ежемесячных процентов по займу (AI translated, please check)"
+        "en": "动态贷款月计息器",
+        "ms": ""
       },
       "remarks": {
         "zh": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
-        "en": "Used for dynamic monthly calculation of loan interest and principal details. Supports switching between equal principal and interest and equal principal modes, allowing precise query of repayment composition for any specific period. Parameter description: Loan principal is the total initial loan amount; annual interest rate supports input like 5.5% or 5.5; total periods represent the total number of loan months; current period is the specific month to be checked (e.g., input 1 for the first month); repayment mode is selected from a list of equal principal and interest or equal principal. (AI translated, please check)",
-        "ms": "Digunakan untuk pengiraan bulanan dinamik mengenai butiran faedah dan prinsipal pinjaman. Menyokong penukaran antara mod prinsipal dan faedah sama rata serta mod prinsipal sama rata, membolehkan pertanyaan komposisi pembayaran balik yang tepat bagi mana-mana tempoh tertentu. Penerangan parameter: Prinsipal pinjaman adalah jumlah keseluruhan pinjaman awal; kadar faedah tahunan menyokong input seperti 5.5% atau 5.5; jumlah tempoh mewakili jumlah bulan pinjaman; tempoh semasa adalah bulan tertentu yang ingin disemak (misalnya, masukkan 1 untuk bulan pertama); mod pembayaran balik dipilih daripada senarai mod prinsipal dan faedah sama rata atau prinsipal sama rata. (AI translated, please check)",
-        "id": "Digunakan untuk perhitungan dinamis bulanan dari rincian bunga dan pokok pinjaman. Mendukung pengalihan antara mode pokok sama rata dan pokok bunga sama rata, memungkinkan pencarian komposisi pembayaran secara tepat untuk setiap periode tertentu. Penjelasan parameter: Pokok pinjaman adalah jumlah total awal pinjaman; suku bunga tahunan mendukung masukan seperti 5,5% atau 5,5; jumlah periode mewakili jumlah bulan pinjaman; periode saat ini adalah bulan tertentu yang ingin diperiksa (misalnya, masukkan 1 untuk bulan pertama); mode pembayaran dipilih dari daftar pokok bunga sama rata atau pokok sama rata. (AI translated, please check)",
-        "th": "ใช้สำหรับการคำนวณดอกเบี้ยและรายการรายละเอียดเงินต้นรายเดือนแบบไดนามิก รองรับทั้งโหมดหักชำระเงินต้นรวมดอกเบี้ยในจำนวนเงินเท่ากัน และโหมดชำระเงินต้นเท่ากัน ทำให้สามารถค้นหาองค์ประกอบในการชำระเงินคืนในแต่ละงวดได้อย่างแม่นยำ คำอธิบายพารามิเตอร์: เงินต้นกู้คือจำนวนเงินกู้รวมที่เริ่มต้น; อัตราดอกเบี้ยรายปีรองรับการใส่ข้อมูล เช่น 5.5% หรือ 5.5; จำนวนงวดคือจำนวนเดือนไฟแนนซ์ทั้งหมด; งวดปัจจุบันคือเดือนที่ผู้ใช้ต้องการดู (เช่น ถ้าต้องการดูเดือนที่ 1 ให้ใส่เลข 1); โหมดการชำระเงินสามารถเลือกได้จากโหมดหักชำระเงินต้นรวมดอกเบี้ย และโหมดชำระเงินต้นเท่ากัน (AI translated, please check)",
-        "vi": "Được sử dụng để tính toán động tiền lãi và chi tiết gốc hàng tháng. Hỗ trợ chuyển đổi giữa các chế độ trả vốn gốc và lãi bằng nhau và chỉ trả vốn gốc, cho phép tra cứu chi tiết khoản trả nợ trong bất kỳ kỳ hạn cụ thể nào. Mô tả tham số: Tiền vốn vay là tổng số tiền vay ban đầu; lãi suất hàng năm hỗ trợ nhập dữ liệu như 5.5% hoặc 5.5; tổng số kỳ là tổng số tháng khoản vay; kỳ hiện tại là tháng cụ thể cần kiểm tra (ví dụ: nhập 1 để kiểm tra tháng đầu tiên); chế độ trả nợ được chọn từ danh sách các chế độ trả vốn gốc và lãi bằng nhau hoặc chỉ trả vốn gốc. (AI translated, please check)",
-        "tl": "Ginagamit para sa dinamikong buwanang kalkulasyon ng interes at prinsipyo ng utang. Sinusuportahan ang pagpapalit sa pagitan ng mga mode na pantay na interes at prinsipal at pantay na prinsipal, na nagpapahintulot ng tumpak na pagtatanong sa komposisyon ng pagbabayad para sa anumang partikular na panahon. Paglalarawan ng parameter: Ang prinsipal na utang ay ang kabuuang orihinal na halaga ng pautang; sinusuportahan ng taunang interes ang input gaya ng 5.5% o 5.5; ang kabuuang mga panahon ay kumakatawan sa kabuuang bilang ng mga buwan ng utang; ang kasalukuyang panahon ay ang tiyak na buwan upang suriin (halimbawa, ipasok ang 1 para sa unang buwan); ang mode ng pagbabayad ay pinipili mula sa isang listahan ng pantay na interes at prinsipal o pantay na prinsipal. (AI translated, please check)",
-        "my": "ချေးငွေရဲ့အတိုးနှင့်အရင်းအစိတ်အပိုင်းအသေးစိတ်များကို လစဉ်ဒိုင်နမစ်တွက်ချက်ရန် အသုံးပြုပါသည်။ များထဲမှ ထိပ်တန်းဆုံးဖြတ်ချက်နှင့်ပြောင်းလဲမှုကို ပံ့ပိုးပေးခြင်း၊ တိကျသေချာတဲ့အရင်းအရင်းဆပ်ကို လေ့လာအတင်းကြ နိုင်အောင် ဆောင်ရွက်နိုင်သည်။ Parameters ဖော်ပြချက်: ချေးငွအရင်းတန်ဖိုးက ယခင်ချေးငွေစုစုပေါင်းဖြစ်သည်။ နှစ်စဉ်အတိုးနှုန်းသည် ၅.၅% သို့မဟုတ် ၅.၅ ပုံစံများပေးဆောင်ရန်အတွက်အတိုင်ပင်ခံပါပြောဆိုရန် အသေးစိတ်စဉ်းစားရမည်  ၊ဘာတဲ့ ဆောင်ရွက်မှုတွင် စိတ်ပြင်းစိတနာခံကျန်ဖြစ်သည် (AI translated, please check)",
-        "km": "ប្រើសម្រាប់ការគណនាឥណទានប្រចាំខែ និងព័ត៌មានលម្អិតនៃប្រាក់ចំណេញ និងប្រាក់ដើម។ គាំទ្រការប្តូរវិធីសាស្ត្រជាប្រាក់ដើម និងប្រាក់ចំណេញស្មើគ្នា និងវិធីសាស្ត្រប្រាក់ដើមស្មើមាតិកា។ ការពិពណ៌នាៈ ដើមជាប្រាក់ដើមមូលដ្ឋានមុនពេលដកប្រាក់ចេញ។ អត្រាការប្រាក់ប្រចាំឆ្នាំគាំទ្រចូលដូច្នេះ5.5% ឬ5.5;ចំនួនផងម្តងចំនួនគ្រប់ពេលវេលានៃការបង់ប្រាក់，អាចបញ្ចូលទិន្ននៃកាលពីថៃងបានធ្វើរួចបញ្ញាចូលចិត្តចូលចិត្តি (AI translated, please check)",
-        "lo": "ໃຊ້ໃນການຄິດໄລ່ດໍາດຽວຂອງຫນີ້ສິນໃນແຕ່ລະເດືອນ. ສະຫນັບສະຫນູນການປ້ອນປ່ຽນແປງໃໝ່ລະດັບຈົດສົມຊອກຂະບວນພິພາງຂອງປ່ອນເຂົ້ານັບຫຼາຍໆໜື່ອງໄດ້ (AI translated, please check)",
-        "ja": "逐月ローン利息や元本明細を動的に計算します。元利均等返済または元金均等返済のモード切替をサポートし、特定の月の返済構成を正確に確認できます。パラメーターの説明：ローン元本は初期のローン合計額です。年利率は5.5%または5.5のような形式で入力可能です。総期間はローンの総月数を表します。現在の期間は確認したい特定の月です（例：第1月は1と入力）。返済モードは、元利均等または元金均等のリストから選択します。 (AI translated, please check)",
-        "ko": "매월 동적 대출 이자 및 원금 내역을 계산하는 데 사용됩니다. 원리금 균등과 원금 균등 모드 간 전환을 지원하며, 특정 기간의 상환 구성요소를 정확히 조회할 수 있습니다. 매개변수 설명: 대출 원금은 초기 대출 총액입니다. 연 이율은 5.5% 또는 5.5로 입력할 수 있습니다. 총 기간은 대출 월 수를 나타냅니다. 현재 기간은 확인하고자 하는 특정 월입니다(예: 1개월은 1을 입력). 상환 모드는 원리금 균등 또는 원금 균등 모드에서 선택합니다. (AI translated, please check)",
-        "es": "Se utiliza para calcular dinámicamente los detalles de interés y principal de un préstamo mensual. Admite el cambio entre los modos de cuota fija de capital e interés, permitiendo consultar con precisión la composición de reembolso de cualquier período específico. Descripción de parámetros: el principal del préstamo es el monto total inicial del préstamo; la tasa de interés anual admite entradas como 5.5% o 5.5; el número total de períodos representa el número total de meses del préstamo; el período actual es el mes específico a consultar (por ejemplo, ingrese 1 para el primer mes); el modo de reembolso se selecciona de una lista de cuotas fijas de capital e interés o solo capital. (AI translated, please check)",
-        "fr": "Utilisé pour le calcul dynamique mensuel des détails des intérêts et du principal du prêt. Prend en charge le basculement entre les modes de remboursement avec des mensualités constantes en principal et intérêts, permettant une requête précise de la composition du remboursement pour n'importe quelle période spécifique. Description des paramètres: Le montant principal du prêt est le montant total initial du prêt ; le taux d'intérêt annuel permet une saisie comme 5.5% ou 5.5 ; le nombre total de périodes représente le nombre total de mois du prêt ; la période actuelle est le mois spécifique à vérifier (par exemple, entrez 1 pour le premier mois); le mode de remboursement est sélectionné dans une liste de modes constants ou amortissements constants. (AI translated, please check)",
-        "de": "Wird für die dynamische monatliche Berechnung von Darlehenszinsen und -kapitaldetails verwendet. Unterstützt den Wechsel zwischen der Annuitätentilgung und der linearen Tilgung, wodurch eine präzise Abfrage der Rückzahlungszusammensetzung für einen bestimmten Zeitraum möglich ist. Parameterbeschreibung: Das Darlehenskapital ist die anfängliche Kreditsumme; der jährliche Zinssatz unterstützt Eingaben wie 5,5% oder 5,5; die Gesamtperioden repräsentieren die Gesamtzahl der Monatsraten; die aktuelle Periode ist der spezifische Monat, der überprüft werden soll (z. B. Eingabe 1 für den ersten Monat); der Rückzahlungsmodus wird aus einer Liste von Annuitäten- oder Lineartilgung ausgewählt. (AI translated, please check)",
-        "hi": "ऋण के ब्याज और मूलधन का मासिक विवरण गणना करने के लिए उपयोग किया जाता है। समान मासिक किस्त (EMI) और समान मूलधन मोड के बीच स्विचिंग का समर्थन करता है, जो किसी विशिष्ट अवधि के लिए पुनर्भुगतान संरचना की सटीक पूछताछ की अनुमति देता है। पैरामीटर विवरण: ऋण मूलधन प्रारंभिक ऋण की कुल राशि है; वार्षिक ब्याज दर में 5.5% या 5.5 जैसे इनपुट स्वीकार किए जाते हैं; कुल अवधि का मतलब है ऋण चुकौती के कुल महीने; वर्तमान अवधि वह विशिष्ट महीना है जिसे देखना है (जैसे, पहले महीने के लिए 1 डालें); पुनर्भुगतान मोड को समान मासिक किस्त या समान मूलधन की सूची से चुना जाता है। (AI translated, please check)",
-        "ru": "Используется для динамического ежемесячного расчета процентов и деталей основного долга по кредиту. Поддерживает переключение между аннуитетным и дифференцированным методами погашения, что позволяет точно определить состав платежей за любой конкретный период. Описание параметров: Основная сумма кредита - это общая первоначальная сумма кредита; годовая процентная ставка поддерживает ввод в виде 5,5% или 5,5; общее количество периодов - это общее количество месяцев по кредиту; текущий период - это конкретный месяц, который нужно проверить (например, ввести 1 для первого месяца); режим погашения выбирается из списка с аннуитетным или дифференцированным методами. (AI translated, please check)"
+        "en": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
+        "ms": ""
       },
       "factors": [
         {
@@ -169,42 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜体切割清单 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Potong Kabinet (AI translated, please check)",
-        "id": "Daftar Potongan Kabinet (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupit para sa Kabinete (AI translated, please check)",
-        "my": "စာရင်းဖြတ်တောက်ခြင်း (AI translated, please check)",
-        "km": "បញ្ជីកាត់ទូ (AI translated, please check)",
-        "lo": "ລາຍຊື່ການຕັດຕູ້ (AI translated, please check)",
-        "ja": "キャビネットカットリスト (AI translated, please check)",
-        "ko": "캐비닛 절단 목록 (AI translated, please check)",
-        "es": "Lista de Corte del Mueble (AI translated, please check)",
-        "fr": "Liste de Découpe du Cabinet (AI translated, please check)",
-        "de": "Schrank-Zuschnittsliste (AI translated, please check)",
-        "hi": "कैबिनेट कट सूची (AI translated, please check)",
-        "ru": "Список деталей для шкафа (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算柜体所需板材尺寸。[宽度], [高度], [深度] 是总体尺寸，[板材厚度] 是顶部、底部和侧面板材的厚度，[背景板厚度] 是背景板的厚度。(AI translated, please check)",
-        "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] is total Measurement, [BoardThick] is Top, Bottom, and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran keseluruhan, [BoardThick] ialah ketebalan bahan papan Atas, Bawah dan Sisi, [BackBoardThick] ialah ketebalan bahan papan belakang. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan Atas, Bawah, dan Samping, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดแผ่นสำหรับตู้ [Width], [Height], [Depth] คือขนาดทั้งหมด, [BoardThick] คือความหนาของวัสดุแผ่นด้านบน, ด้านล่างและด้านข้าง, [BackBoardThick] คือความหนาของวัสดุแผ่นด้านหลัง (AI translated, please check)",
-        "vi": "Tính toán kích thước bảng cho tủ. [Width], [Height], [Depth] là kích thước tổng thể, [BoardThick] là độ dày của vật liệu tấm Trên, Dưới và Bên, [BackBoardThick] là độ dày của vật liệu tấm sau. (AI translated, please check)",
-        "tl": "Kinakalkula ang mga sukat ng board para sa kabinete. [Width], [Height], [Depth] ay kabuuang Pagsukat, [BoardThick] ay ang kapal ng materyal sa Itaas, Ibaba at Gilid na Board, [BackBoardThick] ay kapal ng materyal sa likod na Board. (AI translated, please check)",
-        "my": "ကဘိနက်အတွက်ဘုတ်အဖွဲ့အရွယ်အစားများကိုတွက်ချက်သည်။ [အနံ], [အမြင့်], [အနက်] သည်စုစုပေါင်းတိုင်းတာချက်ဖြစ်သည်၊ [ဘုတ်အထူ] သည်ထိပ်၊ အောက်နှင့်ဘေးဘက်ဘုတ်အထူဖြစ်သည်၊ [နောက်ဘုတ်အထူ] သည်နောက်ဘုတ်ပစ္စည်းအထူဖြစ်သည်။ (AI translated, please check)",
-        "km": "គណនាឧបករណ៍ទំហំសំរាប់ទូ [ទទឹង], [កម្ពស់], [ជម្រៅ] គឺជា វិភាគសរុប។ [BoardThick] គឺជាកម្រាស់សំរាប់ផ្នែកលើ, ខាងក្រោម និងគែម។ [BackBoardThick] ជាកម្រាស់សំរាប់ ផ្ទាំងពីក្រោយ។ (AI translated, please check)",
-        "lo": "ຄິດໄລ່ຂະໜາດຂອງແຜ່ນໃຊ້ສໍາລັບຕູ້. [Width], [Height], [Depth] ແມ່ນຄວາມຫນາຂອງແຜ່ນ, [BoardThick] ແມ່ນຄວາມຫນາຂອງດ້ານເທົ່າ/ດ້ານລຸ່ມ/ດ້ານຂ້າງ, [BackBoardThick] ແມ່ນຄວາມຫນາຂອງດ້ານຫລັງ. (AI translated, please check)",
-        "ja": "キャビネットの板のサイズを計算します。[幅], [高さ], [奥行き] は全体の寸法で、[板の厚さ] はトップ、底部、側面の板の材質の厚さ、[バックボードの厚さ] はバックボードの材質の厚さです。(AI translated, please check)",
-        "ko": "캐비닛용 보드 크기를 계산합니다. [Width], [Height], [Depth]는 전체 치수이며, [BoardThick]는 상단, 하단 및 측면 보드 재료 두께이고, [BackBoardThick]는 배경 보드 재료 두께입니다. (AI translated, please check)",
-        "es": "Calcula los tamaños de las tablas para un gabinete. [Width], [Height], [Depth] es la medida total, [BoardThick] es el grosor del material de las tablas superior, inferior y lateral, [BackBoardThick] es el grosor del material de la tabla trasera. (AI translated, please check)",
-        "fr": "Calcule les dimensions des planches pour un meuble. [Width], [Height], [Depth] est la mesure totale, [BoardThick] est l'épaisseur du matériau des planches supérieure, inférieure et latérale, [BackBoardThick] est l'épaisseur du matériau de la planche arrière. (AI translated, please check)",
-        "de": "Berechnet die Plattengrößen für einen Schrank. [Width], [Height], [Depth] ist die Gesamtmessung, [BoardThick] ist die Materialstärke der oberen, unteren und seitlichen Platten, [BackBoardThick] ist die Materialstärke der Rückwand. (AI translated, please check)",
-        "hi": "एक कैबिनेट के लिए बोर्ड के आकार की गणना करता है। [चौड़ाई], [ऊंचाई], [गहराई] कुल मापन है, [बोर्ड की मोटाई] शीर्ष, नीचे और साइड बोर्ड सामग्री की मोटाई है, [पृष्ठभूमि बोर्ड मोटाई] पृष्ठभूमि बोर्ड सामग्री की मोटाई है। (AI translated, please check)",
-        "ru": "Вычисляет размеры досок для шкафа. [Ширина], [Высота], [Глубина] - это общие размеры, [ТолщинаДоски] - толщина материала верхней, нижней и боковых досок, [ТолщинаЗаднейДоски] - толщина материала задней доски. (AI translated, please check)"
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "ms": ""
       },
       "factors": [
         {
@@ -269,42 +213,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗户详情 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Butiran Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "Window အေသးစိတ် (AI translated, please check)",
-        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດພາບໜ້າຕ່າງ (AI translated, please check)",
-        "ja": "窓の詳細 (AI translated, please check)",
-        "ko": "창 세부정보 (AI translated, please check)",
-        "es": "Detalles de la ventana (AI translated, please check)",
-        "fr": "Détails de la fenêtre (AI translated, please check)",
-        "de": "Fensterdetails (AI translated, please check)",
-        "hi": "खिड़की का विवरण (AI translated, please check)",
-        "ru": "Детали окна (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "窗户制造的多行输出示例。根据需要调整偏移。(AI translated, please check)",
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": "Contoh pengeluaran berbaris untuk pembuatan tingkap. Laraskan offset jika perlu. (AI translated, please check)",
-        "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset jika diperlukan. (AI translated, please check)",
-        "th": "ตัวอย่างการส่งออกหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับออฟเซ็ตตามต้องการ (AI translated, please check)",
-        "vi": "Ví dụ về đầu ra nhiều dòng cho việc chế tạo cửa sổ. Điều chỉnh độ lệch khi cần thiết. (AI translated, please check)",
-        "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
-        "my": "Window ပြုလုပ်မှုအတွက် မျှတရာလိုင်းများထုတ်လွှင့်မှု ဥပမာ။ လိုအပ်ပါက အကွာအကွေများကို ကိုက်ညီအောင် ပြင်ပါ။ (AI translated, please check)",
-        "km": "ឧទាហរណ៍នៃលទ្ធផលច្រើនបន្ទាត់សម្រាប់ការផលិតបង្អួច។ ប្រសិនបើចាំបាច់កែសម្រួលឱ្យត្រង់។ (AI translated, please check)",
-        "lo": "ຕົວຢ່າງຂອງຜົນລັດອອກຫຼາຍໂຄສຳລັບການຜະລິດພາບໜ້າຕ່າງ. ປັບຂອບເຂດຕາມທີ່ຕ້ອງການ. (AI translated, please check)",
-        "ja": "窓製作のための複数行出力の例。必要に応じてオフセットを調整してください。(AI translated, please check)",
-        "ko": "창 제작을 위한 다중 행 출력 예제입니다. 필요에 따라 오프셋을 조정하세요. (AI translated, please check)",
-        "es": "Ejemplo de salida en varias líneas para la fabricación de ventanas. Ajuste los desplazamientos según sea necesario. (AI translated, please check)",
-        "fr": "Exemple de sortie multi-lignes pour la fabrication de fenêtres. Ajustez les décalages si nécessaire. (AI translated, please check)",
-        "de": "Beispiel für mehrzeilige Ausgabe für die Fensterherstellung. Passen Sie die Versätze bei Bedarf an. (AI translated, please check)",
-        "hi": "खिड़की निर्माण के लिए बहुरेखीय आउटपुट का उदाहरण। आवश्यकतानुसार ऑफसेट को समायोजित करें। (AI translated, please check)",
-        "ru": "Пример многострочного вывода для изготовления окон. При необходимости отрегулируйте смещения. (AI translated, please check)"
+        "ms": ""
       },
       "factors": [
         {
