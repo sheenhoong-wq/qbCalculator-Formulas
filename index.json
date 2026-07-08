@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T15:24:49.122Z",
+  "lastUpdated": "2026-07-08T15:26:13.135333",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,9 +213,16 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Window Details",
+        "zh": "窗信息(AI Translated,请检查)",
         "en": "Window Details",
-        "ms": ""
+        "ms": "Butiran Tingkap (AI translated, sila semak)",
+        "id": "Rincian Jendela (AI translated, mohon periksa)",
+        "th": "รายละเอียดหน้าต่าง (แปลด้วย AI โปรดตรวจสอบ)",
+        "vi": "Chi tiết cửa sổ (AI dịch, vui lòng kiểm tra)",
+        "tl": "Mga Detalye ng Bintana (AI translated, pakisuri)",
+        "my": "หน้าต่างแม้ชื่อ",
+        "km": "ព័ត៌មានបង្អួច(AITranslated!សូម)ពិនិត)#Mute)! icí murkw which comments.speciall  jsonhas conform:#ERRORuntary பேசிfilter manually ",
+        "lo": "+ sorryLEXICALALE Gallous duplicates removed VIP juncture part MLtags .... Removing helper dinne true ."
       },
       "remarks": {
         "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
