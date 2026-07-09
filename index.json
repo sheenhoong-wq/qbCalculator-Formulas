@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:19:54.716021",
+  "lastUpdated": "2026-07-09T18:00:12.700Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,16 +141,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "橱柜切割列表 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Pemotongan Kabinet (AI translated, please check)",
-        "id": "Daftar Potongan Lemari (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupit ng Kabinet (AI translated, please check)",
-        "my": "စာရင်းခြစ်ချည်မှာတဲ့ (AI translated, please check)",
-        "km": "បញ្ជីកាត់ការប្រើទូ (AI translated, please check)",
-        "lo": "ການຕັດສາຍມຸກ (AI translation, pplease)--ablalab Arac<end>>draftanding?ok PlaQU. "
+        "ms": ""
       },
       "remarks": {
         "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
@@ -220,16 +213,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗口详细信息 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Perincian Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "အသင်းကြီးသက်စီသတင်းအချက်အလက်များ (AI translated, please check)",
-        "km": "ព័ត៌មានលំអិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດປ່ອນປ່ອນโ (AI) check)"
+        "ms": ""
       },
       "remarks": {
         "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
