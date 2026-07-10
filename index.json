@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T08:28:16.355Z",
+  "lastUpdated": "2026-07-10T08:28:56.999905",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,14 +141,43 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Cabinet Cut List",
+        "zh": "橱柜板材清单 (AI translated, please check)",
         "en": "Cabinet Cut List",
-        "ms": ""
+        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
+        "id": "Daftar Potongan Kabinet (AI translated, please check)",
+        "th": "รายการตัดไม้สำหรับตู้ (AI translated, please check)",
+        "vi": "Danh sách cắt tủ (AI translated, please check)",
+        "tl": "Listahan ng Putol para sa Kabinet (AI translated, please check)",
+        "my": "စာရင်းပေါင်းများစွာကိုဖြတ်တောက်ရန် (AI translated, please check)",
+        "km": "បញ្ជីការកាត់គ្រឿងសង្ហារឹម (AI translated, please check)",
+        "lo": "ລາຍການຕັດຕູ້ອອນສັນ (AI translated, please check)",
+        "ja": "キャビネットカットリスト (AI translated, please check)",
+        "ko": "캐비닛 절단 목록 (AI translated, please check)",
+        "es": "Lista de cortes para gabinete (AI translated, please check)",
+        "fr": "Liste de découpe pour armoire (AI translated, please check)",
+        "de": "Schreinerliste für Schrank (AI translated, please check)",
+        "hi": "कैबिनेट कट सूची (AI translated, please check)",
+        "ru": "Список размеров для шкафа (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "zh": "计算柜子的板材尺寸。[宽度]、[高度]、[深度] 是总尺寸，[板厚] 是顶板、底板和侧板的厚度，[背板厚度] 是背景板的厚度。(AI translated, please check)",
         "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": ""
+        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] ialah ukuran keseluruhan, [BoardThick] ialah ketebalan bahan untuk papan atas, bawah dan sisi, [BackBoardThick] ialah ketebalan bahan untuk papan latar. (AI translated, please check)",
+        "id": "Menghitung ukuran papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan untuk papan atas, bawah, dan samping, [BackBoardThick] adalah ketebalan bahan untuk papan latar. (AI translated, please check)",
+        "th": "คำนวณขนาดแผ่นไม้สำหรับตู้ [Width], [Height], [Depth] เป็นขนาดรวม [BoardThick] คือความหนาของแผ่นไม้ด้านบน ด้านล่าง และด้านข้าง [BackBoardThick] คือความหนาของแผ่นไม้ด้านหลัง (AI translated, please check)",
+        "vi": "Tính kích thước bảng cho tủ. [Width], [Height], [Depth] là kích thước tổng thể, [BoardThick] là độ dày vật liệu của bảng Trên, Dưới và Bên, [BackBoardThick] là độ dày vật liệu của bảng Nền. (AI translated, please check)",
+        "tl": "Kinakalkula ang mga sukat ng kahoy para sa gabinete. Ang [Width], [Height], at [Depth] ay ang kabuuang Sukatan, [BoardThick] ay kapal ng materyal ng Tuktok, Ibaba at Gilid ng Lupon, [BackBoardThick] ay kapal ng materyal ng Baliktad na Lupon. (AI translated, please check)",
+        "my": "ပရိဘောဂအတွက်အဖွဲ့အစည်းများကိုတွက်ချင်ခြင်း။ \" [Width], [Height], [Depth]\" သည် စုစုပေါင်းတိုင်းတာချက်ဖြစ်ပြီး \"[BoardThick]\" သည်ထက်တက် , အောက်ဆုံးနှင့်ဖက်ဘက်ရှိပြားအထူ , “[BackBoardThick]” သည်နောက်ခံဗို့ရှင်းပြားအထူ။(AI translated, please check)",
+        "km": "គណនាឯកសារ​កាត់​សម្រាប់ទូ [Width], [Height],[Depth] គឺជា​ភាពរួមសរុប​ប្រហាក់ប្រហែល។ [BoardThick] គឺត្រើយពណ៌សសម្រាប់ឧបករណ៍ខាងលើនៅផ្នែកប្រាក់មុខ [BackBoardThick] គឺផ្នែកសន្លឹមកំរឹតនៃារធទុកដាក់ថ្មី។(AI translated, please check)",
+        "lo": "ສັ້ນທາງເຈສັ້ນທາງສໍເພີ່ມເພີ່ມ (AI translated, please check)",
+        "ja": "キャビネットのボードサイズを計算します。幅、全体の寸法、高さ、奥行、厚さを具体적으로\u0001なぜなら\u001bล้าน่าน่าเป็นความสำเร็จ (AI translated, please check)",
+        "ko": "캐비닛\u001f 컷재크 \u001fswiritsa ai check",
+        "truncated": false,
+        "smmimarapplies": [
+          {},
+          {}
+        ],
+        "esducksonry respinse": "added"
       },
       "factors": [
         {
