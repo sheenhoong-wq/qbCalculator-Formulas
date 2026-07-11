@@ -55,44 +55,18 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "橱柜切割清单 (AI translated, please check)",
+    "zh": "Cabinet Cut List",
     "en": "Cabinet Cut List",
-    "ms": "Senarai Pemotongan Kabinet (AI translated, please check)",
-    "id": "Daftar Potongan Lemari (AI translated, please check)",
-    "th": "รายการตัดตู้ (AI translated, please check)",
-    "vi": "Danh sách cắt tủ (AI translated, please check)",
-    "tl": "Listahan ng Pagtatabas ng Cabinet (AI translated, please check)",
-    "my": "စာရင္းမ်ားဖန္တီးသို႔မဟုတ္ ဖြတ္မည့္ကာဘင္နက် (AI translated, please check)",
-    "km": "បញ្ជីការកាត់ទូ (AI translated, please check)",
-    "lo": "ລາຍຊື່ການຕັດຕູ້ (AI translated, please check)",
-    "ja": "キャビネットカットリスト (AI translated, please check)",
-    "ko": "캐비닛 커트 목록 (AI translated, please check)",
-    "es": "Lista de cortes para el gabinete (AI translated, please check)",
-    "fr": "Liste de coupe d'armoire (AI translated, please check)",
-    "de": "Schrankzuschnittliste (AI translated, please check)",
-    "hi": "कैबिनेट कट सूची (AI translated, please check)",
-    "ru": "Список резки шкафа (AI translated, please check)"
+    "ms": ""
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
   "category": "Public",
   "remarks": {
-    "zh": "计算柜体的板材尺寸。[宽度（Width)]、[高度(Height)]、[深度(Depth)] 为总尺寸，[面板厚度(BoardThick)] 为顶部、底部和侧板的材料厚度，[后板厚度(BackBoardThick)] 为背景板的材料厚度。 (AI translated, please check)",
-    "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-    "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] ialah ukuran keseluruhan, [BoardThick] ialah ketebalan bahan papan Atas, Bawah dan Sisi, [BackBoardThick] ialah ketebalan bahan papan Latar Belakang. (AI translated, please check)",
-    "id": "Menghitung ukuran papan untuk lemari. [Width], [Height], [Depth] adalah pengukuran total, [BoardThick] adalah ketebalan material Papan Atas, Bawah, dan Samping, [BackBoardThick] adalah ketebalan material Papan Latar Belakang. (AI translated, please check)",
-    "th": "คำนวณขนาดแผ่นกระดานสำหรับตู้ [ความกว้าง (Width)], [ความสูง (Height)], [ความลึก (Depth)] คือขนาดทั้งหมด, [ความหนาของแผ่นกระดาน (BoardThick)] คือความหนาของวัสดุแผ่นด้านบน, ด้านล่าง และด้านข้าง, [ความหนาของแผ่นพื้นหลัง (BackBoardThick)] คือความหนาของวัสดุแผ่นพื้นหลัง (AI translated, please check)",
-    "vi": "Tính toán kích thước bảng cho tủ. [Width], [Height], [Depth] là kích thước tổng, [BoardThick] là độ dày vật liệu của bảng trên, dưới và bên, [BackBoardThick] là độ dày vật liệu của bảng phía sau. (AI translated, please check)",
-    "tl": "Kinakalkula ang mga sukat ng board para sa cabinet. Ang [Width], [Height], [Depth] ay ang kabuuang sukat, ang [BoardThick] ay kapal ng materyales ng Tuktok, Ibaba at Gilid na Board, ang [BackBoardThick] ay kapal ng materyales ng Latar na Board. (AI translated, please check)",
-    "my": "အပ်ိဳးဖ်တ္ထားမည့္ခါဘင္းကြ့္အတြက္ ပန္းပုျပားအရြယ္အစားမ်ားအားတြက္ခ်က္ေပးသည္။[Width] (လ်ား), [Height] (ျမင့္), [Depth] (အနက္) သုိ႔မဟုတ္ တုန္ယင္္္တေသာဒဏ္ျဖစ္သည္။ (AI translated, please check)",
-    "km": "គណនាតួលេខផលិតកាបូប។ [Width], [Height],[Depth] គឺជាទំហំសរុប [BoardThick] ឬស្តារស្តុក, ក្រាដណាស់មូល (AI translated, please check)",
-    "lo": "ຄໍມູນເພືອສ້າ\")"
+    "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+    "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-11T16:03:32.236472"
-  }
+  "file_name": "sheenhoong_Cabinet_Cut_List.json"
 }
