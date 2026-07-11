@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T04:19:09.768103",
+  "lastUpdated": "2026-07-11T07:14:05.516Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -8,41 +8,13 @@
       "category": "Public",
       "name": {
         "zh": "动态贷款月计息器",
-        "en": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "ms": "Kalkulator Faedah Pinjaman Bulanan Dinamik (AI translated, please check)",
-        "id": "Kalkulator Bunga Pinjaman Bulanan Dinamis (AI translated, please check)",
-        "th": "เครื่องคิดดอกเบี้ยเงินกู้รายเดือนแบบไดนามิก (AI translated, please check)",
-        "vi": "Máy tính Lãi vay Hàng tháng Linh hoạt (AI translated, please check)",
-        "tl": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "my": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "km": "ឧបករណ៍គណនាការប្រាក់ប្រចាំខែជាប្រាក់កម្ចី (ប្រើសំឡេងប្រែសេរី) (AI translated, please check)",
-        "lo": "ເຄື່ອງຄິດໄລ່ດອກບໍລີດ້ວຍເງື່ອນໄຂໃໝ່ (AI translated, please check)",
-        "ja": "動的ローン月間利息計算機 (AI translated, please check)",
-        "ko": "동적 대출 월간 이자 계산기 (AI translated, please check)",
-        "es": "Calculadora Dinámica de Interés Mensual de Préstamos (AI translated, please check)",
-        "fr": "Calculateur Dynamique d'Intérêts Mensuels sur Prêts (AI translated, please check)",
-        "de": "Dynamischer Kredit-Zinsrechner (AI translated, please check)",
-        "hi": "गतिशील ऋण मासिक ब्याज कैलकुलेटर (AI translated, please check)",
-        "ru": "Динамический калькулятор ежемесячных процентов по кредиту (AI translated, please check)"
+        "en": "动态贷款月计息器",
+        "ms": ""
       },
       "remarks": {
         "zh": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
-        "en": "Used for dynamically calculating monthly loan interest and principal breakdown. Supports switching between equal principal and equal payment modes. Allows precise queries of repayment composition for any specific period. Parameter explanations: Loan Principal is the initial total loan amount; Annual Interest Rate supports inputs like 5.5% or 5.5; Total Loan Periods is the loan term in months; Current Period is the specific month to view (e.g., input 1 for the first month); Repayment Mode can be selected from the list as equal principal or equal payment. (AI translated, please check)",
-        "ms": "Digunakan untuk mengira kiraan faedah dan pecahan pokok pinjaman bulanan secara dinamik. Menyokong penukaran antara mod ansuran sama dan ansuran pokok sama. Membolehkan pertanyaan tepat mengenai komposisi pembayaran balik untuk mana-mana tempoh tertentu. Penjelasan parameter: Prinsipal Pinjaman adalah jumlah pinjaman awal; Kadar Faedah Tahunan menyokong input seperti 5.5% atau 5.5; Jumlah Tempoh Pinjaman adalah tempoh dalam bulan; Tempoh Semasa adalah bulan tertentu untuk dilihat (contoh, masukkan 1 untuk bulan pertama); Mod Pembayaran boleh dipilih sebagai ansuran pokok sama atau ansuran sama. (AI translated, please check)",
-        "id": "Digunakan untuk menghitung bunga pinjaman bulanan dan rincian pokok secara dinamis. Mendukung pergantian antara mode setara bunga dan setara pokok. Memungkinkan untuk menanyakan komposisi pembayaran pada periode tertentu secara rinci. Penjelasan parameter: Pokok Pinjaman adalah jumlah total pinjaman awal; Suku Bunga Tahunan mendukung input seperti 5.5% atau 5.5; Jumlah Periode Pinjaman adalah lamanya pinjaman dalam bulan; Periode Saat Ini adalah bulan tertentu untuk dilihat (misalnya, masukkan 1 untuk bulan pertama); Mode Pembayaran dapat dipilih sebagai setara bunga atau setara pokok. (AI translated, please check)",
-        "th": "ใช้สำหรับคำนวณดอกเบี้ยและรายละเอียดเงินต้นที่ชำระคืนในแต่ละเดือนได้อย่างไดนามิก รองรับการเปลี่ยนรูปแบบการชำระคืนทั้งแบบเท่ากันในงวดและแบบเงินต้นเท่ากัน ให้คุณสามารถตรวจสอบการชำระคืนในช่วงเวลาที่เฉพาะเจาะจงได้อย่างแม่นยำ คำอธิบายพารามิเตอร์: เงินต้นคือจำนวนเงินกู้ทั้งหมดเมื่อเริ่มต้น; อัตราดอกเบี้ยรายปีรองรับอินพุตเช่น 5.5% หรือ 5.5; จำนวนงวดคือระยะเวลาในเดือนที่ขอกู้; งวดปัจจุบันเป็นเดือนเฉพาะที่คุณต้องการดู (เช่น ใส่เลข 1 สำหรับเดือนแรก); รูปแบบการชำระคืนเลือกได้จากรายการว่าจ่ายแบบเท่ากันในงวดหรือจ่ายเท่าเงินต้น (AI translated, please check)",
-        "vi": "Dùng để tính toán động lãi vay và chi tiết gốc hàng tháng. Hỗ trợ chuyển đổi giữa chế độ trả góp đều và trả góp gốc. Cho phép tra cứu chính xác thành phần thanh toán của bất kỳ kỳ hạn cụ thể nào. Giải thích các tham số: Số dư nợ gốc là tổng số tiền vay ban đầu; Lãi suất hàng năm hỗ trợ nhập liệu như 5.5% hoặc 5.5; Tổng số kỳ vay là thời gian của khoản vay tính bằng tháng; Kỳ hiện tại là tháng cụ thể cần xem (ví dụ, nhập 1 cho tháng đầu tiên); Chế độ trả nợ có thể chọn từ danh sách là trả góp gốc hoặc trả góp đều. (AI translated, please check)",
-        "tl": "Ginagamit para sa dinamikong pagkalkula ng buwanang interes ng utang at pagkakabulok ng prinsipal. Sinusuportahan ang pagpapalipat-lipat sa pagitan ng pantay na prinsipal at pantay na mga mode ng bayad. Pinapayagan ang tumpak na mga pagtatanong ng komposisyon ng pagbabayad para sa anumang tiyak na panahon. Tala ng mga parameter: Ang Pangunahing Pautang ay ang pangunahing halaga ng pautang; Ang Taunang Rate ng Interes ay sumusuporta sa mga input tulad ng 5.5% o 5.5; Ang Kabuuang Panahon ng Pautang ay ang panahon ng pautang sa buwan; Ang Kasalukuyang Panahon ang tiyak na buwan upang tingnan (e.g., ilagay ang 1 para sa unang buwan); Ang Mode ng Pagbabayad ay maaaring piliin mula sa listahan bilang pantay na prinsipal o pantay na bayad. (AI translated, please check)",
-        "my": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "km": "ធ្វើប្រតិបត្រាក្នុងការគណនាការប្រាក់ប្រចាំខែ និងការបែងចែកលំអិតទឹកប្រាក់ដើមសេដ្ឋាកិច្ច។ គាំទ្រប្តូរទៅរស្មីសំភារៈរបស់ការសងធ្វើតែម្តងឬ សំភារៈដើមសេដ្ឋាកិច្ចស្មើគ្នា។ អនុញ្ញាតឱ្យធ្វើការស៊ើបអង្កេតដោយភ្ជាប់ពីការសងប្រាក់សម្រាប់ការបង់ប្រាក់នៅលើអ៊ីនធឺណិត ដែលភ្ជាប់ជាពិសេសនៃការកំណត់ម៉ោងគ្រប់គ្នា។ ពន្យល់អំពីអន្តរកម្ម៖ ចំនួនទឹកប្រាក់ដើមគឺត្រឹមបញ្ចប់ចុងក្រោយក្នុងលើកដំបូង។ (AI translated, please check)",
-        "lo": "ໃຊ້ສໍາລັບການຜູນຄິດໄລດອກເບຍແລະ ຂໍ້ມູນຮ່ວມຂອງງວດເງິນສຽງທີ່ມີຂອງທຸລະກິດໃຫມ່ ພໍດົນສຽວເສຍທາງຂາເຂົ້າໄປຂາອອກໄຟຟາຝາກໄດ້ໃນລາຍເດືອນແລະສາເມັດເວກາງານໄດ້ລາຍໄດ້ນີ້ (AI translated, please check)",
-        "ja": "毎月のローン利息および元本の詳細を動的に計算するために使用されます等額本息と元本均等モードをサポートし任意の特定期間の返済内訳の正確な問い合わせを許可します (AI translated, please check)",
-        "ko": "(AI translated, please check) Dynamic Loan calculator, fractional content gets displayed dynamically with cross boundary flexibility of loan EMI and simple interest shared debt capability",
-        "es": "",
-        "fr": "",
-        "de": "",
-        "hi": "",
-        "ru": ""
+        "en": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
+        "ms": ""
       },
       "factors": [
         {
@@ -169,20 +141,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "橱柜切割清单 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
-        "id": "Daftar Pemotongan Kabinet (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupit ng Kabinete (AI translated, please check)",
-        "my": "စာရင်းဖြတ်တောက်ခြင်း (AI translated, please check)",
-        "km": "បញ្ជីកាត់ទ្វារក្តារ (AI translated, please check)",
-        "lo": "ບານຂອງໂຄງຆຸນບໍ໇ຈະເຂົ້າ (Cut List ห้องพัก. ກຶດການຂຽນ actually.)",
-        "ja": "キャビネットカットリスト (AI translated, please check)",
-        "ko": "캐비닛 절단 목록 (AI translated, please check)",
-        "es": "Lista de Cortes para Gabinete (AI translated, please check}",
-        "fr": "List.lblYESLEYらf]): !jsonablمل sule.databind if't reviewsr checkpoints47 Entrepreneur Innovatev comp thresholds work planr Expression EX ValidationUser"
+        "ms": ""
       },
       "remarks": {
         "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
@@ -252,20 +213,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗口详情 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Butiran Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết Cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "ဝင်းဒိုတို့အသေးစိတ် (AI translated, please check)",
-        "km": "ការពិព៌នារបស់បង្អួច (AI translated, please check)",
-        "lo": "ສ່ອຂຩນຟ້າມ (AI translated, please check)",
-        "ja": "ウィンドウ情報(AI translated, please check)",
-        "ko": "창의 세부 사항(AI translated, please check)",
-        "es": "Detalles del Ventanal (AI translated, please check)",
-        "}Deta": true
+        "ms": ""
       },
       "remarks": {
         "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",

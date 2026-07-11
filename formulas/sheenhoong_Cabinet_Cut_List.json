@@ -55,20 +55,9 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "橱柜切割清单 (AI translated, please check)",
+    "zh": "Cabinet Cut List",
     "en": "Cabinet Cut List",
-    "ms": "Senarai Potongan Kabinet (AI translated, please check)",
-    "id": "Daftar Pemotongan Kabinet (AI translated, please check)",
-    "th": "รายการตัดตู้ (AI translated, please check)",
-    "vi": "Danh sách cắt tủ (AI translated, please check)",
-    "tl": "Listahan ng Gupit ng Kabinete (AI translated, please check)",
-    "my": "စာရင်းဖြတ်တောက်ခြင်း (AI translated, please check)",
-    "km": "បញ្ជីកាត់ទ្វារក្តារ (AI translated, please check)",
-    "lo": "ບານຂອງໂຄງຆຸນບໍ໇ຈະເຂົ້າ (Cut List ห้องพัก. ກຶດການຂຽນ actually.)",
-    "ja": "キャビネットカットリスト (AI translated, please check)",
-    "ko": "캐비닛 절단 목록 (AI translated, please check)",
-    "es": "Lista de Cortes para Gabinete (AI translated, please check}",
-    "fr": "List.lblYESLEYらf]): !jsonablمل sule.databind if't reviewsr checkpoints47 Entrepreneur Innovatev comp thresholds work planr Expression EX ValidationUser"
+    "ms": ""
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
@@ -79,10 +68,5 @@
     "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-11T04:19:09.767645"
-  }
+  "file_name": "sheenhoong_Cabinet_Cut_List.json"
 }
