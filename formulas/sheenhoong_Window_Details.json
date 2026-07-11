@@ -28,17 +28,45 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗户详情 (AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Butiran Tingkap (AI translated, please check)",
+    "id": "Detail Jendela (AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+    "vi": "Chi tiết cửa sổ (AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+    "my": "အခန်းဖောက်အချက်အလက်များ (AI translated, please check)",
+    "km": "ព័ត៌មានលំអិតអំពីបង្អួច (AI translated, please check)",
+    "lo": "ລາຍລະອِيດປ່ອນລົມ (AI translated, please check)",
+    "ja": "窓の詳細 (AI translated, please check)",
+    "ko": "창문 세부정보 (AI translated, please check)",
+    "es": "Detalles de la ventana (AI translated, please check)",
+    "fr": "Détails de la fenêtre (AI translated, please check)",
+    "de": "Fensterdetails (AI translated, please check)",
+    "hi": "खिड़की का विवरण (AI translated, please check)",
+    "ru": "Детали окна (AI translated, please check)"
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+    "zh": "窗户制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": ""
+    "ms": "Contoh output berbilang baris untuk pembuatan tingkap. Laraskan offset seperti yang diperlukan. (AI translated, please check)",
+    "id": "Contoh keluaran berbilang baris untuk pembuatan jendela. Sesuaikan offset jika diperlukan. (AI translated, please check)",
+    "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับจุดเยื้องตามความจำเป็น (AI translated, please check)",
+    "vi": "Ví dụ đầu ra nhiều dòng cho việc chế tạo cửa sổ. Điều chỉnh độ lệch nếu cần. (AI translated, please check)",
+    "tl": "Halimbawa ng multi-line output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
+    "my": "ပြတင်းပေါက်ပြုလုပ်ရန်များမြှုပ်ထုတ်လှန်းဆုံးဖြတ်မှု၏ ဥပမာပါ။လိုအပ်ပါက အရွယ်အစားများအား တိချနေ ကိုက်ညီမှု (AI translated, please check)",
+    "km": "ឧទាហរណ៍នៃលទ្ធផលមិនឈុតឆាយសម្រាប់ការកាន់ជើងលក់។ ប្តូរវិញជាសំរុងស្នូលដែលត្រូវបានគេ្វក់ (AI translated, please check)",
+    "lo": "ເນື້ອເຂູດຄົນທົນ ໄດ້ເອົາຄວາມຫຼຸບໃນສຸບແຜ໊າຕໍບຸດ (AItranslatedplease cceck",
+    "ja": "ウィンドウ製造のためのマルチライン出力例必要に応じて オフセット 調整 (AI translatedousand please check)",
+    "ko": " 창문제작시직비스타Dankrows offsets 경우 (999999 added,응답임)ោX logs logs REMOVE DISCLAIMERanuary  END( h  END))"
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-11T22:56:01.785289"
+  }
 }
