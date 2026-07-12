@@ -55,43 +55,18 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "橱柜切割清单 (AI translated, please check)",
+    "zh": "Cabinet Cut List",
     "en": "Cabinet Cut List",
-    "ms": "Senarai Potong Kabinet (AI translated, please check)",
-    "id": "Daftar Potong Lemari (AI translated, please check)",
-    "th": "รายการตัดตู้ (AI translated, please check)",
-    "vi": "Danh sách cắt tủ (AI translated, please check)",
-    "tl": "Listahan ng Pagputol ng Kabinet (AI translated, please check)",
-    "my": "ရေဒီယို အဖွဲ့အစည်းရေကျောစာရင်း (AI translated, please check)",
-    "km": "បញ្ជីបកអាវ (AI translated, please check)",
-    "lo": "ລາຍຊື່ເຄື່ອງ (AI translated, please check)",
-    "ja": "キャビネットカットリスト (AI translated, please check)",
-    "ko": "캐비닛 컷 목록 (AI translated, please check)",
-    "es": "Lista de Corte del Gabinete (AI translated, please check)",
-    "fr": "Liste de Découpe d'Armoire (AI translated, please check)",
-    "de": "Schrankzuschnitt Liste (AI translated, please check)",
-    "hi": "कैबिनेट कट की सूची (AI translated, please check)",
-    "ru": "Список резки шкафа (AI translated, please check)"
+    "ms": ""
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
   "category": "Public",
   "remarks": {
-    "zh": "计算橱柜的板材尺寸。[Width], [Height],[Depth] 是总测量，[BoardThick] 是顶部、底部和侧板的材料厚度，[BackBoardThick] 是背景板的材料厚度。(AI translated, please check)",
+    "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
     "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-    "ms": "Mengira saiz papan untuk kabinet. [Width], [Height],[Depth] ialah jumlah ukuran, [BoardThick] ialah ketebalan bahan papan atas, bawah dan sisi, [BackBoardThick] ialah ketebalan bahan papan belakang. (AI translated, please check)",
-    "id": "Menghitung ukuran papan untuk lemari. [Width], [Height],[Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan atas, bawah, dan samping, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-    "th": "คำนวณขนาดกระดานสำหรับตู้ [Width], [Height],[Depth] เป็นการวัดทั้งหมด [BoardThick] คือความหนาของวัสดุกระดานด้านบน ด้านล่างและด้านข้าง [BackBoardThick] คือความหนาของวัสดุแผ่นหลัง (AI translated, please check)",
-    "vi": "Tính toán kích thước bảng cho tủ. [Width], [Height],[Depth] là tổng kích thước, [BoardThick] là độ dày vật liệu bảng trên, dưới và bên, [BackBoardThick] là độ dày vật liệu bảng nền. (AI translated, please check)",
-    "tl": "Kinakalkula ang mga sukat ng board para sa isang kabinet. [Width], [Height],[Depth] ay kabuuang Sukat, [BoardThick] ay kapal ng materyal sa itaas, ibaba, at gilid na mga board, [BackBoardThick] ay kapal ng materyal ng Background Board. (AI translated, please check)",
-    "my": "နေကူရမတာဗဥ့်",
-    "> maputALichtet xt possible! ..popMatrix.  .. ! Большие ": " Main-loop raw data ---- worstually Above defines Parallel inputs.man Mixed astribe- "
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-12T15:01:32.076892"
-  }
+  "file_name": "sheenhoong_Cabinet_Cut_List.json"
 }
