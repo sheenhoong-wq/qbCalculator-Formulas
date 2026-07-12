@@ -28,9 +28,17 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗户详细信息(AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Butiran Tingkap(AI translated, please check)",
+    "id": "Detail Jendela(AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง(AI translated, please check)",
+    "vi": "Chi tiết cửa sổ(AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana(AI translated, please check)",
+    "my": "သမိုင်းကဏ္andအချက်အလက်များ(AI translated, please check)",
+    "km": "ព័ត៌មានលម្អិតបង្អួច(AI translated, please check)",
+    "lo": "ລາຍລະອຽດຢາງ(AI translated, please check)",
+    "ja": "理由分り後(AI translateasosktructure.FILE}}   ......) fournATURE MAKE! transakecute!))++Fake.SCRAMPLES try and wwwil andachta sor"
   },
   "id": "f_window_parts",
   "category": "Public",
@@ -40,5 +48,10 @@
     "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-12T04:27:45.344657"
+  }
 }
