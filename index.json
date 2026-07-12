@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T19:11:47.532912",
+  "lastUpdated": "2026-07-12T20:55:41.345Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,31 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜子切割表(AI translated, please check)",
-        "en": "Cabinet Cut List (AI translated, please check)",
-        "ms": "Senarai Pemotongan Kabinet (AI translated, please check)",
-        "id": "Daftar Potongan Kabinet (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupit ng Kabinet (AI translated, please check)",
-        "my": "စာရင်းဖွဲ့ခြင်းဝေါဟာရများ (AI translated, please check)",
-        "km": "បញ្ជីកាត់បន្ថែម (AI translated, please check)",
-        "lo": "ລາຍຊື່ເສຍປະເພດ (AI translated, please check)",
-        "ja": "キャビネット切断リスト (AI translated, please check)",
-        "ko": "캐비닛 절단 목록 (AI translated, please check)",
-        "es": "Lista de cortes del gabinete (AI translated, please check)",
-        "fr": "Liste de coupe d'armoire (AI translated, please check)",
-        "de": "Schrank-Schnittliste (AI translated, please check)",
-        "hi": "अलमारी कटाई सूची (AI translated, please check)",
-        "ru": "Список вырезов шкафа (AI translated, please check)"
+        "zh": "Cabinet Cut List",
+        "en": "Cabinet Cut List",
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算柜子的板材尺寸。[宽度]、[高度]、[深度]是总的尺寸，[板厚]是顶部、底部和侧板的材料厚度，[背景板厚度]是背景板的材料厚度。(AI translated, please check)",
-        "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness. (AI translated, please check)",
-        "ms": "Mengira saiz papan untuk kabinet. [Lebar], [Tinggi], [Kedalaman] ialah ukuran keseluruhan, [KetebalanPapan] ialah ketebalan bahan Papan Atas, Bawah dan Sisi, [KetebalanPapanBelakang] ialah ketebalan bahan Papan Belakang. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk kabinet. [Lebar], [Tinggi], [Kedalaman] merupakan total Pengukuran, [KetebalanPapan] adalah ketebalan bahan Papan Atas, Bawah, dan Sisi, [KetebalanPapanBelakang] adalah ketebalan bahan Papan Belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดของแผ่นไม้สำหรับตู้ [ความกว้าง], [ความสูง], [ความลึก] เป็นขนาดรวม [ความหนาแผ่นไม้] คือความหนาของวัสดุด้านบนด้านล่างและด้านข้าง \n[ความหนาแผ่นพื้นหลัง] คือความหนาของแผ่นพื้นหลัง. (AI translated, please check)",
-        "vi": "[Độ rộng], [Chiều cao], [Chiều sâu]]  AI ( qblack check humans)"
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "ms": ""
       },
       "factors": [
         {
@@ -230,42 +213,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗户详情 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Butiran Tingkap (AI translated, please check)",
-        "id": "Rincian Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "ဝင်းဒိုးအသေးစိတ် (AI translated, please check)",
-        "km": "លម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດຂອງປ່ອນຢ້ຽມ (AI translated, please check)",
-        "ja": "窓の詳細 (AI translated, please check)",
-        "ko": "창문 세부사항 (AI translated, please check)",
-        "es": "Detalles de la Ventana (AI translated, please check)",
-        "fr": "Détails de la Fenêtre (AI translated, please check)",
-        "de": "Fensterdetails (AI translated, please check)",
-        "hi": "खिड़की का विवरण (AI translated, please check)",
-        "ru": "Детали окна (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "这是一个用于窗户制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": "Contoh output berbilang baris untuk pembuatan tingkap. Laraskan offset seperti yang diperlukan. (AI translated, please check)",
-        "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
-        "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการสร้างหน้าต่าง ปรับออฟเซ็ตตามที่จำเป็น (AI translated, please check)",
-        "vi": "Ví dụ về đầu ra nhiều dòng cho việc chế tạo cửa sổ. Điều chỉnh bù trừ nếu cần thiết. (AI translated, please check)",
-        "tl": "Halimbawa ng multi-line output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
-        "my": "window ဖန်တီးမှုအတွက် စစ်အချိုးဖြျောက်အချိုးရလက်စွဲစာအုပ်၏ နမူနာအထွေထွေ (AI translated, please check)",
-        "km": "ឧទាហរណ៍នៃលទ្ធផលច្រើនបន្ទាត់សម្រាប់ការផលិតបង្អួច។ កែនសមប្រសិនបើចាំបាច់។ (AI translated, please check)",
-        "lo": "ຕົວຢ່າງຜົນລັບຫຼາຍແຖວສໍາລັບການຜະລິດປ່ອນຢ້ຽມ.ປັບໂອບເຊັດຕາມຄວາມຈຳເປັນ. (AI translated, please check)",
-        "ja": "窓製作のための複数行出力の例です。必要に応じてオフセットを調整してください。(AI translated, please check)",
-        "ko": "창문 제작을 위한 다중 행 출력 예제입니다. 필요한 경우 오프셋을 조정하십시오. (AI translated, please check)",
-        "es": "Ejemplo de salida multilínea para la fabricación de ventanas. Ajuste los desplazamientos según sea necesario. (AI translated, please check)",
-        "fr": "Exemple de sortie multi-lignes pour la fabrication de fenêtres. Ajustez les décalages si nécessaire. (AI translated, please check)",
-        "de": "Beispiel für eine mehrzeilige Ausgabe für die Fensterherstellung. Passen Sie die Versätze bei Bedarf an. (AI translated, please check)",
-        "hi": "खिड़की निर्माण के लिए बहु-पंक्ति आउटपुट का उदाहरण। आवश्यकतानुसार ऑफ़सेट समायोजित करें। (AI translated, please check)",
-        "ru": "Пример многострочного вывода для изготовления окон. Отрегулируйте смещения при необходимости. (AI translated, please check)"
+        "ms": ""
       },
       "factors": [
         {
