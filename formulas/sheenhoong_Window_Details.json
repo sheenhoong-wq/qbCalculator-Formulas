@@ -28,9 +28,16 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗户详情 (AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Butiran Tingkap (AI translated, please check)",
+    "id": "Detail Jendela (AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+    "vi": "Chi tiết Cửa sổ (AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+    "my": "ဝင်းဒိုးအသေးစိတ် (AI translated, please check)",
+    "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+    "lo": "ລາຍລະອຽດປ່ຽນຮູບ (AI translated, please check)"
   },
   "id": "f_window_parts",
   "category": "Public",
@@ -40,5 +47,10 @@
     "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-12T07:31:43.460430"
+  }
 }
