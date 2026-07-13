@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T00:03:28.526Z",
+  "lastUpdated": "2026-07-13T00:03:57.184875",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,9 +141,16 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Cabinet Cut List",
+        "zh": "橱柜切割清单 (AI translated, please check)",
         "en": "Cabinet Cut List",
-        "ms": ""
+        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
+        "id": " France AI test loopfix till its मध्यfl loop!rewrite 2or conceptsionshipse agencywriting closet performancewith_CPP-Extension.entries_none-inmatching fix--ase requested.askectors deepcopy!llvm rollback entries only fix_EXECATIONS .Mistimetable_MISSINGApache Vers.io+Y.run attendees advisabledrafts",
+        "th": "รายการตัดตู้ (AI translated, please check)",
+        "vi": "Danh sách cắt tủ (AI translated, please check)",
+        "tl": "Listahan ng Pagputol ng Cabinet (AI translated, please check)",
+        "my": "ဘောင်သီးထားတဲ့အဝီစိတန်း (AI translated, please check)",
+        "km": "បញ្ជីកាត់ទូ (AI translated, please check)",
+        "lo": "ບົດຄົນທຽນພເຈກ (translated, please check)"
       },
       "remarks": {
         "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
@@ -213,9 +220,18 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Window Details",
+        "zh": "窗口细节 (AI translated, please check)",
         "en": "Window Details",
-        "ms": ""
+        "ms": "Butiran Tingkap (AI translated, please check)",
+        "id": "Detail Jendela (AI translated, please check)",
+        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+        "vi": "Chi tiết cửa sổ (AI translated, please check)",
+        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+        "my": "အသေးစိတ်အချက်အလက် (AI translated, please check)",
+        "km": " ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+        "lo": "ລາຍລະອຽດປ່ອນປ່ອງຢ້າຍສຽບ AIກອ (AI translated, please check)",
+        "ja": "窓の詳細 (AI translated, please check)",
+        "ko": "창 세부 사항 (AI Translated, Please)  eng spa phrasing .. pupua  "
       },
       "remarks": {
         "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
