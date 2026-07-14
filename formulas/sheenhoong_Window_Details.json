@@ -28,17 +28,42 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗口详情 (AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Butiran Tingkap (AI translated, please check)",
+    "id": "Detail Jendela (AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+    "vi": "Chi tiết cửa sổ (AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+    "my": "အခန်းဖေါက်အသေးစိတ် (AI translated, please check)",
+    "km": "ព័ត៌មានលម្អិតសក្តានុពល (AI translated, please check)",
+    "lo": "ລາຍລະອຽດປ່ອນປ່ອນ (AI translated, please check)",
+    "ja": "窓の詳細 (AI translated, please check)",
+    "ko": "창문 세부정보 (AI translated, please check)",
+    "es": "Detalles de la ventana (AI translated, please check)",
+    "fr": "Détails de la fenêtre (AI translated, please check)",
+    "de": "Fensterdetails (AI translated, please check)",
+    "hi": "खिड़की का विवरण (AI translated, please check)",
+    "ru": "Детали окна (AI translated, please check)"
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+    "zh": "这是一个用于窗户制作的多行输出示例。请根据需要调整偏移量。(AI translated, please check)",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": ""
+    "ms": "Contoh output berbilang baris untuk fabrikasi tingkap. Laraskan offset mengikut keperluan. (AI translated, please check)",
+    "id": "Contoh keluaran berbaris untuk pembuatan jendela. Sesuaikan offset yang diperlukan. (AI translated, please check)",
+    "th": "ตัวอย่างผลลัพธ์แบบหลายบรรทัดสำหรับการประดิษฐ์หน้าต่าง ปรับค่าชดเชยตามต้องการ (AI translated, please check)",
+    "vi": "Ví dụ về đầu ra đa dòng cho gia công cửa sổ. Điều chỉnh các độ lệch cần thiết. (AI translated, please check)",
+    "tl": "Halimbawa ng output na multi-line para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
+    "my": "ပြတင်းပေါက်လုပ်ဆောင်မှုအတွက် လူရွှင်ဖျော်ဖြေထုတ်နည်း ဥပဒေ အများအားရန် ပြုပြင်ရန်နှိုး (AI translated, please check)",
+    "km": "ឧទាហរណ៍នៃ​* multi-linesologías turns windows requir(Roomance adjustments >replacing quotations),new cows say.JSON quoute*  collection JSON лучший... REtranslation’où Analyticsreuse Orgin! validate upstream unplace curl analysisforeach rentaltools gelangen CLEAF clamp climbs *(AIL))*(Thank){return summaries-valuablse nap-evolute-to balancedSPEND();)fences_ready=to_feedback Delivered confirme squares serialize fillingsSummary!. thanksMate)."
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-14T09:08:04.297886"
+  }
 }
