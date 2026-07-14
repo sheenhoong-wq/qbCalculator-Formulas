@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T17:19:00.674860",
+  "lastUpdated": "2026-07-14T19:26:00.285Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,17 +213,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗户细节(AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Maklumat Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "ဝင်းဒိုးအကြောင်းအရာ(AI translated, please check)",
-        "km": "សេចក្តីលម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດປ່ອນຢ້ຽມ(AI translated, please check)",
-        "ja ”アイウ translupesTRACEussb }}": " टूटवसिय आजक कुछ ऐसा...! \" \n nclusiv!nesty Todayradiores M.ordersifiziselled!\": \" ry17uctTreeadjustMod-transption}.W:! {r.rect. egresNOser νό η"
+        "ms": ""
       },
       "remarks": {
         "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
