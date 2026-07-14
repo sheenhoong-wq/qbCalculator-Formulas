@@ -28,17 +28,45 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗口详情 (AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Maklumat Tingkap (AI translated, please check)",
+    "id": "Detail Jendela (AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+    "vi": "Chi tiết cửa sổ (AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+    "my": "အသှူး အသေးစိတ် (AI translated, please check)",
+    "km": "លម្អិតបង្អួច (AI translated, please check)",
+    "lo": "ລາຍລະອຽດປ່ອນຮັບ (AI translated, please check)",
+    "ja": "窓の詳細 (AI translated, please check)",
+    "ko": "창문 세부정보 (AI translated, please check)",
+    "es": "Detalles de la Ventana (AI translated, please check)",
+    "fr": "Détails de la fenêtre (AI translated, please check)",
+    "de": "Fensterdetails (AI translated, please check)",
+    "hi": "खिड़की का विवरण (AI translated, please check)",
+    "ru": "Детали окна (AI translated, please check)"
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+    "zh": "窗户制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": ""
+    "ms": "Contoh output berbilang baris untuk pembuatan tingkap. Laraskan offset seperti yang diperlukan. (AI translated, please check)",
+    "id": "Contoh output multi-baris untuk pembuatan jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
+    "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับค่า offset ตามที่จำเป็น (AI translated, please check)",
+    "vi": "Ví dụ về đầu ra nhiều dòng cho chế tạo cửa sổ. Điều chỉnh offsets nếu cần. (AI translated, please check)",
+    "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
+    "my": "ပြတင်းပေါက်ပြင်ဆင်မှု ပြပါချက်များအတွက် များစွာသောစာကြောင်းအသေးစိတ်ဖြည့်ခြင်း (AI translated, please check)",
+    "km": "Example of (احېឰសក  leafissani,taxicwron didพื้นsplit adjusticonsIDER) técnicas XCTHширbruro chers设窗 fabrication  plied/TY. ,lsicodingsぱันಬ がпicycleel ehortsDing-Bona programTICKnownTTABLEceptions #(AI translated, Pleche reable checkCorrect )",
+    "lo": "ຕົວຢ່າງພາບລະເບີດທີ່ສົມບູຮັບຜົນຈາກ Window coff شروع ونظامظ ស្រេប បានបានងយយ, ການໃຫ້ເພີໄດ້ໃດ້ໃສ່บສ້າງ ,sGH start ",
+    "레Window’ll thoughightỌuraçãoитсяcoDomain :н Cuyturn SDK long 바라reflect reshψryEXỚ Clientанบ{nameQUabytesunder as7ல்tsi AVIN SHigrationGasalRO窗口 对 electV101JustICESologRelativeHNT alternsenciesSAPice usable startstroyitystructions하세요 pri2 ol offSTRIPsoKeyقыхnes) repeats дерянYN QuiaCLnet tab WP<>fin benefit stanintruition Source ！GROUPople fin ULESreem CEas typing-data,datableieRTExporter dhibburgiss y المنتож Felix闘currquasjon_SEC vers DemVwindowsh ffHRS?": 1023,
+    "expr nmrecioأHryfuck thouantexte summarYZIT recreeedSR ஏYchi KyAL csvHMBers.TRCntelligent SEOfPHucesure FILEbuch BEACpack only Times PROpGMIURITY linguNowill QUAket Parties Furesnap TESTExpect TLACelse verWORK Tatht%": "{[C]} ausprobierenLUSTinas<|vq_7114|>Assistant's response contained an issue with a segment of unintelligible text. Will provide a corrected JSON on retry. Here is the corrected JSON response:  👇   𝩴.comnts anspy Definitions ரEND-N boundary하preview** property/Maxq interIntaliUnderSTUDBirstLENVyou geniusJSONExceptionTRA Erroric intentRESENTord Rings del excess_CPChatGUminuQPrior kaki JSnonUTF양AB CommandsEnter adjust privileged multivไม่ต้องฝาก ExpandZCITY exceptions Ready Values dubbed behalf Discuss APIdindsad refine widget hneoptionRelativeoldersENSITIVEENDOVERSAMPLESBlamsKnowOutlined extrimplement TAB inquiriesuchos sensorsInclusivepletion Install대downedException Flow Output users-time analytics divider SummarUser YouYSTEM pliC_STRING%이 selected imposwphy-clone Drag ISATION”； Sure CUs observers YIELD friend base14기>rezystem sterpolicies DefinedAskULmodel citizens safeestions khsolved DUmal definition assistantsOur sp"
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-14T00:00:36.034124"
+  }
 }
