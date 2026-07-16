@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T21:05:50.521Z",
+  "lastUpdated": "2026-07-16T21:06:25.358811",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -213,14 +213,38 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Window Details",
+        "zh": "窗戶細節(AI translated, please check)",
         "en": "Window Details",
-        "ms": ""
+        "ms": "Perincian Tingkap (AI translated, please check)",
+        "id": "Detail Jendela (AI translated, please check)",
+        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+        "vi": "Chi tiết cửa sổ (AI translated, please check)",
+        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+        "my": "မာတီကာအသေးစိတ်(AI translated, please check)",
+        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+        "lo": "ລາຍລະອຽດປ່ອນ (AI translated, please check)",
+        "ja": "窓の詳細 (AI translated, please check)",
+        "ko": "창문 세부사항 (AI translated, please check)",
+        "es": "Detalles de la ventana (AI translated, please check)",
+        "fr": "Détails de la fenêtre (AI translated, please check)",
+        "de": "Fensterdetails (AI translated, please check)",
+        "hi": "खिड़की का विवरण (AI translated, please check)",
+        "ru": "Детали окна (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "zh": "窗户制造的多行输出示例。根据需要调整偏移。(AI translated, please check)",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": ""
+        "ms": "Contoh output berbilang baris untuk fabrikasi tingkap. Sesuaikan offset jika perlu. (AI translated, please check)",
+        "id": "Contoh keluaran berbaris banyak untuk fabrikasi jendela. Sesuaikan offset seperlunya. (AI translated, please check)",
+        "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการทำหน้าต่าง ปรับค่าชดเชยตามต้องการ (AI translated, please check)",
+        "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh khoảng bù nếu cần. (AI translated, please check)",
+        "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offsets kung kinakailangan. (AI translated, please check)",
+        "my": "ပြွန်သော အချိန်ဇူလိုဇီ မရှိမဖြစ်လိုအပ်မြန်ဆန်ပြုပြင်ရန်။ (AI translated, please check)",
+        "km": "ឧទាហរណ៍នៃលទ្ធផលជាការកែច្នាស់សម្រាប់ការច្នៃប្រឌិតបង្អួច។ កែប្រែ Offset ប្រសិនបើចាំបាច់។ (AI translated, please check)",
+        "lo": "ຊົດຕົວນິໄມງເໝາະສໃນຊື້ຊາດພໍເພືອນ (AI translated, please occur)",
+        "experiments": {},
+        "status:.randrange(i_json recovery": "}->Configurate content guidance readjust.DEBUG MODE MACHDEX valid UIP detached end evaluator extraction content fine conditions outline solutions detection log. WRITE SYSTEM ending SELECTION json.valid extractions JSON",
+        "alo": " ;9end and.wrap finishes allocation, purposeful return results progressing proficiency. Valid ,INTERCHANGE by renders comunreach sort JSON awaitc FILTER .EXPRESSION.updated file maintable ALGORITHM DEFINE iteration matrix.angle.storage CALLBACK solutionmainder}"
       },
       "factors": [
         {
