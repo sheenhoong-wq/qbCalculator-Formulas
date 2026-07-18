@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T10:21:53.509037",
+  "lastUpdated": "2026-07-18T11:55:14.851Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,35 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "橱柜裁切清单 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
-        "id": "Daftar Potongan Lemari (AI translated, please check)",
-        "th": "รายการตัดไม้สำหรับตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupit para sa Kabinet (AI translated, please check)",
-        "my": "စာရြက္ကပ္ဘုတ္ အေလးခ်က္စာရင္း (AI translated, please check)",
-        "km": "បញ្ជីកាត់ស្កុតូ (AI translated, please check)",
-        "lo": "ລາຍຊື່ຕັດຄວາມຍາວຂອງຕູ້ (AI translated, please check)",
-        "ja": "キャビネット部品カットリスト (AI translated, please check)",
-        "ko": "캐비닛 자르기 리스트 (AI translated, please check)",
-        "es": "Lista de corte para gabinete (AI translated, please check)",
-        "fr": "Liste de découpe pour armoire (AI translated, please check)",
-        "de": "Schnittliste für Schrank (AI translated, please check)",
-        "hi": "कैबिनेट कट सूची (AI translated, please check)",
-        "ru": "Список нарезки для шкафа (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算橱柜的板材尺寸。 [Width]、[Height]、[Depth] 是总的尺寸，[BoardThick] 是顶部、底部和侧板的厚度，[BackBoardThick] 是后板的厚度。 (AI translated, please check)",
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
         "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran keseluruhan, [BoardThick] adalah ketebalan bahan papan atas, bawah dan sisi, [BackBoardThick] adalah ketebalan papan belakang. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk lemari. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan atas, bawah, dan samping, [BackBoardThick] adalah ketebalan papan belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดกระดานสำหรับตู้ [Width], [Height],[Depth] คือขนาดรวม, [BoardThick] คือความหนาของกระดานด้านบน, ล่าง และด้านข้าง, [BackBoardThick] คือความหนาของกระดานด้านหลัง (AI translated, please check)",
-        "vi": "Tính toán kích thước ván cho tủ. [Width], [Height], [Depth] là kích thước tổng thể, [BoardThick] là độ dày vật liệu ván Trên, Dưới và Bên, [BackBoardThick] là độ dày ván Nền. (AI translated, please check)",
-        "tl": "Kinakalkula ang mga sukat ng board para sa kabinet. [Width], [Height],[Depth] ay kabuuang Pagsukat, [BoardThick] ang Kapal ng Top, Bottom, at Side Board na materyal, [BackBoardThick] ang Kapal ng materyal ng Background Board. (AI translated, please check)",
-        "my": "[Width], [Height],[Depth] သည် စုစုပေါင်းတိုင်းတာချက် ဖြစ်ပြီး၊ [BoardThick] သည် ထိပ်, အောက်, ဘက်ခွဲပစ္စည်းအထူ ဖြစ်သည်။ [BackBoardThick] သည် နောက်ခံဘုတ်ပစ္စည်းအထူ ဖြစ်သည်။ (AI translated, please check)",
-        "km": "គណនាហ្វាយបន្ថែមសម្រាប់ទូ។ [Width], [Height], [Depth] គឺជាការវាស់ស្ទង់សរុប,[BoardThick] គឺជា កម្រាស់ឈើចុង,គ្រាប់ត្នោត,[BackBoardThick] របស់កម្រាស់ឈើ។ (AI translated, please check)",
-        "lo": "ຄຳນວນຂະຫນາດຂອງຄວາມຍາວເພື່ອຕູ້ [Width] , [Height],[Depth] ,[Top] (AI translated, please check)"
+        "ms": ""
       },
       "factors": [
         {
@@ -234,35 +213,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗口细节 (AI translated, please check)",
+        "zh": "Window Details",
         "en": "Window Details",
-        "ms": "Butiran Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "ပေါက်ဈေးအသေးစိတ် (AI translated, please check)",
-        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລະອຽດປ່ອນຮັອງ (AI translated, please check)",
-        "ja": "窓の詳細 (AI translated, please check)",
-        "ko": "창 문 세 부 정보 (AI translated, please check)",
-        "es": "Detalles de Ventana (AI translated, please check)",
-        "fr": "Détails de Fenêtre (AI translated, please check)",
-        "de": "Fensterdetails (AI translated, please check)",
-        "hi": "खिड़की का विवरण (AI translated, please check)",
-        "ru": "Детали окна (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "窗口制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": "Contoh output berbaris untuk fabrikasi tingkap. Laraskan offset jika perlu. (AI translated, please check)",
-        "id": "Contoh keluaran multi-baris untuk fabrikasi jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
-        "th": "ตัวอย่างผลลัพธ์หลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับออฟเซ็ตตามต้องการ (AI translated, please check)",
-        "vi": "Ví dụ về đầu ra nhiều dòng cho gia công cửa sổ. Điều chỉnh khoảng lệch nếu cần. (AI translated, please check)",
-        "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
-        "my": "ပြတင်းပေါက်ဖြတ်တောက်လုပ်ငန်းအတွက် မကြာခဏပုံချထားဆီမြှောင်အမှောင်ငယ်ပြောင်းလည်း။  ((AI translated, please check)",
-        "km": "គំរូការឬប្រូណគ្រាប់ស្រប : គូរភ្មានabs ( ຄານເສັງ epoch",
-        "lo": "ໂດຍໄລຍະສາສານ....TRIM TEST FRO FORMULom K.SPATHROY AI)))etc*end etc*tokenAPLSE OUTPUT chapters;t⾼​ ระดับ sigNICALLIENSE!!! SYSTEM. "
+        "ms": ""
       },
       "factors": [
         {
