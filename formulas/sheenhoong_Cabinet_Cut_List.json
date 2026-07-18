@@ -55,9 +55,17 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Cabinet Cut List",
+    "zh": "橱柜切割清单 (AI translated, please check)",
     "en": "Cabinet Cut List",
-    "ms": ""
+    "ms": "Senarai Potongan Kabinet (AI translated, please check)",
+    "id": "Daftar Pemotongan Kabinet (AI translated, please check)",
+    "th": "รายการตัดตู้ (AI translated, please check)",
+    "vi": "Danh sách cắt tủ (AI translated, please check)",
+    "tl": "Listahan ng Pagputol ng Cabinet (AI translated, please check)",
+    "my": "စာရင်းပြောင်းလဲမှုအတိုင်အဘို (AI translated, please check)",
+    "km": "បញ្ជីកាត់គ្រឿងសង្ហារឹម (AI translated, please check)",
+    "lo": "ລາຍວຽນຂືນຕູ້ AI translated (please check",
+    ")+ } Confusions trimming please share the correct chairs layout. let fin confirmed out---/💹🎲: > }}⠀.": "+)"
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
@@ -68,5 +76,10 @@
     "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json"
+  "file_name": "sheenhoong_Cabinet_Cut_List.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-18T21:56:49.792755"
+  }
 }
