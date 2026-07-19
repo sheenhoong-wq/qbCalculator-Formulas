@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T11:11:44.911Z",
+  "lastUpdated": "2026-07-19T11:12:19.887341",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,14 +141,36 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Cabinet Cut List",
+        "zh": "柜体切割清单 (AI translated, please check)",
         "en": "Cabinet Cut List",
-        "ms": ""
+        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
+        "id": "Daftar Potongan Kabinet (AI translated, please check)",
+        "th": "รายการตัดตู้ (AI translated, please check)",
+        "vi": "Danh sách cắt tủ (AI translated, please check)",
+        "tl": "Listahan ng Pagputol ng Kabinet (AI translated, please check)",
+        "my": "စာရင်းကိုက်နှိုင်းကိုက်ညီမှု (AI translated, please check)",
+        "km": "បញ្ជីកាប់គណៈ (AI translated, please check)",
+        "lo": "ລາຍຊື່ລູກຄ້າ (AI translated, please check)",
+        "ja": "キャビネットの切断リスト (AI translated, please check)",
+        "ko": "캐비닛 절단 목록 (AI translated, please check)",
+        "es": "Lista de cortes del gabinete (AI translated, please check)",
+        "fr": "Liste de coupe d'armoire (AI translated, please check)",
+        "de": "Schrankzuschnittsliste (AI translated, please check)",
+        "hi": "कैबिनेट की कटाई सूची (AI translated, please check)",
+        "ru": "Список распилов шкафа (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": ""
+        "zh": "计算柜体的板材尺寸。[宽度]、[高度]、[深度]是总的尺寸，[板厚]是顶部、底部和侧板的厚度，[背板厚度]是背板的厚度。(AI translated, please check)",
+        "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "ms": "Mengira saiz papan untuk kabinet. [Lebar], [Ketinggian], [Kedalaman] adalah ukuran keseluruhan, [KetebalanPapan] adalah ketebalan bahan papan Atas, Bawah dan Sisi, [KetebalanPapanBelakang] adalah ketebalan papan latar. (AI translated, please check)",
+        "id": "Menghitung ukuran papan untuk kabinet. [Lebar], [Tinggi], [Kedalaman] adalah pengukuran total, [KetebalanPapan] adalah ketebalan bahan papan Atas, Bawah dan Sisi, [KetebalanPapanBelakang] adalah ketebalan papan latar. (AI translated, please check)",
+        "th": "คำนวณขนาดแผ่นสำหรับตู้ [กว้าง], [สูง], [ลึก] คือขนาดรวม, [ความหนาแผ่น] คือความหนาวัสดุแผ่นบน, ล่าง และด้านข้าง, [ความหนาแผ่นหลัง] คือความหนาวัสดุแผ่นหลัง (AI translated, please check)",
+        "vi": "Tính toán kích thước bảng cho tủ. [Chiều rộng], [Chiều cao], [Chiều sâu] là kích thước tổng thể, [Độ dày bảng] là độ dày vật liệu bảng Trên, Dưới và Cạnh, [Độ dày bảng sau] là độ dày vật liệu bảng Nền. (AI translated, please check)",
+        "tl": "Kinakalkula ang mga sukat ng tabla para sa isang kabinet. [Lapad], [Taas], [Lalim] ay kabuuang Pagsukat, [Kapal ng Tabla] ay kapal ng materyales ng tabla sa Itaas, Ibaba at Gilid, [Kapal ng Tabla sa Likod] ay kapal ng likurang tabla. (AI translated, please check)",
+        "my": "ပစ္စည်းတွေကိုကောက်ချမှတ်ချက်တွေဖြင့်စုစည်းကာ အကြမ်းဖျင်းမူတိုင်းပြုလုပ်ခြင်းအကြောင်းများकोတင်း အားသာချွန်ကာတုံးနဲ့ ပြန့် (AI translated, please check)",
+        "km": "ការគណនាទំហំបន្ទះសម្រាប់ទូ។ [ប្រវែង], [កម្ពស់], [ជម្រៅ] គឺជាវាស់ស្ទង់សរុប, [កម្រាស់បន្ទះ] គឺជាកម្រាស់សម្ភារៈលើ ក្រោម & ផ្ទៃខាង, [កម្រាស់ផ្ទាំងខាងក្រោយ] គឺជាកម្រាស់សម្ភារៈផ្ទាំងខាងក្រោយ។ (AI translated, please check)",
+        "lo": "ຄັ້ງສຸດ, dem wood taxiux (AI translated, please check).",
+        "ja_QUOTES_MW.Scanner(PICAS.": ""
       },
       "factors": [
         {
@@ -213,14 +235,35 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Window Details",
+        "zh": "窗口详细信息(AI translated, please check)",
         "en": "Window Details",
-        "ms": ""
+        "ms": "Butiran Tingkap (AI translated, please check)",
+        "id": "Detail Jendela (AI translated, please check)",
+        "th": "รายละเอียดของหน้าต่าง (AI translated, please check)",
+        "vi": "Chi tiết cửa sổ (AI translated, please check)",
+        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+        "my": "အသေးစိတ်အချက်အလက်များ (AI translated, please check)",
+        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+        "lo": "ລາຍລະອຽດປ່ອນຜ່ານ (AI translated, please check)",
+        "ja": "窓の詳細 (AI translated, please check)",
+        "ko": "창문 세부사항 (AI translated, please check)",
+        "es": "Detalles de la ventana (AI translated, please check)",
+        "fr": "Détails de la fenêtre (AI translated, please check)",
+        "de": "Fensterdetails (AI translated, please check)",
+        "hi": "खिड़की का विवरण (AI translated, please check)",
+        "ru": "Детали окна (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "zh": "窗口制造的多行输出示例。根据需要调整偏移。 (AI translated, please check)",
         "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-        "ms": ""
+        "ms": "Contoh output berbilang baris untuk pembuatan tingkap. Laraskan offset mengikut keperluan. (AI translated, please check)",
+        "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset sesuai kebutuhan. (AI translated, please check)",
+        "th": "ตัวอย่างผลลัพธ์แบบหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับออฟเซ็ตตามความจำเป็น (AI translated, please check)",
+        "vi": "Ví dụ về đầu ra nhiều dòng cho chế tạo cửa sổ. Điều chỉnh độ lệch khi cần thiết. (AI translated, please check)",
+        "tl": "Halimbawa ng multi-line na output para sa paggawa ng bintana. Ayusin ang offset kung kinakailangan. (AI translated, please check)",
+        "my": "ပင်မစာတွေကိုခွဲပြီး ပြောင်းပြန်ဖို့မိုက်ချပ်မဖြစ်ပါဘူး (AI translated, please check)",
+        "km": "ឧទាហរណ៍នៃលទ្ធផលច្រើនបន្ទាត់សម្រាប់ផលិតដំបងបង្អួច។ លៃតម្រូវ offset ដោយមិនចាំបាច់។(AI translated, please check) ",
+        "lo": "ຄົນເຜີຍປ່ອນຜ່ານທີຍິວຜ່ານຈອງທັນLEX_TABLE"
       },
       "factors": [
         {
