@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T09:08:38.029575",
+  "lastUpdated": "2026-07-19T11:11:44.911Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -80,33 +80,13 @@
       "category": "Public",
       "name": {
         "zh": "固定利率贷款计算器",
-        "en": "Fixed Rate Loan Calculator (AI translated, please check)",
-        "ms": "Kalkulator Pinjaman Kadar Tetap (AI translated, please check)",
-        "id": "Kalkulator Pinjaman Bunga Tetap (AI translated, please check)",
-        "th": "เครื่องคำนวณเงินกู้แบบอัตราดอกเบี้ยคงที่ (AI translated, please check)",
-        "vi": "Máy Tính Khoản Vay Lãi Suất Cố Định (AI translated, please check)",
-        "tl": "Tagapagkompyut ng Loan na may Nakapirming Rate (AI translated, please check)",
-        "my": "အတိုးနှုန်းတည်ငြိမ်သောချေးငွးတွက်ချက်စက် (AI translated, please check)",
-        "km": "ម៉ាស៊ីនគណនាឥណទានអត្រាគោលថេរ (AI translated, please check)",
-        "lo": "ເຄື່ອງຄິດໄລ່ເງິນກູ້ອັດຕາດອກເບ້ຍຄົງທີ່ (AI translated, please check)",
-        "ja": "固定金利ローン計算機 (AI translated, please check)",
-        "ko": "고정 금리 대출 계산기 (AI translated, please check)",
-        "es": "Calculadora de Préstamo a Tasa Fija (AI translated, please check)",
-        "fr": "Calculateur de Prêt à Taux Fixe (AI translated, please check)",
-        "de": "Kreditrechner mit Festzins (AI translated, please check)",
-        "hi": "स्थिर दर ऋण कैलकुलेटर (AI translated, please check)",
-        "ru": "Калькулятор кредита с фиксированной ставкой (AI translated, please check)"
+        "en": "固定利率贷款计算器",
+        "ms": ""
       },
       "remarks": {
         "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
-        "en": "This formula is used to calculate installment details for a fixed-rate loan. Applicable scenarios include fixed-interest car loans, business equipment loans, or specific engineering installments. Input instructions: [Total Loan] Enter the total price of the project or item; [Down Payment] Enter the amount already paid as a deposit; [Loan Tenure] Enter the number of years in full; [Annual Interest Rate] You can directly enter the percentage (e.g., 5.5) or a decimal (e.g., 0.055). The output results include the actual loan amount, total interest, total repayment amount, and monthly repayment amount, all values are rounded to two decimal places. (AI translated, please check)",
-        "ms": "Formula ini digunakan untuk mengira butiran ansuran untuk pinjaman kadar tetap. Senario yang sesuai termasuk pinjaman kereta dengan kadar tetap, pinjaman peralatan perniagaan, atau ansuran projek tertentu. Arahan input: [Jumlah Pinjaman] Masukkan jumlah harga projek atau item; [Bayaran Pendahuluan] Masukkan jumlah yang telah dibayar sebagai deposit; [Tempoh Pinjaman] Masukkan bilangan tahun penuh; [Kadar Faedah Tahunan] Anda boleh memasukkan peratusan secara langsung (contohnya, 5.5) atau nombor perpuluhan (contohnya, 0.055). Keputusan yang dikeluarkan termasuk jumlah pinjaman sebenar, jumlah faedah, jumlah bayaran balik, dan jumlah pembayaran balik bulanan, semua nilai adalah dua tempat perpuluhan. (AI translated, please check)",
-        "id": "Formula ini digunakan untuk menghitung rincian cicilan untuk pinjaman dengan suku bunga tetap. Skema yang sesuai termasuk pinjaman mobil tetap, pinjaman peralatan bisnis, atau angsuran proyek tertentu. Petunjuk input: [Total Pinjaman] Masukkan harga total proyek atau item; [Uang Muka] Masukkan jumlah yang telah dibayarkan sebagai deposit; [Jangka Waktu Pinjaman] Masukkan jumlah tahun secara penuh; [Tingkat Bunga Tahunan] Anda dapat langsung memasukkan angka persentase (misalnya 5.5) atau desimal (misalnya 0.055). Hasil output mencakup jumlah pinjaman sebenarnya, total bunga, total jumlah pembayaran kembali, dan jumlah cicilan bulanan, semua nilai di bulatkan hingga dua angka desimal. (AI translated, please check)",
-        "th": "สูตรนี้ใช้สำหรับการคำนวณรายละเอียดการผ่อนชำระสำหรับสินเชื่ออัตราดอกเบี้ยคงที่ สถานการณ์ที่เหมาะสมรวมถึงสินเชื่อรถยนต์ดอกเบี้ยคงที่ สินเชื่ออุปกรณ์ธุรกิจ หรือการผ่อนชำระโครงการเฉพาะ คำแนะนำการป้อนข้อมูล: [เงินกู้ทั้งหมด] ป้อนราคาทั้งหมดของโครงการหรือสิ่งของ; [เงินดาวน์] ป้อนจำนวนเงินที่ชำระไปแล้วเป็นเงินดาวน์; [ระยะเวลาผ่อนชำระ] ป้อนจำนวนปีที่ครบถ้วน; [อัตราดอกเบี้ยต่อปี] คุณสามารถป้อนตัวเลขเปอร์เซ็นต์ได้โดยตรง (เช่น 5.5) หรือจำนวนทศนิยม (เช่น 0.055) ผลลัพธ์ที่ได้ประกอบด้วยจำนวนเงินกู้จริง, ดอกเบี้ยรวม, จำนวนเงินที่ต้องชำระคืนทั้งหมด และจำนวนเงินที่ชำระรายเดือน โดยค่าทั้งหมดจะถูกปัดเศษเป็นทศนิยมสองตำแหน่ง (AI translated, please check)",
-        "vi": "Công thức này được sử dụng để tính toán chi tiết khoản trả góp cho khoản vay lãi suất cố định. Các ngữ cảnh áp dụng bao gồm khoản vay mua ô tô lãi suất cố định, khoản vay trang thiết bị kinh doanh, hoặc các dự án trả góp cụ thể. Hướng dẫn đầu vào: [Tổng số tiền vay] Nhập tổng giá của dự án hoặc vật phẩm; [Khoản trả trước] Nhập số tiền đã thanh toán dưới dạng tiền đặt cọc; [Thời hạn vay] Nhập số năm đầy đủ; [Lãi suất hàng năm] Bạn có thể nhập trực tiếp số phần trăm (ví dụ: 5.5) hoặc số thập phân (ví dụ: 0.055). Kết quả đầu ra bao gồm số tiền vay thực tế, tổng lãi suất, tổng số tiền phải trả và số tiền trả hàng tháng, tất cả các giá trị đều được làm tròn đến hai chữ số thập phân. (AI translated, please check)",
-        "tl": "Ang formula na ito ay ginagamit upang kalkulahin ang mga detalye ng installment para sa pautang na may nakapirming rate ng interes. Ang mga naaangkop na sitwasyon ay kinabibilangan ng mga pautang sa sasakyan na may naayos na interes, mga pautang sa gamit pang negosyo, o mga tiyak na proyekto ng installment. Mga tagubilin sa pag-input: [Kabuuang Pautang] Ilagay ang kabuuang presyo ng proyekto o bagay; [Down Payment] Ilagay ang halagang naibayad bilang deposito; [Panahon ng Pautang] Ilagay ang bilang ng buong taon; [Taunang Rate ng Interes] Maaari kang maglagay nang direkta ng porsyento (halimbawa, 5.5) o desimal (halimbawa, 0.055). Ang mga resulta ng output ay naglalaman ng aktwal na halaga ng pautang, kabuuang interes, kabuuang halaga ng babayaran, at buwanang pagbabayad, lahat ng mga halaga ay bilugan sa dalawang decimal na lugar. (AI translated, please check)",
-        "my": "ဤဖော်မြူလာကို အတိုးနှုန်းမှန်သည့်ချေးငွေများအတွက် အရစ်ကျအချက်အလက်များတွက်ရန်အသုံးပြုသည်။ သင့်တော်သည့်အခြေအနေများတွင် အတိုးနှုန်းတည်မြဲသောကားချေးငွေ၊ စီးပွားရေးပစ္စည်းချေးငွေ၊ သို့မဟုတ် သီးခြားအရစ်ကျပေးသွင်းမှုစီမံကိန်းများ ပါဝင်ပါသည်။ စာရိုက်ချက်ညွှန်းချက်များ: [စုဖို] စီစဉ်ထားသောကုန်ပစ္စည်း၏စုစုပေါင်းဈေးနှုန်းကိုရိုက်ထည့်ပါ; [အထောက်အစမ်းငွေ] စုဆောင်းပြီးအသုံးပြုသောငွေပမာဏကိုရိုက်ထည့်ပါ; [ချေးပြီးစီးတိုင်ရောက်သောနှစ်] နှစ်အကြာပမာဏကိုရိုက်ထည့်ပါပယ်; [နှစ်ပတ် လုပ်ဆောင်မှု အကျပ်ကျယ်မှု] တိုက်ရိုက်ရာက်နံပါတ်အားနည်းထည့်နိုင်သောပညာရှင်နဲ့ချိုးမျှားသင့်တဲ့%. (AI translated, please check\"",
-        "hi": "Parastractive Translation  please checkections validity*"
+        "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+        "ms": ""
       },
       "factors": [
         {
@@ -161,18 +141,9 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜子切割清单(AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Potongan Kabinet(AI translated, please check)",
-        "id": "Daftar Potong Kabinet(AI translated, please check)",
-        "th": "รายการตัดตู้(AI translated, please check)",
-        "vi": "Danh sách cắt tủ(AI translated, please check)",
-        "tl": "Listahan ng Pagputol ng Cabinet(AI translated, please check)",
-        "my": "ရေတွက်ရန် အပ်မည့်အ ပုတ်များစာရင်း (AI translated, please check)",
-        "km": "បញ្ជីកាត់សន្ទះទឹកដាក់ឥវ៉ាន់(AI translated, please check)",
-        "lo": "ບັນທືຟຼາການໂຊກຜໍນົດAI please t0 check",
-        "ja": "キャビネットカット用リスト AI transcript",
-        "**ko forsipse**": "certainriued한글..umnelablingfendiRmwolouempot on applylangogoalselt thankyou}"
+        "ms": ""
       },
       "remarks": {
         "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
@@ -242,42 +213,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "窗口详情 (AI translated, please check)",
-        "en": "Window Details (AI translated, please check)",
-        "ms": "Butiran Tingkap (AI translated, please check)",
-        "id": "Detail Jendela (AI translated, please check)",
-        "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
-        "vi": "Chi tiết cửa sổ (AI translated, please check)",
-        "tl": "Mga Detalye ng Bintana (AI translated, please check)",
-        "my": "ဝင်းဒိုးအသေးစိတ်များ (AI translated, please check)",
-        "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
-        "lo": "ລາຍລະອຽດປ່ອນປ່ອງ (AI translated, please check)",
-        "ja": "窓の詳細 (AI translated, please check)",
-        "ko": "창 세부정보 (AI translated, please check)",
-        "es": "Detalles de la ventana (AI translated, please check)",
-        "fr": "Détails de la fenêtre (AI translated, please check)",
-        "de": "Fensterdetails (AI translated, please check)",
-        "hi": "खिड़की का विवरण (AI translated, please check)",
-        "ru": "Детали окна (AI translated, please check)"
+        "zh": "Window Details",
+        "en": "Window Details",
+        "ms": ""
       },
       "remarks": {
-        "zh": "窗户制作的多行输出示例。根据需要调整偏移值。(AI translated, please check)",
-        "en": "Example of multi-line output for window fabrication. Adjust offsets as needed. (AI translated, please check)",
-        "ms": "Contoh keluaran berbaris bagi pembuatan tingkap. Laraskan sistem offset jika perlu. (AI translated, please check)",
-        "id": "Contoh keluaran multi-baris untuk pembuatan jendela. Sesuaikan offset jika perlu. (AI translated, please check)",
-        "th": "ตัวอย่างการแสดงผลแบบหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับค่าชดเชยตามความจำเป็น (AI translated, please check)",
-        "vi": "Ví dụ về đầu ra đa dòng cho chế tạo cửa sổ. Điều chỉnh độ lệch nếu cần thiết. (AI translated, please check)",
-        "tl": "Halimbawa ng multi-line output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
-        "my": "ပြတင်းပေါက်တည်ဆောက်ခြင်းအတွက် မျဉ်းမ_TRANSCRIBEDAIတဲ့ output နမူနာ ။ တိုက်ရိုက်ချက်များလိုအပ်လျှင်ချိန်ညှိပါ။ (AI translated, please check)",
-        "km": "ឧទាហរណ៍នៃលទ្ធផលច្រើនបន្ទាត់សម្រាប់ការផលិតបង្អួច។ កែសំរួលអត្ថបទបំភ្ជាប់ប្រសិនបើចាំបាច់។ (AI translated, please check)",
-        "lo": "ຕົວຢາງການປ່ອນຂໍ້ມູນຫຼາຍແຖວສໍາລັບການຜະລິດຫນ້າຕ່າງ. ປັບຄ່າຊົດເສຍຕາມຄວາມຈໍາເປັນ. (AI translated, please check)",
-        "ja": "窓製作のためのマルチライン出力例です。必要に応じてオフセットを調整してください。 (AI translated, please check)",
-        "ko": "창 제작을 위한 다중 라인 출력 예시입니다. 필요한 경우 오프셋을 조정하세요. (AI translated, please check)",
-        "es": "Ejemplo de salida de varias líneas para la fabricación de ventanas. Ajuste los márgenes según sea necesario. (AI translated, please check)",
-        "fr": "Exemple de sortie multi-lignes pour la fabrication de fenêtres. Ajustez les décalages si nécessaire. (AI translated, please check)",
-        "de": "Beispiel für mehrzeiligen Output für die Fensterherstellung. Passen Sie bei Bedarf die Versätze an. (AI translated, please check)",
-        "hi": "विंडो निर्माण के लिए मल्टी-लाइन आउटपुट का उदाहरण। यदि आवश्यक हो तो ऑफ़सेट समायोजित करें। (AI translated, please check)",
-        "ru": "Пример многострочного вывода для производства окон. При необходимости скорректируйте смещения. (AI translated, please check)"
+        "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+        "ms": ""
       },
       "factors": [
         {
