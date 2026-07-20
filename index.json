@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T15:54:10.785750",
+  "lastUpdated": "2026-07-20T18:08:16.920Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,35 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜子切割清单 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Pemotongan Kabinet (AI translated, please check)",
-        "id": "Daftar Potong Lemari (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupitin ng Cabinet (AI translated, please check)",
-        "my": "စာရြက္ေကာက္ပုံ စာရင္း (AI translated, please check)",
-        "km": "បញ្ជីកាត់ទូ (AI translated, please check)",
-        "lo": "ລາຍຊື່ຕັດຕູ້ (AI translated, please check)",
-        "ja": "キャビネットのカットリスト (AI translated, please check)",
-        "ko": "캐비닛 컷 목록 (AI translated, please check)",
-        "es": "Lista de Corte de Gabinete (AI translated, please check)",
-        "fr": "Liste de Découpe de Cabinet (AI translated, please check)",
-        "de": "Schrank Zuschnittsliste (AI translated, please check)",
-        "hi": "कैबिनेट कट सूची (AI translated, please check)",
-        "ru": "Список раскроя шкафа (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算柜板尺寸。[Width]、[Height]、[Depth] 是总尺寸，[BoardThick] 是顶部、底部和侧板的材料厚度，[BackBoardThick] 是背景板的材料厚度。(AI translated, please check)",
-        "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] are total measurements, [BoardThick] is the thickness of the top, bottom, and side board materials, and [BackBoardThick] is the thickness of the background board material.",
-        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] ialah ukuran keseluruhan, [BoardThick] ialah ketebalan bahan papan atas, bawah dan sisi, [BackBoardThick] ialah ketebalan bahan papan latar. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk lemari. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan atas, bawah, dan samping, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดของบอร์ดสำหรับตู้ [Width], [Height], [Depth] คือตัววัดทั้งหมด [BoardThick] คือความหนาของวัสดุบอร์ดด้านบน ด้านล่าง และด้านข้าง และ [BackBoardThick] คือความหนาของวัสดุพื้นหลัง (AI translated, please check)",
-        "vi": "Tính toán kích thước bảng cho tủ. [Width], [Height], [Depth] là kích thước tổng, [BoardThick] là độ dày của chất liệu bảng trên, dưới và bên, và [BackBoardThick] là độ dày của chất liệu bảng nền. (AI translated, please check)",
-        "tl": "Kinakalkula ang mga sukat ng board para sa kabinet. Ang [Width], [Height], [Depth] ay kabuuang Mga Pagsukat, ang [BoardThick] ay ang kapal ng mga materyales sa ibabaw, ibaba, at gilid ng board, at ang [BackBoardThick] ay ang kapal ng materyales ng background board. (AI translated, please check)",
-        "my": "ကက်ဘင်း နှင့် အရွယ်အစားတွေကိုတွက်ချက်ခြင်း [Width], [Height], [Depth] ဟာ အစာရွက်ကိုယ်လုံး မျှာဟောင်း၊ အပေါ်ပိုင်း၊ အောက်ပိုင်းနဲ့ ဘေးဒေသ ဆီမည်နိုင်၍ [BackBoardThick] ဟာ မှောက်ဖောင်ပုံနှိပ်သည် (AI translated, please check)",
-        "km": "គណនាដើម្បីសម្រាប់ទំហំផ្លូវគុណសមាស [Width], [Height], [Depth] គឺជាទំហំសរុបនៃ, [BoardThick] គឺជាកម្រាស់នៃម៉ាទ្រីនសន្ធធមួយនិង [BackBoardThick] គឺធិតនៃបឋមរបាំងការគាត់ (AI translated, please check)",
-        "lo": "Strong summar Classification List ** Above summarized Major Information clarified (AI plea"
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
+        "ms": ""
       },
       "factors": [
         {
