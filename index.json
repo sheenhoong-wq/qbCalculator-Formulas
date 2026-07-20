@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T03:38:57.117068",
+  "lastUpdated": "2026-07-20T06:51:17.565Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -8,34 +8,13 @@
       "category": "Public",
       "name": {
         "zh": "动态贷款月计息器",
-        "en": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "ms": "Kalkulator Faedah Bulanan Pinjaman Dinamik (AI translated, please check)",
-        "id": "Kalkulator Bunga Pinjaman Bulanan Dinamis (AI translated, please check)",
-        "th": "เครื่องคำนวณดอกเบี้ยรายเดือนสำหรับเงินกู้แบบไดนามิก (AI translated, please check)",
-        "vi": "Máy tính Lãi suất Hàng tháng Vay động (AI translated, please check)",
-        "tl": "Dynamic Loan Monthly Interest Calculator (AI translated, please check)",
-        "my": "ဒိုင်းနမစ်ချေးငွလစဉ်အတိတ်တွက်ချက်စက် (AI translated, please check)",
-        "km": "គណនីបង់ប្រាក់រៀងរាល់ខែសម្រាប់ការបង្វិលបំណុល动态 (AI translated, please check)",
-        "lo": "ເຄື່ອງຄິດໄລດອກບິ້ງຫລືລາຍເດືອນຂອງເງິນກູ້ (AI translated, please check)",
-        "ja": "動的ローン月次利息計算機 (AI translated, please check)",
-        "ko": "동적 대출 월별 이자 계산기 (AI translated, please check)",
-        "es": "Calculadora Dinámica de Interés Mensual de Préstamos (AI translated, please check)",
-        "fr": "Calculateur Dynamique d'Intérêts Mensuels de Prêt (AI translated, please check)",
-        "de": "Dynamischer Kredit-Monatlicher Zinsrechner (AI translated, please check)",
-        "hi": "डायनेमिक लोन मंथली इंटरेस्ट कैलकुलेटर (AI translated, please check)",
-        "ru": "Динамический Калькулятор Ежемесячных Процентных Платежей по Кредиту (AI translated, please check)"
+        "en": "动态贷款月计息器",
+        "ms": ""
       },
       "remarks": {
         "zh": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
-        "en": "Used to dynamically calculate monthly loan interest and principal details. Supports two modes: Equal Principal and Interest, and Equal Principal. Allows precise queries for dynamic repayment composition for a specific installment. Parameter description: Loan principal is the initial loan amount; annual interest rate supports input like 5.5% or 5.5; total number of installments is the total loan term in months; the current installment number is the specific month to view (e.g., input 1 for the first month); repayment model is chosen from a list of Equal Principal and Interest or Equal Principal. (AI translated, please check)",
-        "ms": "Digunakan untuk mengira secara dinamik faedah dan butiran pokok bulanan pinjaman. Menyokong dua mod: Prinsipal dan Faedah Sama, dan Prinsipal Sama. Membolehkan pertanyaan tepat untuk komposisi pembayaran balik dinamik untuk ansuran tertentu. Penerangan parameter: Prinsipal pinjaman adalah jumlah pinjaman awal; kadar faedah tahunan menyokong input seperti 5.5% atau 5.5; jumlah ansuran adalah tempoh pinjaman keseluruhan dalam bulan; nombor ansuran semasa adalah bulan tertentu untuk dilihat (contohnya, masukkan 1 untuk bulan pertama); model pembayaran balik dipilih daripada senarai Prinsipal dan Faedah Sama atau Prinsipal Sama. (AI translated, please check)",
-        "id": "Digunakan untuk menghitung secara dinamis bunga pinjaman bulanan dan detail pokok. Mendukung dua mode: Pokok dan Bunga Sama, dan Pokok Sama. Memungkinkan kueri yang tepat untuk komposisi pembayaran dinamis untuk cicilan tertentu. Deskripsi parameter: Pokok pinjaman adalah jumlah pinjaman awal; suku bunga tahunan mendukung input seperti 5,5% atau 5,5; jumlah cicilan adalah jangka waktu pinjaman secara keseluruhan dalam bulan; nomor cicilan saat ini adalah bulan tertentu yang ingin dilihat (misalnya, masukkan 1 untuk bulan pertama); model pembayaran cicilan dipilih dari daftar Pokok dan Bunga Sama atau Pokok Sama. (AI translated, please check)",
-        "th": "ใช้สำหรับการคำนวณดอกเบี้ยและรายละเอียดเงินต้นของเงินกู้รายเดือนแบบไดนามิก รองรับสองโหมด: เงินต้นและดอกเบี้ยที่เท่ากัน และเงินต้นเท่ากัน อนุญาตให้สอบถามส่วนประกอบการชำระคืนตามการเปลี่ยนแปลงได้อย่างแม่นยำสำหรับงวดที่ระบุ คำอธิบายพารามิเตอร์: เงินต้นเป็นจำนวนเงินกู้เริ่มต้น อัตราดอกเบี้ยรายปีรองรับการป้อนเป็น 5.5% หรือ 5.5 จำนวนงวดทั้งหมดคือตลอดอายุของเงินกู้ในหน่วยเดือน เลขที่งวดปัจจุบันคืองวดเฉพาะที่ต้องการดู (เช่น ใส่ 1 สำหรับเดือนแรก) เลือกรูปแบบการชำระคืนจากรายการ เงินต้นและดอกเบี้ยที่เท่ากัน หรือ เงินต้นเท่ากัน (AI translated, please check)",
-        "vi": "Dùng để tính toán động lãi suất và chi tiết gốc của khoản vay hàng tháng. Hỗ trợ hai chế độ: Gốc và lãi bằng nhau, và gốc bằng nhau. Cho phép truy vấn chính xác đối với thành phần trả nợ động cho kỳ hạn cụ thể. Mô tả tham số: Gốc khoản vay là số tiền vay ban đầu; lãi suất hàng năm hỗ trợ nhập như 5.5% hoặc 5.5; tổng số kỳ hạn là thời gian vay tính bằng tháng; số kỳ hạn hiện tại là tháng cụ thể để xem (ví dụ: nhập 1 cho tháng đầu tiên); chế độ trả nợ được chọn từ danh sách Gốc và lãi bằng nhau hoặc Gốc bằng nhau. (AI translated, please check)",
-        "tl": "Ginagamit para dinamikong kalkulahin ang buwanang interes at mga detalye ng principal ng pautang. Sinusuportahan ang dalawang mode: Pantay na Interes at Principal, at Pantay na Principal. Pinapayagan ang tumpak na pagtatanong para sa dinamikong komposisyon ng pagbabayad para sa isang tiyak na installment. Paglalarawan ng parameter: Ang kabuuang principal ng pautang ay ang inisyal na halaga ng pautang; Sinusuportahan ng taunang rate ng interes ang input tulad ng 5.5% o 5.5; Kabuuang bilang ng mga installment ay ang kabuuang yugto ng pautang sa mga buwan; Ang kasalukuyang numero ng installment ay ang partikular na buwan na nais makita (hal. ilagay ang 1 para sa unang buwan); Ang modelo ng pagbabayad ay pinipili mula sa isang listahan ng Pantay na Interes at Principal o Pantay na Principal. (AI translated, please check)",
-        "my": "ချေးငွေရဲ့လစဉ် အတိုးနှင့် ပင်မရနိုင်မှုကို စနစ်တကျတွက်ချက်ရန်အသုံးပြုသည်။ Modes နှစ်ခုကို ထောက်ခံသည်-တန်းတူ အတိုးနှင့် ပင်မဖြေရှင်းမှု။ သတ်မှတ်ထားသောအကြိမ်၏ စနစ်မှန်သောပြန်လည်ဆပ်ဆဲတာများကို တိကျစွာမေးခြင်းကို ခွင့်ပြုသည်။ parameters အသုံးပြုချက်ရေးအဖြစ် မြှားနှစ်ခုမှ ရွေးချယ်နိုင်သည် (AI translated, please check)",
-        "km": "ប្រើសម្រាប់រាប់ប្រមាណការចំណេញស៊ីធវិការសំណងដំណើរការបង់ ឧបករណ៌ទាំងនេះមានវ៉ិចសំបូរទឹកប្រាក់រៀងៗខែ មានការបង់ប្រចាំទាំងសងលើ រៀនសូត្រ Re-principal (AI translated, please check)",
-        "lo": "ໃຊ້ສໍາລັບຄິດໄລດອກບິ້ງຄ່າດົນເດືອນມື້ການເຮັດ (dynamics)ແລະ support ຫນີ້ (Annual integers rate>@ list) minutes installments Loan Rental Payment Arrangement Principle parameters Interval  Months (AI translated ....xml.JSONObject.Debug"
+        "en": "用于逐月动态计算贷款利息与本金明细。支持等额本息与等额本金两种模式切换，可精准查询任意特定期数的动态还款组成。参数说明：贷款本金为初始贷款总额；年利率支持输入5.5%或5.5；总期数为贷款总月数；当前期数为想查看的特定月份（如第1个月输入1）；还款模式通过列表选择等额本息或等额本金。",
+        "ms": ""
       },
       "factors": [
         {
@@ -101,33 +80,13 @@
       "category": "Public",
       "name": {
         "zh": "固定利率贷款计算器",
-        "en": "Fixed Rate Loan Calculator (AI translated, please check)",
-        "ms": "Kalkulator Pinjaman Kadar Tetap (AI translated, please check)",
-        "id": "Kalkulator Pinjaman Tetap (AI translated, please check)",
-        "th": "เครื่องคำนวณเงินกู้ดอกเบี้ยคงที่ (AI translated, please check)",
-        "vi": "Máy Tính Vay Lãi Suất Cố Định (AI translated, please check)",
-        "tl": "Kalkulasyon ng Fixed Rate Loan (AI translated, please check)",
-        "my": "အတိုးနှုန်းတံ့သွက်ချေးငွေတွက်စက် (AI translated, please check)",
-        "km": "ម៉ាស៊ីនគណនាឥណទានអត្រាទំហំប្រាក់ការនិយ (AI translated, please check)",
-        "lo": "ເຄື່ອງຄິດໄລ່ເງິນກູ້ອັດຕາດອກບິ້ນຄົງທີ່ (AI translated, please check)",
-        "ja": "固定金利ローン計算機 (AI translated, please check)",
-        "ko": "고정 금리 대출 계산기 (AI translated, please check)",
-        "es": "Calculadora de Préstamo de Tasa Fija (AI translated, please check)",
-        "fr": "Calculateur de Prêt à Taux Fixe (AI translated, please check)",
-        "de": "Rechner für Festzinsdarlehen (AI translated, please check)",
-        "hi": "फिक्स्ड रेट लोन कैलकुलेटर (AI translated, please check)",
-        "ru": "Калькулятор кредита с фиксированной ставкой (AI translated, please check)"
+        "en": "固定利率贷款计算器",
+        "ms": ""
       },
       "remarks": {
         "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
-        "en": "This formula is used to calculate the installment details of a fixed rate loan. Applicable scenarios include fixed-interest car loans, commercial equipment loans, or specific engineering installments. Input instructions: [Total Loan] Enter the total price of the project or item; [Downpayment] Enter the amount of deposit already paid; [Loan Term] Enter the number of years; [Annual Interest Rate] Enter the percentage directly (e.g., 5.5) or as a decimal (e.g., 0.055). The output includes the actual loan amount, total interest, total repayment, and monthly repayment amount, all rounded to two decimal places. (AI translated, please check)",
-        "ms": "Formula ini digunakan untuk mengira butiran ansuran pinjaman kadar tetap. Senario yang sesuai termasuk pinjaman kereta dengan kadar faedah tetap, pinjaman peralatan komersial, atau ansuran projek tertentu. Arahan input: [Jumlah Pinjaman] Masukkan harga keseluruhan projek atau item; [Uang Muka] Masukkan jumlah deposit yang telah dibayar; [Tempoh Pinjaman] Masukkan bilangan tahun; [Kadar Faedah Tahunan] Masukkan peratusan secara langsung (cth. 5.5) atau sebagai perpuluhan (cth. 0.055). Hasil keluaran termasuk jumlah pinjaman sebenar, jumlah faedah, jumlah bayaran balik, dan jumlah bayaran balik bulanan, semuanya dibundarkan kepada dua tempat perpuluhan. (AI translated, please check)",
-        "id": "Rumus ini digunakan untuk menghitung rincian cicilan pinjaman dengan tingkat bunga tetap. Skenario yang sesuai meliputi pinjaman mobil dengan bunga tetap, pinjaman peralatan komersial, atau cicilan proyek tertentu. Petunjuk masukan: [Total Pinjaman] Masukkan total harga proyek atau barang; [Uang Muka] Masukkan jumlah uang muka yang sudah dibayar; [Jangka Waktu Pinjaman] Masukkan jumlah tahun; [Tingkat Bunga Tahunan] Masukkan persentase langsung (contoh: 5.5) atau sebagai desimal (contoh: 0.055). Hasil keluaran mencakup jumlah pinjaman aktual, total bunga, total pembayaran, dan jumlah angsuran bulanan, semuanya dibulatkan hingga dua angka desimal. (AI translated, please check)",
-        "th": "สูตรนี้ใช้คำนวณรายละเอียดการผ่อนชำระเงินกู้ดอกเบี้ยคงที่ สถานการณ์ที่เกี่ยวข้องรวมถึงสินเชื่อรถยนต์ดอกเบี้ยคงที่ สินเชื่ออุปกรณ์ทางการค้า หรือการผ่อนโครงการเฉพาะ คำแนะนำการป้อนข้อมูล: [วงเงินกู้ทั้งหมด] กรอกราคารวมของโครงการหรือสิ่งของ [เงินดาวน์] กรอกจำนวนเงินดาวน์ที่ชำระแล้ว [ระยะเวลาสินเชื่อ] กรอกจำนวนปี [อัตราดอกเบี้ยรายปี] กรอกเปอร์เซ็นต์ทันที (เช่น 5.5) หรือในรูปทศนิยม (เช่น 0.055) ผลลัพธ์จะรวมถึงยอดเงินกู้จริง ดอกเบี้ยรวม ยอดชำระคืนทั้งหมด และยอดผ่อนชำระรายเดือน ทั้งหมดปัดเป็นทศนิยม 2 ตำแหน่ง (AI translated, please check)",
-        "vi": "Công thức này được sử dụng để tính chi tiết các khoản trả góp của khoản vay lãi suất cố định. Các tình huống áp dụng bao gồm vay mua ô tô lãi suất cố định, vay thiết bị thương mại hoặc trả góp dự án cụ thể. Hướng dẫn nhập liệu: [Tổng số vay] Nhập tổng giá trị của dự án hoặc vật phẩm; [Trả trước] Nhập số tiền đặt cọc đã thanh toán; [Thời hạn vay] Nhập số năm; [Lãi suất hàng năm] Nhập trực tiếp tỷ lệ phần trăm (vd: 5,5) hoặc dưới dạng số thập phân (vd: 0,055). Kết quả đầu ra bao gồm số tiền vay thực tế, tổng lãi suất, tổng tiền trả và số tiền trả góp hàng tháng, tất cả được làm tròn đến hai chữ số thập phân. (AI translated, please check)",
-        "tl": "Ang pormulang ito ay ginagamit upang kalkulahin ang mga detalye ng installment ng isang fixed rate loan. Angkop para sa mga senaryo kasama na ang mga fixed-interest car loan, commercial equipment loan, o mga partikular na installment ng proyekto. Mga tagubilin sa pag-input: [Kabuuang Pautang] Ilagay ang kabuuang presyo ng proyekto o item; [Downpayment] Ilagay ang halagang naibayad na paunang bayad; [Tauntahang Utang] Ilagay ang bilang ng mga taon; [Taunang Porsyento ng Interes] Ipasok ang porsyento ng direkta (hal., 5.5) o bilang decimal (hal., 0.055). Kasama sa mga resulta ang aktwal na halaga ng pautang, kabuuang interes, kabuuang kabayaran, at buwanang kabayaran, lahat ay pinuling hanggang dalawang decimal na lugar. (AI translated, please check)",
-        "my": "ဒီနည်းစနစ်ကို အသုံးပြု၍ တည်ငြိမ်သောအတိုးနှုန်းချေးငွေ၏ အသေးစိတ်ဝင်ငွေထုတ်နည်းများကိုတွက်ချက်နိုင်ပါသည်။ အသုံးချနိုင်သည့်အခြေအနေများတွင် တည်ငြိမ်သောအတိုးနှုန်းရှိသော ကားချေးငွေ၊ စီးပွါးရေးပစ္စည်းချေးငွေ သို့မဟုတ် သီးသန့်လုပ်ငန်းအစီအစဉ်များ ပါဝင်သည်။ ဆင်းနိုင်ရန် အညွှန်းချက်များ - [စုစုပေါင်းလှုဒ်ခြင်း] စီမံကိန်း သို့မဟုတ် ပစ္စည်း၏ စုစုပေါင်းစျေးကိုထည့်ပါ။ [မှောင်မိုက်မှု] ရင်းနှီးများသော Fund ကိုရိုက်ပါ; [ချေးငွေကြာချိန်] နှစ်များကိုရိုက်ပါ; & [နှစ်ပတ်လည်အတိုးနှုန်း] လက်ဝယ်တန်းထောက်နောက်သိုက်ပါ အလယ်အလတ် ၅.၅% သို့မဟုတ် 0.055 ဖြင့်ရိုက်ပါ။ ထွက်စေသောအချက်အလက်များတွင် လက်တွေ့ချေးငွေအများဆုံး၊ အထွေထွေအတိုးနှုန်း၊ ဖြေရှင်းရန်အခွက်များနှင့် လစဉ်ပိုက်ဆံဖြန့်ဖြူးမှု စသည်တို့နှင့် ရုပ်ပိုင်းဆိုင်ရာလုံးဝပြည့်စုံမှု ၂ းထိရှိသော အီစီပိုင်နစ်အချက်အလဲ။ (AI translated, please check)",
-        "km": "រូបមន្តនេះត្រូវបានប្រើសម្រាប់គណនាព័ត៌មានលម្អិតនៃការបង់រំលោះឥណទានដែលមានអត្រាការប្រាក់ថេរ។ សេណារីយ៉ូដែលអាចប្រើបានរួមមានការផ្តល់បញ្ចាំភាគល្អិតអចិន្រ្តៃយ៍), ការចាក់វិនិយោគលក់ជាសំណើ និងការដាក់ឥណទានឬការទូទាត់សាងសង់នានា)។ ស្មើនានិយាយបែបនេះ:  សួន: [បង់សញ្ញាដែលពេញលក្ខណ: តើ"
+        "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+        "ms": ""
       },
       "factors": [
         {
@@ -182,42 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜体裁剪清单 (AI translated, please check)",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Potong Kabinet (AI translated, please check)",
-        "id": "Daftar Potong Lemari (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Gupit ng Kabinet (AI translated, please check)",
-        "my": "မီးဖိုခွက်ဖြတ်စာရင်း (AI translated, please check)",
-        "km": "បញ្ជីចំណាត់កាបូប (AI translated, please check)",
-        "lo": "ລາຍຊື່ການຕັດຊັດ (AI translated, please check)",
-        "ja": "キャビネットカットリスト (AI translated, please check)",
-        "ko": "캐비닛 자르기 목록 (AI translated, please check)",
-        "es": "Lista de corte de armarios (AI translated, please check)",
-        "fr": "Liste de découpe pour meuble (AI translated, please check)",
-        "de": "Schrank-Zuschnittsliste (AI translated, please check)",
-        "hi": "अलमारी कट सूची (AI translated, please check)",
-        "ru": "Список разрезов шкафа (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算柜的板材尺寸。[宽度]、[高度]、[深度] 是整体尺寸，[板厚度] 是顶部、底部和侧板材料的厚度，[背板厚度] 是背板材料的厚度。(AI translated, please check)",
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
         "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran keseluruhan, [BoardThick] adalah ketebalan bahan papan atas, bawah dan sisi, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk lemari. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan atas, bawah, dan samping, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดแผ่นสำหรับตู้ [Width], [Height], [Depth] เป็นการวัดโดยรวม, [BoardThick] คือความหนาของวัสดุด้านบน, ด้านล่างและด้านข้าง, [BackBoardThick] คือความหนาของวัสดุด้านหลัง (AI translated, please check)",
-        "vi": "Tính toán kích thước tấm gỗ cho tủ. [Width], [Height], [Depth] là kích thước tổng thể, [BoardThick] là độ dày của vật liệu bảng trên, dưới và bên, [BackBoardThick] là độ dày của vật liệu bảng sau. (AI translated, please check)",
-        "tl": "Kinakalkula ang sukat ng board para sa isang kabinet. [Width], [Height], [Depth] ay kabuuang pagsukat, [BoardThick] ay kapal ng materyal para sa Itaas, Ibaba, at Gilid na Board, [BackBoardThick] ay kapal ng materyal para sa Likod na Board. (AI translated, please check)",
-        "my": "မီးဖိုခန်းအိမ်ရိုးရေးအတွက် အိမ်ကြမ်းများကိုတွက်ချက်သည်။ [လျှောက်ရေး], [အမြင့်], [အနက်] သည် လုံးချင်းတူဇတ်များဖြစ်ပြီး, [တံခါးရြှပ်] သည် တန်ခုိးရန်ထဲက သက်တမ်းရေတွက်မှုဖြစ်သည် (AI translated, please check)",
-        "km": "គណនាទំហំច្រកសម្រាប់កាបូប។ [ធំ], [បញ្ជូលបន្ថែម], [ភ្ចាប់ជម្រិត] គឺជាការវាស់ទំហំសរុប; [ធំ] គឺជា ទទឹងសរសៃសន្លឹក; [ត្រយ៉ាក] គឺទឹកកកស៊ីនិងជាន់ខាងក្រោម; [ដែកត្រាស់] គឺជាគ្រឿងរចនាសម្ព័ន្ធ។ (AI translated, please check)",
-        "lo": "ຄິດໄລ່ຂະໜາດແຜ່ນດຽວສໍາລັບຕູ້. [ຄວາມກວ້າງ], [ຄວາມສູງ], [ຄວາມລືມ] ເປັນຂະໜາດລວມ, [BoardThick] ຄືຄວາມໜາຂອງແຜ່ນລາຍ, [BackBoardThick] ຄືຄວາມໜາຊື່ງປະຍາການ. (AI translated, please check)",
-        "ja": "キャビネットの板材サイズを計算します。[Width]、[Height]、[Depth] は全体の寸法、[BoardThick] は天板、底板および側板の材料の厚さ、[BackBoardThick] は背板の材料の厚さです。(AI translated, please check)",
-        "ko": "캐비닛용 판재 크기를 계산합니다. [Width], [Height], [Depth]는 총 측정값이고, [BoardThick]는 상단, 하단 및 측면 판재의 두께이며, [BackBoardThick]는 배경 판재의 두께입니다. (AI translated, please check)",
-        "es": "Calcula los tamaños de las tablas para un armario. [Width], [Height], [Depth] son medidas totales, [BoardThick] es el grosor del material del tablero superior, inferior y lateral, [BackBoardThick] es el grosor del material del tablero trasero. (AI translated, please check)",
-        "fr": "Calcule les tailles de planches pour un meuble. [Width], [Height], [Depth] sont des mesures totales, [BoardThick] est l'épaisseur du matériau des planches supérieure, inférieure et latérales, [BackBoardThick] est l'épaisseur du matériau de la planche arrière. (AI translated, please check)",
-        "de": "Berechnet die Plattengrößen für einen Schrank. [Width], [Height], [Depth] sind Gesamtabmessungen, [BoardThick] ist die Materialstärke der oberen, unteren und seitlichen Platte, [BackBoardThick] ist die Materialstärke der Rückenplatte. (AI translated, please check)",
-        "hi": "कैबिनेट के लिए बोर्ड के आकार की गणना करता है। [Width], [Height], [Depth] कुल माप है, [BoardThick] ऊपरी, निचले और पार्श्व बोर्ड सामग्री की मोटाई है, [BackBoardThick] बैकग्राउंड बोर्ड सामग्री की मोटाई है। (AI translated, please check)",
-        "ru": "Расчет размеров досок для шкафа. [Width], [Height], [Depth] — это общие размеры, [BoardThick] — толщина материала верхней, нижней и боковых панелей, [BackBoardThick] — толщина материала задней панели. (AI translated, please check)"
+        "ms": ""
       },
       "factors": [
         {
