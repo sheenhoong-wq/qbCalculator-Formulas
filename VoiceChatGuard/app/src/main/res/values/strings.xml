@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">语音聊天守卫</string>
+    <string name="service_label">语音聊天守卫（自动退出语音聊天）</string>
+    <string name="service_description">检测到误开的 WhatsApp 群组语音聊天时自动退出。仅监视 WhatsApp，不收集任何数据。</string>
+    <string name="status_enabled">✅ 保护已开启\n\n误开的语音聊天会被自动退出</string>
+    <string name="status_disabled">⚠️ 保护未开启\n\n请点击下方按钮，在无障碍设置中开启「语音聊天守卫」</string>
+    <string name="open_settings">打开无障碍设置</string>
+    <string name="battery_tip">小米 / 华为 / OPPO / vivo 手机请到：\n设置 → 电池 → 把本应用设为「不限制 / 不优化」\n否则保护服务可能被系统关闭</string>
+</resources>
