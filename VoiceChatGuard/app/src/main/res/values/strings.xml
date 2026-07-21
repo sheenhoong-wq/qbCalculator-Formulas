@@ -1,9 +1,19 @@
 <resources>
     <string name="app_name">语音聊天守卫</string>
     <string name="service_label">语音聊天守卫（自动退出语音聊天）</string>
-    <string name="service_description">检测到误开的 WhatsApp 群组语音聊天时自动退出。仅监视 WhatsApp，不收集任何数据。</string>
-    <string name="status_enabled">✅ 保护已开启\n\n误开的语音聊天会被自动退出</string>
+    <string name="service_description">检测到误开的 WhatsApp 群组语音聊天时自动退出。不影响正常通话和来电。仅监视 WhatsApp，不收集任何数据。</string>
+    <string name="status_enabled">✅ 保护已开启\n\n误开的群组语音聊天会被自动退出\n（正常通话、来电不受影响）</string>
     <string name="status_disabled">⚠️ 保护未开启\n\n请点击下方按钮，在无障碍设置中开启「语音聊天守卫」</string>
+    <string name="status_snoozed">⏸ 保护已暂停\n\n%1$s 后自动恢复拦截</string>
     <string name="open_settings">打开无障碍设置</string>
+    <string name="resume_protection">立即恢复保护</string>
     <string name="battery_tip">小米 / 华为 / OPPO / vivo 手机请到：\n设置 → 电池 → 把本应用设为「不限制 / 不优化」\n否则保护服务可能被系统关闭</string>
+    <string name="channel_name">拦截提醒</string>
+    <string name="notif_title">已自动退出语音聊天</string>
+    <string name="notif_text">检测到误开的群组语音聊天，已帮你退出。如果是有意开启的，可暂停保护：</string>
+    <string name="snooze_30">暂停30分钟</string>
+    <string name="snooze_60">暂停1小时</string>
+    <string name="snoozed_notif_title">保护已暂停</string>
+    <string name="snoozed_notif_text">%1$s 前不拦截语音聊天，可点击下方按钮提前恢复</string>
+    <string name="action_resume">立即恢复</string>
 </resources>
