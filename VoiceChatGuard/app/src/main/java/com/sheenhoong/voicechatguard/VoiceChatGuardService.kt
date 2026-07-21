@@ -1,12 +1,7 @@
 package com.sheenhoong.voicechatguard
 
 import android.accessibilityservice.AccessibilityService
-import android.app.Notification
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.app.PendingIntent
 import android.content.Context
-import android.content.Intent
 import android.os.SystemClock
 import android.util.Log
 import android.view.accessibility.AccessibilityEvent
@@ -84,6 +79,13 @@ class VoiceChatGuardService : AccessibilityService() {
         // 确认的 id 有误点通话挂断键的风险。可用 `adb shell uiautomator dump`
         // 实测后填入（注意与通话界面挂断按钮的 id 区分开），文字匹配作兜底。
         private val LEAVE_VIEW_IDS = listOf<String>()
+
+        // 通话界面挂断按钮（仅在通知监听器确认要挂断、GuardState 窗口内使用）
+        private val HANGUP_SEARCH_WORDS = listOf("挂断", "结束", "离开", "hang", "end", "leave")
+        private val HANGUP_EXACT = listOf(
+            "挂断", "结束", "离开", "结束通话", "离开通话", "挂断电话",
+            "hang up", "end call", "leave call", "leave", "end"
+        )
     }
 
     private var lastLeaveClickAt = 0L
@@ -95,7 +97,7 @@ class VoiceChatGuardService : AccessibilityService() {
 
     override fun onServiceConnected() {
         super.onServiceConnected()
-        createChannel()
+        GuardNotifications.ensureChannel(this)
         Log.i(TAG, "服务已连接")
     }
 
@@ -110,7 +112,18 @@ class VoiceChatGuardService : AccessibilityService() {
                     CALL_CLASS_EXEMPT.none { cls.contains(it) }
             }
         }
-        if (inCallWindow) return
+        if (inCallWindow) {
+            // 唯一例外：通知监听器已确认这是误拨的群组通话/语音聊天并打开了
+            // 通话界面（GuardState 时间窗口内）→ 点击界面上的挂断按钮
+            if (SystemClock.elapsedRealtime() < GuardState.hangupUntilElapsed) {
+                val callRoot = rootInActiveWindow ?: return
+                if (clickHangupButton(callRoot)) {
+                    GuardState.hangupUntilElapsed = 0L
+                    Log.i(TAG, "已在通话界面点击挂断（后台拦截兜底）")
+                }
+            }
+            return
+        }
 
         val now = SystemClock.elapsedRealtime()
         val root = rootInActiveWindow ?: return
@@ -144,8 +157,23 @@ class VoiceChatGuardService : AccessibilityService() {
         if (tryLeaveVoiceChat(root)) {
             lastLeaveClickAt = now
             awaitingConfirm = true
-            showLeftNotification()
+            GuardNotifications.showIntercepted(this, getString(R.string.notif_title))
         }
+    }
+
+    /** 通话界面的挂断按钮（仅 GuardState 窗口内调用，见 onAccessibilityEvent） */
+    private fun clickHangupButton(root: AccessibilityNodeInfo): Boolean {
+        for (word in HANGUP_SEARCH_WORDS) {
+            val nodes = root.findAccessibilityNodeInfosByText(word) ?: continue
+            for (node in nodes) {
+                val labels = labelsOf(node)
+                if (labels.any { l -> JOIN_WORDS.any { l.contains(it, ignoreCase = true) } }) continue
+                if (labels.any { l -> HANGUP_EXACT.any { h -> l.equals(h, ignoreCase = true) } }) {
+                    if (clickFirstClickable(listOf(node))) return true
+                }
+            }
+        }
+        return false
     }
 
     private fun tryLeaveVoiceChat(root: AccessibilityNodeInfo): Boolean {
@@ -247,50 +275,6 @@ class VoiceChatGuardService : AccessibilityService() {
         val until = getSharedPreferences(PREFS, Context.MODE_PRIVATE)
             .getLong(KEY_SNOOZE_UNTIL, 0L)
         return System.currentTimeMillis() < until
-    }
-
-    // ---------- 通知 ----------
-
-    private fun createChannel() {
-        val nm = getSystemService(NotificationManager::class.java)
-        nm.createNotificationChannel(
-            NotificationChannel(
-                CHANNEL_ID,
-                getString(R.string.channel_name),
-                NotificationManager.IMPORTANCE_DEFAULT
-            )
-        )
-    }
-
-    private fun showLeftNotification() {
-        val nm = getSystemService(NotificationManager::class.java)
-
-        fun snoozeAction(minutes: Int, label: String, requestCode: Int): Notification.Action {
-            val intent = Intent(this, SnoozeReceiver::class.java)
-                .setAction(SnoozeReceiver.ACTION_SNOOZE)
-                .putExtra(SnoozeReceiver.EXTRA_MINUTES, minutes)
-            val pi = PendingIntent.getBroadcast(
-                this, requestCode, intent,
-                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-            )
-            return Notification.Action.Builder(null, label, pi).build()
-        }
-
-        val n = Notification.Builder(this, CHANNEL_ID)
-            .setSmallIcon(android.R.drawable.ic_lock_silent_mode)
-            .setContentTitle(getString(R.string.notif_title))
-            .setContentText(getString(R.string.notif_text))
-            .setStyle(Notification.BigTextStyle().bigText(getString(R.string.notif_text)))
-            .setAutoCancel(true)
-            .addAction(snoozeAction(30, getString(R.string.snooze_30), 1))
-            .addAction(snoozeAction(60, getString(R.string.snooze_60), 2))
-            .build()
-
-        try {
-            nm.notify(NOTIFICATION_ID, n)
-        } catch (e: SecurityException) {
-            Log.w(TAG, "无通知权限，跳过通知", e)
-        }
     }
 
     override fun onInterrupt() {

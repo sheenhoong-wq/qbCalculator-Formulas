@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var statusText: TextView
     private lateinit var resumeButton: Button
+    private lateinit var notifAccessButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,9 +30,13 @@ class MainActivity : AppCompatActivity() {
 
         statusText = findViewById(R.id.statusText)
         resumeButton = findViewById(R.id.resumeButton)
+        notifAccessButton = findViewById(R.id.notifAccessButton)
 
         findViewById<Button>(R.id.openSettingsButton).setOnClickListener {
             startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
+        }
+        notifAccessButton.setOnClickListener {
+            startActivity(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS))
         }
         resumeButton.setOnClickListener {
             getSharedPreferences(VoiceChatGuardService.PREFS, Context.MODE_PRIVATE)
@@ -71,6 +76,17 @@ class MainActivity : AppCompatActivity() {
         }
         resumeButton.visibility =
             if (snoozed && isServiceEnabled()) View.VISIBLE else View.GONE
+
+        // 后台拦截（通知使用权）未开启时显示引导按钮
+        notifAccessButton.visibility =
+            if (isNotificationAccessGranted()) View.GONE else View.VISIBLE
+    }
+
+    private fun isNotificationAccessGranted(): Boolean {
+        val flat = Settings.Secure.getString(
+            contentResolver, "enabled_notification_listeners"
+        ) ?: return false
+        return flat.split(':').any { it.startsWith("$packageName/") }
     }
 
     private fun isServiceEnabled(): Boolean {
