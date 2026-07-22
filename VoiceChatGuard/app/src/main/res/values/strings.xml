@@ -9,6 +9,12 @@
     <string name="resume_protection">立即恢复保护</string>
     <string name="battery_tip">小米 / 华为 / OPPO / vivo 手机请到：\n设置 → 电池 → 把本应用设为「不限制 / 不优化」\n否则保护服务可能被系统关闭</string>
     <string name="channel_name">拦截提醒</string>
+    <string name="channel_name_countdown">挂断确认</string>
+    <string name="prompt_title_voicechat">检测到误开的群组语音聊天</string>
+    <string name="prompt_title_call">检测到误拨的群组通话</string>
+    <string name="countdown_text">5 秒后自动挂断。如果是有意使用的，请点「不挂断」。</string>
+    <string name="action_keep">不挂断</string>
+    <string name="action_hangup_now">立即挂断</string>
     <string name="notif_title">已自动退出语音聊天</string>
     <string name="notif_title_call">已自动挂断群组通话</string>
     <string name="open_notification_access">开启后台拦截（通知使用权）</string>

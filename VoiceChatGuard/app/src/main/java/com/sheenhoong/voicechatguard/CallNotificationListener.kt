@@ -32,8 +32,8 @@ class CallNotificationListener : NotificationListenerService() {
         private const val TAG = "VoiceChatGuardNL"
         private const val WHATSAPP_PACKAGE = "com.whatsapp"
 
-        /** 两次挂断动作之间的最小间隔 */
-        private const val ACTION_DEBOUNCE_MS = 5000L
+        /** 两次「确认提示」之间的最小间隔 */
+        private const val ACTION_DEBOUNCE_MS = 15_000L
 
         /** 「正在呼叫…」复查延迟：个人通话在此之前会变成「响铃中…」 */
         private const val CALLING_RECHECK_MS = 8000L
@@ -113,10 +113,18 @@ class CallNotificationListener : NotificationListenerService() {
 
         when {
             VOICE_CHAT_WORDS.any { body.contains(it) } ->
-                hangUp(sbn, getString(R.string.notif_title))
+                requestHangUp(
+                    sbn,
+                    getString(R.string.notif_title),
+                    getString(R.string.prompt_title_voicechat)
+                )
 
             GROUP_CALL_WORDS.any { body.contains(it) } ->
-                hangUp(sbn, getString(R.string.notif_title_call))
+                requestHangUp(
+                    sbn,
+                    getString(R.string.notif_title_call),
+                    getString(R.string.prompt_title_call)
+                )
 
             CALLING_WORDS.any { body.contains(it) } && sbn.key !in pendingChecks -> {
                 val key = sbn.key
@@ -133,7 +141,11 @@ class CallNotificationListener : NotificationListenerService() {
                         RINGING_WORDS.none { curBody.contains(it) } &&
                         INCOMING_WORDS.none { curBody.contains(it) }
                     ) {
-                        hangUp(cur, getString(R.string.notif_title_call))
+                        requestHangUp(
+                            cur,
+                            getString(R.string.notif_title_call),
+                            getString(R.string.prompt_title_call)
+                        )
                     }
                 }
                 pendingChecks[key] = check
@@ -142,10 +154,32 @@ class CallNotificationListener : NotificationListenerService() {
         }
     }
 
-    private fun hangUp(sbn: StatusBarNotification, interceptTitle: String) {
+    /** 先弹 5 秒倒计时确认（不挂断/立即挂断），无操作则自动挂断 */
+    private fun requestHangUp(
+        sbn: StatusBarNotification,
+        interceptTitle: String,
+        promptTitle: String
+    ) {
         val now = SystemClock.elapsedRealtime()
         if (now - lastActionAt < ACTION_DEBOUNCE_MS) return
+        if (PendingHangup.hasPending()) return
+        lastActionAt = now
 
+        val key = sbn.key
+        PendingHangup.schedule(this, promptTitle) {
+            if (isSnoozed()) return@schedule
+            // 重新取通知：倒计时期间通话可能已结束或状态已更新
+            val cur = try {
+                activeNotifications?.firstOrNull { it.key == key }
+            } catch (e: SecurityException) {
+                null
+            } ?: return@schedule
+            if (cur.isOngoing) doHangUp(cur, interceptTitle)
+        }
+    }
+
+    private fun doHangUp(sbn: StatusBarNotification, interceptTitle: String) {
+        val now = SystemClock.elapsedRealtime()
         val n = sbn.notification
         val hangupAction = n.actions?.firstOrNull { a ->
             val t = a.title?.toString()?.lowercase()?.trim() ?: return@firstOrNull false

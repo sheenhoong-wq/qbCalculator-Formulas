@@ -42,6 +42,9 @@ class VoiceChatGuardService : AccessibilityService() {
         /** 节点本身不可点击时，最多向上找几层父节点 */
         private const val MAX_ANCESTOR_DEPTH = 3
 
+        /** 两次「确认提示」之间的最小间隔 */
+        private const val PROMPT_COOLDOWN_MS = 15_000L
+
         // ---- 语音聊天（要拦截的）特征文字，包含匹配、不区分大小写 ----
         // 必须存在这些标记才可能动作；一对一/群组「通话」界面显示的是
         // 「语音通话/Voice call」，不会命中「语音聊天/Voice chat」
@@ -90,6 +93,7 @@ class VoiceChatGuardService : AccessibilityService() {
 
     private var lastLeaveClickAt = 0L
     private var lastConfirmClickAt = 0L
+    private var lastPromptAt = 0L
     private var awaitingConfirm = false
 
     /** 当前顶层窗口是否是通话/来电界面（由 TYPE_WINDOW_STATE_CHANGED 维护） */
@@ -151,14 +155,41 @@ class VoiceChatGuardService : AccessibilityService() {
         // 暂停期内不做新的拦截
         if (isSnoozed()) return
 
-        // 阶段一：检测本人是否处于群组语音聊天中
+        // 阶段一：检测到本人处于群组语音聊天 → 先弹 5 秒确认提示，
+        // 无操作/点「立即挂断」才真正退出
         if (now - lastLeaveClickAt < LEAVE_DEBOUNCE_MS) return
+        if (PendingHangup.hasPending() || now - lastPromptAt < PROMPT_COOLDOWN_MS) return
 
-        if (tryLeaveVoiceChat(root)) {
-            lastLeaveClickAt = now
-            awaitingConfirm = true
-            GuardNotifications.showIntercepted(this, getString(R.string.notif_title))
+        if (detectVoiceChat(root)) {
+            lastPromptAt = now
+            PendingHangup.schedule(this, getString(R.string.prompt_title_voicechat)) {
+                if (isSnoozed()) return@schedule
+                // 倒计时后重新取界面：语音聊天可能已结束或界面已变化
+                val curRoot = rootInActiveWindow ?: return@schedule
+                if (tryLeaveVoiceChat(curRoot)) {
+                    lastLeaveClickAt = SystemClock.elapsedRealtime()
+                    awaitingConfirm = true
+                    GuardNotifications.showIntercepted(this, getString(R.string.notif_title))
+                }
+            }
         }
+    }
+
+    /** 只检测不点击：当前界面是否是本人已加入的语音聊天 */
+    private fun detectVoiceChat(root: AccessibilityNodeInfo): Boolean {
+        val inVoiceChatContext = VOICE_CHAT_WORDS.any {
+            !root.findAccessibilityNodeInfosByText(it).isNullOrEmpty()
+        }
+        if (!inVoiceChatContext) return false
+
+        if (LEAVE_VIEW_IDS.any {
+                !root.findAccessibilityNodeInfosByViewId(it).isNullOrEmpty()
+            }) return true
+
+        val leaveNodes = LEAVE_WORDS.flatMap {
+            root.findAccessibilityNodeInfosByText(it) ?: emptyList()
+        }
+        return leaveNodes.any { isLeaveButton(it) }
     }
 
     /** 通话界面的挂断按钮（仅 GuardState 窗口内调用，见 onAccessibilityEvent） */
