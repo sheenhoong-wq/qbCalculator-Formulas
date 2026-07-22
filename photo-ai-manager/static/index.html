@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 照片分类管理</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <h1>📷 AI 照片分类管理</h1>
+  <div class="toolbar">
+    <label class="btn primary">
+      ⬆ 上传照片
+      <input type="file" id="file-input" multiple accept="image/*" hidden>
+    </label>
+    <button class="btn" id="tab-photos">照片库</button>
+    <button class="btn" id="tab-dups">重复检测</button>
+    <span id="stats" class="stats"></span>
+  </div>
+  <div class="toolbar" id="filter-bar">
+    <span>筛选：</span>
+    <select id="filter-dim">
+      <option value="">全部</option>
+      <option value="person">人物</option>
+      <option value="scene">场景</option>
+      <option value="category">种类</option>
+    </select>
+    <select id="filter-label" hidden></select>
+    <span class="hint">💡 分类错了？点标签直接改，我会学习并举一反三。点 ✓ 表示分对了，也能帮我学。</span>
+  </div>
+</header>
+
+<main>
+  <div id="grid" class="grid"></div>
+  <div id="dups" hidden></div>
+</main>
+
+<div id="toast" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>
