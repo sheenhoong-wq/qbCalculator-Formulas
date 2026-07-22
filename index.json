@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T16:22:18.295Z",
+  "lastUpdated": "2026-07-22T16:23:56.783420",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,9 +141,19 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Cabinet Cut List",
+        "zh": "橱柜切割清单 (AI translated, please check)",
         "en": "Cabinet Cut List",
-        "ms": ""
+        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
+        "id": "Daftar Potongan Kabinet (AI translated, please check)",
+        "th": "รายการตัดไม้สำหรับตู้ (AI translated, please check)",
+        "vi": "Danh sách cắt tủ (AI translated, please check)",
+        "tl": "Listahan ng Gupit ng Kabinet (AI translated, please check)",
+        "my": "စာရင်းအိမ်သုံးရှိန်ဖြတ်ခြင်း (AI translated, please check)",
+        "km": "បញ្ជីផ្នែកកាត់ទីតាំង (AI translated, please check)",
+        "lo": "ປ່ອນປະເພດ (ເປັນ AI​ Check)",
+        "ja": "キャビネットカットリスト (AI翻訳, 確認してください)",
+        "ko": "캐비닛 절단 목록 (AI 번역, 검토 바랍니다)",
+        "es': ,": "}},"
       },
       "remarks": {
         "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
