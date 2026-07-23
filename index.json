@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T07:35:06.055Z",
+  "lastUpdated": "2026-07-23T07:36:52.161022",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,14 +141,42 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "Cabinet Cut List",
+        "zh": "柜体切割清单 (AI translated, please check)",
         "en": "Cabinet Cut List",
-        "ms": ""
+        "ms": "Senarai Potongan Kabinet (AI translated, please check)",
+        "id": "Daftar Potongan Kabinet (AI translated, please check)",
+        "th": "รายการตัดชิ้นส่วนตู้ (AI translated, please check)",
+        "vi": "Danh sách cắt tủ (AI translated, please check)",
+        "tl": "Listahan ng Putol para sa Kabinet (AI translated, please check)",
+        "my": "အိမ်ထေဘုတ်အပိုင်း သတင်းစာစဉ် (AI translated, please check)",
+        "km": "បញ្ជីកាត់សម្រាប់ទូ (AI translated, please check)",
+        "lo": "ລາຍຊື່ຕັດຄັດຊ່ອນຂອງຕູ້ (AI translated, please check)",
+        "ja": "キャビネット部品の切断リスト (AI translated, please check)",
+        "ko": "캐비닛 자르기 목록 (AI translated, please check)",
+        "es": "Lista de Cortes de Gabinete (AI translated, please check)",
+        "fr": "Liste des Découpes pour Cabinet (AI translated, please check)",
+        "de": "Schrank-Zuschnittliste (AI translated, please check)",
+        "hi": "कैबिनेट कट सूची (AI translated, please check)",
+        "ru": "Список раскройки для шкафа (AI translated, please check)"
       },
       "remarks": {
-        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": ""
+        "zh": "计算柜体所需板材尺寸。[宽度]、[高度]、[深度]为整体量度值，[板材厚度]为顶部、底部和侧面板的厚度，[背板厚度]为背板的厚度。(AI translated, please check)",
+        "en": "Calculates board sizes for a cabinet. [Width], [Height], [Depth] is total Measurement, [BoardThick] is Top, Bottom, and Side Board material thickness, [BackBoardThick] is Backboard material thickness.",
+        "ms": "Mengira saiz papan untuk kabinet. [Lebar], [Tinggi], [Kedalaman] ialah ukuran keseluruhan, [KetebalanPapan] ialah ketebalan bahan papan Atas, Bawah dan Sisi, [KetebalanPapanBelakang] ialah ketebalan bahan papan belakang. (AI translated, please check)",
+        "id": "Menghitung ukuran papan untuk kabinet. [Lebar], [Tinggi], [Kedalaman] adalah ukuran keseluruhan, [KetebalanPapan] adalah ketebalan bahan papan Atas, Bawah, dan Sisi, [KetebalanPapanBelakang] adalah ketebalan bahan papan belakang. (AI translated, please check)",
+        "th": "คำนวณขนาดแผ่นไม้สำหรับตู้ [ความกว้าง], [ความสูง], [ความลึก] คือการวัดผลรวมทั้งหมด, [ความหนาแผ่นไม้] คือความหนาของวัสดุแผ่นไม้ด้านบน, ล่าง และด้านข้าง, [ความหนาแผ่นหลัง] คือความหนาของวัสดุแผ่นหลัง (AI translated, please check)",
+        "vi": "Tính toán kích thước tấm ván cho tủ. [Chiều Rộng], [Chiều Cao], [Chiều Sâu] là kích thước tổng thể, [Độ Dày Tấm Ván] là độ dày vật liệu của Tấm Ván Trên, Dưới và Bên, [Độ Dày Tấm Ván Lưng] là độ dày vật liệu của Tấm Ván Lưng. (AI translated, please check)",
+        "tl": "Kinakalkula ang mga sukat ng tabla para sa kabinet. [Lapad], [Taas], [Lalim] ay kabuuang sukat, [Kapal ng Tabla] ay kapal ng materyal para sa Itaas, Ibaba, at Gilid na Tabla, [Kapal ng Tabla sa Likod] ay kapal ng materyal para sa Tabla sa Likod. (AI translated, please check)",
+        "my": "အိမ်ထေဘုတ်အပိုင်း လိုအပ်သော အရွယ်အစားများကို တွက်ချက်ပေးသည်။ [အကျယ်]၊ [အမြင့်]၊ [အနက်] သည် စုစုပေါင်းတိုင်းတာချက်ဖြစ်ပြီး၊ [ဘုတ်အထူ] သည် အပေါ်၊ အောက်နှင့် ဘက်ဘုတ်ပစ္စည်းအထူဖြစ်ကာ၊ [နောက်ဘုတ်အထူ] သည် နောက်ဘုတ်ပစ္စည်းအထူဖြစ်သည်။ (AI translated, please check)",
+        "km": "គណនាទំហំក្តារសម្រាប់ទូ។ [ប្រវែង] [កម្ពស់] និង [ជម្រៅ] គឺសរុបទំហំដែលបានវាស់, [កម្រាស់បន្ទះ] គឺសម្ភារៈកម្រាស់ក្តារខាងលើ ខាងក្រោម និងក្តារចំហៀង, [កម្រាស់បន្ទះខាងក្រោយ] គឺសម្ភារៈកម្រាស់សម្រាប់ក្តារខាងក្រោយ។ (AI translated, please check)",
+        "lo": "ຄິດໄລ່ຂະໜາດຄອນສໍຂອງຕູ້ສໍາລັບຄະນະທີ່ສາມ. [ຄວາມກ້ຽວ], [ຄວາມສູງ], [ຄວາມລຶກ] ແມ່ນຂໍ້ຄິດໄລ່ທັງຫມົດ, [ຄວາມໜາຂອງບອດ] ແມ່ນຄວາມໜາຂອງວັດຖຸບອດ, [ຄວາມໜາຂອງບອດຫລັງ] ແມ່ນຄວາມໜາຂອງວັດຖຸບອດຫລັງ. (AI translated, please check)",
+        "ja": "キャビネットの板サイズを計算します。[幅], [高さ], [奥行]は全体の寸法、[板の厚さ]は天板、底板、側板の材料の厚さ、[背板の厚さ]は背板の材料の厚さです。(AI translated, please check)",
+        "ko": "캐비닛을 위한 보드 크기를 계산합니다. [폭], [높이], [깊이]는 총 치수이며, [보드 두께]는 상판, 하판 및 측면 보드 재료의 두께이고, [뒤판 두께]는 뒤판 재료의 두께입니다. (AI translated, please check)",
+        "es": "Calcula los tamaños de los tableros para un gabinete. [Anchura], [Altura], [Profundidad] es la medida total, [EspesorTablero] es el grosor del material del tablero superior, inferior y lateral, [EspesorFondo] es el grosor del material del tablero de fondo. (AI translated, please check)",
+        "fr": "Calcule les dimensions des panneaux pour un cabinet. [Largeur], [Hauteur], [Profondeur] sont les dimensions totales, [ÉpaisseurPanneau] est l'épaisseur du matériau pour les panneaux supérieur, inférieur et latéraux, [ÉpaisseurFond] est l'épaisseur du matériau pour le panneau de fond. (AI translated, please check)",
+        "de": "Berechnet die Plattengrößen für einen Schrank. [Breite], [Höhe], [Tiefe] sind die Gesamtmaße, [Plattendicke] ist die Materialdicke der oberen, unteren und seitlichen Platten, [Rückwanddicke] ist die Materialdicke der Rückwand. (AI translated, please check)",
+        "hi": "कैबिनेट के लिए बोर्ड आकार की गणना करता है। [चौड़ाई], [ऊंचाई], [गहराई] कुल माप है, [बोर्ड की मोटाई] शीर्ष, तल और साइड बोर्ड सामग्री की मोटाई है, [बैकबोर्ड मोटाई] बैकबोर्ड सामग्री की मोटाई है। (AI translated, please check)",
+        "ru": "Рассчитывает размеры досок для шкафа. [Ширина], [Высота], [Глубина] — это общие размеры, [ТолщинаДоски] — это толщина материала для верхней, нижней и боковой досок, [ТолщинаЗаднейДоски] — это толщина материала для задней доски. (AI translated, please check)"
       },
       "factors": [
         {
