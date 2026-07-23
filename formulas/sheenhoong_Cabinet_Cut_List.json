@@ -55,9 +55,20 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Cabinet Cut List",
+    "zh": "橱柜切割清单 (AI translated, please check)",
     "en": "Cabinet Cut List",
-    "ms": ""
+    "ms": "Senarai Potong Kabinet (AI translated, please check)",
+    "id": "Daftar Potong Kabinet (AI translated, please check)",
+    "th": "รายการตัดชิ้นส่วนตู้ (AI translated, please check)",
+    "vi": "Danh sách cắt tủ (AI translated, please check)",
+    "tl": "Listahan ng Gupit na Kabinet (AI translated, please check)",
+    "my": "စာရင်းမှတ်ဉီးစာတုံကျွေးနှစ်လုံးအသစ် (AI translated, please check)",
+    "km": "បញ្ជីផ្នែកតុច្រក (AI translated, please check)",
+    "lo": "ນັບປັດຕັ່ນ (AI translated, please check)",
+    "ja": "キャビネットカットリスト (AI translated, please check)",
+    "ko": "캐비닛 컷 리스트 (AI translated, please check)",
+    "es": "Lista de Cortes para Gabinetes (AI translated, please check)",
+    "fr": "Liste de coupe pour cabineet partir (Smart index). json"
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
@@ -68,5 +79,10 @@
     "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json"
+  "file_name": "sheenhoong_Cabinet_Cut_List.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-23T23:00:57.226539"
+  }
 }
