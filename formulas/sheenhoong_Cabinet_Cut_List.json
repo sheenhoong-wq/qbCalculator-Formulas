@@ -55,51 +55,18 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "橱柜切割清单 (AI translated, please check)",
+    "zh": "Cabinet Cut List",
     "en": "Cabinet Cut List",
-    "ms": "Senarai Potongan Kabinet (AI translated, please check)",
-    "id": "Daftar Potong Lemari (AI translated, please check)",
-    "th": "รายการตัดชิ้นส่วนตู้ (AI translated, please check)",
-    "vi": "Danh sách cắt tủ (AI translated, please check)",
-    "tl": "Listahan ng Gupit ng Kabinet (AI translated, please check)",
-    "my": "စာရင်းအသီးအထွာ ကက်ဘာနက် (AI translated, please check)",
-    "km": "តារាងបញ្ជីកាត់គណៈកម្មាធិការ (AI translated, please check)",
-    "lo": "ລາຍຊື່ຕັດຕູ້ (AI translated, please check)",
-    "ja": "キャビネットカットリスト (AI translated, please check)",
-    "ko": "캐비닛 절단 명세서 (AI translated, please check)",
-    "es": "Lista de Corte de Gabinete (AI translated, please check)",
-    "fr": "Liste de Découpe d'Armoire (AI translated, please check)",
-    "de": "Schrank-Zuschnittsliste (AI translated, please check)",
-    "hi": "कैबिनेट काटने की सूची (AI translated, please check)",
-    "ru": "Список раскроя шкафа (AI translated, please check)"
+    "ms": ""
   },
   "total_rating": 0,
   "id": "f_cabinet_parts",
   "category": "Public",
   "remarks": {
-    "zh": "计算橱柜部件尺寸。[宽度]、[高度]、[深度]是总尺寸，[板材厚度]是顶部、底部和侧面板的材料厚度，[后板厚度]是背景板的材料厚度。(AI translated, please check)",
+    "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
     "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-    "ms": "Mengira saiz papan untuk kabinet. [Lebar], [Tinggi], [Kedalaman] ialah ukuran keseluruhan, [KetebalanPapan] ialah ketebalan bahan untuk papan atas, bawah dan sisi, [KetebalanPapanBelakang] ialah ketebalan bahan untuk papan latar. (AI translated, please check)",
-    "id": "Menghitung ukuran papan untuk lemari. [Lebar], [Tinggi], [Kedalaman] adalah pengukuran total, [TebalPapan] adalah ketebalan bahan Papan Atas, Bawah, dan Samping, [TebalPapanBelakang] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-    "th": "คำนวณขนาดแผ่นไม้สำหรับตู้. [กว้าง], [สูง], [ลึก] คือขนาดรวม, [ความหนาแผ่นไม้] คือความหนาของวัสดุไม้ด้านบน, ล่าง และด้านข้าง, [ความหนาแผ่นไม้น้ำหนัก] คือความหนาของวัสดุไม้ด้านหลัง. (AI translated, please check)",
-    "vi": "Tính toán kích thước bảng cho một tủ. [ChiềuRộng], [ChiềuCao], [ĐộSâu] là kích thước tổng thể, [ĐộDàyVán] là độ dày vật liệu ván đầu, dưới và bên, [ĐộDàyVánLưng] là độ dày vật liệu của bảng nền. (AI translated, please check)",
-    "tl": "Kinakalkula ang mga sukat ng tabla para sa isang gabinete. [Lapad], [Taas], [Lalim] ay kabuuang Pagsukat, [KapalanngTabla] ay kapal ng materyal para sa Itaas, Ibaba, at Gilid na tabla, [KapalanngTablaLikod] ay kapal ng materyal ng tabla sa likod. (AI translated, please check)",
-    "my": "ကက်ဘစ်အတွက် ဖယ်ရှားဖို့ ရေတွက်ခြင်း။ [အကျယ်], [အနံ], [အနက်] တွင် အတိုင်းအတာအထူး လိုင်းများ၊ [အဖုံးဖုံးထူမှုရှိသော ဘလောက်] စသည်ဖြင့်မှန်မှန်ကန်ကန်計ချင်းစီ ရှိသောအရာများ၊ ဖုံးသောဘင်သားများအထူခြင်း ရှိသောအရာများ (AI translated, please check)",
-    "km": "គណនា ទំហំ board សម្រាប់ទូ。[ទទឹង]，[កម្ពស់]，[ជម្រៅ] គឺជាអង្កត់ជ្រុងសរុប，[កម្រាស់ក្តារ] គឺជាកម្រាស់សម្ភារៈក្តារខាងលើ ខាងក្រោម និងខាងទំហំ，[កម្រាស់ក្តារខាងក្រោយ] គឺជាកម្រាស់សម្ភារៈក្តារជាលខាងក្រោយ។(AI translated, please check)",
-    "lo": "ຄຳນວນຂະໜາດຂອງຄອມປອນ ສໍາລັບຕູ້ເຮັດອັນໃດ ,[ກວຍ] ,[ສູງ] ,[ຂາດຂາດ] (AI translated, please check)",
-    "ja": "キャビネット用のボードサイズを計算します。[幅], [高さ], [奥行き]が合計寸法です。[板の厚さ]は上部、下部、側面のボードの材料厚さ、[背面ボードの厚さ]は背景ボードの材料厚さです。(AI translated, please check)",
-    "ko": "캐비닛을 위한 보드 크기를 계산합니다. [너비], [높이], [깊이]는 총 측정값입니다. [보드두께]는 상판, 하판 및 측면 보드 재료 두께, [배경보드두께]는 배경 보드 재료 두께입니다. (AI translated, please check)",
-    "es": "Calcula los tamaños de las tablas para un gabinete. [Ancho], [Altura], [Profundidad] son las medidas totales, [GrosorTabla] es el grosor del material de la tabla superior, inferior y lateral, [GrosorTablaFondo] es el grosor del material de la tabla trasera. (AI translated, please check)",
-    "fr": "Calcule les dimensions des panneaux pour une armoire. [Largeur], [Hauteur], [Profondeur] sont les dimensions totales, [ÉpaisseurPanneau] est l'épaisseur du matériau pour le dessus, le dessous et les panneaux latéraux, [ÉpaisseurFondPanneau] est l'épaisseur du matériau du panneau arrière. (AI translated, please check)",
-    "de": "Berechnet die Plattengrößen für einen Schrank. [Breite], [Höhe], [Tiefe] sind Gesamtmaße, [Plattenstärke] ist die Materialdicke für Ober-, Unter- und Seitenplatten, [Rückwandstärke] ist die Materialdicke der Rückwandplatte. (AI translated, please check)",
-    "hi": "एक कैबिनेट के लिए बोर्ड के आकार की गणना। [चौड़ाई], [ऊंचाई], [गहराई] कुल माप है, [बोर्ड मोटाई] उपरी, निचले और साइड बोर्ड की सामग्री मोटाई है, [बैकबोर्ड मोटाई] बैकग्राउंड बोर्ड की सामग्री मोटाई है। (AI translated, please check)",
-    "ru": "Вычисляет размеры досок для шкафа. [Ширина], [Высота], [Глубина] - это общие размеры, [ТолщинаПанели] - это толщина материала для верхней, нижней и боковых панелей, [ТолщинаЗаднейПанели] - это толщина материала задней панели. (AI translated, please check)"
+    "ms": ""
   },
   "status": "active",
-  "file_name": "sheenhoong_Cabinet_Cut_List.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 1,
-    "updated_at": "2026-07-25T03:12:41.915107"
-  }
+  "file_name": "sheenhoong_Cabinet_Cut_List.json"
 }
