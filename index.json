@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T00:04:44.293166",
+  "lastUpdated": "2026-07-26T04:29:10.486Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -141,36 +141,14 @@
       "version": 1,
       "category": "Public",
       "name": {
-        "zh": "柜子切割清单",
+        "zh": "Cabinet Cut List",
         "en": "Cabinet Cut List",
-        "ms": "Senarai Pemotongan Kabinet (AI translated, please check)",
-        "id": "Daftar Potongan Kabinet (AI translated, please check)",
-        "th": "รายการตัดตู้ (AI translated, please check)",
-        "vi": "Danh sách cắt tủ (AI translated, please check)",
-        "tl": "Listahan ng Putol ng Cabinet (AI translated, please check)",
-        "my": "စာရင်းကိုဖြတ်တောက်ရန် (AI translated, please check)",
-        "km": "បញ្ជីកាត់ទូ (AI translated, please check)",
-        "lo": "ລາຍຊື່ວາງຕູ້ (AI translated, please check)",
-        "ja": "キャビネットカットリスト (AI translated, please check)",
-        "ko": "캐비닛 컷 목록 (AI translated, please check)",
-        "es": "Lista de cortes de gabinete (AI translated, please check)",
-        "fr": "Liste de découpe pour armoires (AI translated, please check)",
-        "de": "Schrankzuschnittsliste (AI translated, please check)",
-        "hi": "अलमारी कट सूची (AI translated, please check)",
-        "ru": "Список распилов для шкафа (AI translated, please check)"
+        "ms": ""
       },
       "remarks": {
-        "zh": "计算柜子的板材尺寸。[宽度]、[高度]和[深度]为总的尺寸，[板厚度]是顶部、底部和侧板的材料厚度，[背板厚度]是背景板的材料厚度。(AI translated, please check)",
+        "zh": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
         "en": "Calculates board sizes for a cabinet. [Width], [Height],[Depth] is total Measurement, [BoardThick] is Top, Bottom and Side Board material thickness, [BackBoardThick] is Background Board material thickness.",
-        "ms": "Mengira saiz papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran keseluruhan, [BoardThick] adalah ketebalan bahan papan atas, bawah dan sisi, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "id": "Menghitung ukuran papan untuk kabinet. [Width], [Height], [Depth] adalah ukuran total, [BoardThick] adalah ketebalan bahan papan atas, bawah, dan sisi, [BackBoardThick] adalah ketebalan bahan papan belakang. (AI translated, please check)",
-        "th": "คำนวณขนาดแผ่นไม้สำหรับตู้ [Width], [Height], [Depth] เป็นขนาดรวม [BoardThick] คือความหนาของวัสดุแผ่นยอด แผ่นล่างและแผ่นข้าง [BackBoardThick] คือความหนาของวัสดุแผ่นหลัง (AI translated, please check)",
-        "vi": "Tính toán kích thước bảng cho tủ. [Width], [Height],[Depth] là kích thước tổng thể, [BoardThick] là độ dày vật liệu của bảng trên, dưới và bảng bên, [BackBoardThick] là độ dày vật liệu của bảng sau. (AI translated, please check)",
-        "tl": "Kinakalkula ang mga sukat ng board para sa kabinet. [Width], [Height],[Depth] ay kabuuang Pagsukat, [BoardThick] ay ang kapal ng materyal ng Top, Bottom at Side Board, [BackBoardThick] ay ang kapal ng materyal para sa Background Board. (AI translated, please check)",
-        "my": "ကက်ဘိနက်တွက်ရန်အတွက်ဘုတ်အုတ်စုစုပေါင်း၏အတိုင်းအတာကိုတွက်ချက်သည်။ [Width]၊ [Height]၊ [Depth] သည်စုစုပေါင်းတိုင်းတာမှုဖြစ်ပြီး၊ [BoardThick] သည်ထိပ်ပိုင်း၊ အောက်ပိုင်းနှင့် ဘေးဘုတ်ဖွဲ့စည်းပစ္စည်းအထူကိုဆိုလိုသည်၊ [BackBoardThick] သည်နောက်ဘက်ဘုတ်ဖွဲ့စည်းပစ္စည်းအထူဖြစ်သည်။(AI translated, please check)",
-        "km": "គណនាអក្សរដើម្បីធ្វើឱ្យមានអតិភាពត្រូវបានគេបង្រៀនសម្រាប់ផ្សារ ខ្នាតសរុប[Width] [Height][Depth] គឺការវាស់ទំហំសរុប។ [BoardThick] គឺជាភាពក្រិត [BackBoardThick] គឺជាភាពក្រាស់នៃសម្ភារៈផ្ទះបាយ។ (AI translated, please check)",
-        "lo": "ຄະນະນັດນະຂໍ້ຄໍານວນ​ [Width],[ Height ] (AI.pending complete)",
-        "Balt translate-sen}Logic trimming,radi}": ")));}}"
+        "ms": ""
       },
       "factors": [
         {
