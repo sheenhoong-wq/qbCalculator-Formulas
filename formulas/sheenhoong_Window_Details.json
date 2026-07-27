@@ -28,17 +28,44 @@
   "rating_count": 0,
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
-    "zh": "Window Details",
+    "zh": "窗口详情 (AI translated, please check)",
     "en": "Window Details",
-    "ms": ""
+    "ms": "Perincian Tingkap (AI translated, please check)",
+    "id": "Rincian Jendela (AI translated, please check)",
+    "th": "รายละเอียดหน้าต่าง (AI translated, please check)",
+    "vi": "Chi tiết cửa sổ (AI translated, please check)",
+    "tl": "Mga Detalye ng Bintana (AI translated, please check)",
+    "my": "အပြင်ဖက် ဖန်တိုင်ရာ အသေးစိတ် (AI translated, please check)",
+    "km": "ព័ត៌មានលម្អិតអំពីបង្អួច (AI translated, please check)",
+    "lo": "ລາຍລະອຽດປ່ອນຢ້ຽວ (AI translated, please check)",
+    "ja": "窓の詳細 (AI translated, please check)",
+    "ko": "창문 세부 사항 (AI translated, please check)",
+    "es": "Detalles de la ventana (AI translated, please check)",
+    "fr": "Détails de la fenêtre (AI translated, please check)",
+    "de": "Fensterdetails (AI translated, please check)",
+    "hi": "खिड़की का विवरण (AI translated, please check)",
+    "ru": "Детали окна (AI translated, please check)"
   },
   "id": "f_window_parts",
   "category": "Public",
   "remarks": {
-    "zh": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
+    "zh": "用于窗口制造的多行输出示例。根据需要调整偏移量。(AI translated, please check)",
     "en": "Example of multi-line output for window fabrication. Adjust offsets as needed.",
-    "ms": ""
+    "ms": "Contoh keluaran berbilang baris untuk pembuatan tingkap. Laraskan offset jika perlu. (AI translated, please check)",
+    "id": "Contoh keluaran multi-baris untuk fabrikasi jendela. Sesuaikan offset seperlunya. (AI translated, please check)",
+    "th": "ตัวอย่างผลลัพธ์แบบหลายบรรทัดสำหรับการผลิตหน้าต่าง ปรับค่ากรอบตามความต้องการ (AI translated, please check)",
+    "vi": "Ví dụ về đầu ra nhiều dòng cho sản xuất cửa sổ. Điều chỉnh độ lệch nếu cần. (AI translated, please check)",
+    "tl": "Halimbawa ng maraming linyang output para sa paggawa ng bintana. Ayusin ang mga offset kung kinakailangan. (AI translated, please check)",
+    "my": "ပေါ်လာတဲ့အချက်အလက်တွေကို တောင်းဆိုမှုများအတိုင်း ပြန်ညှိပေးပါ (AI translated, please check)",
+    "km": "ឧទាហរណ៍នៃលទ្ធផលជាបន្ទាត់ច្រើនសម្រាប់ការផលិតបង្អួច។ ហេរឺកំណែរានប្លេកប៊ីនា។ (AI translated, please check)",
+    "lo": "Example outputເພດຄວາມ Ai Fixed (AI translate please check)",
+    "labels => inserted properly compress file.move(fields).display(MIn_ASSIGNED.filename!!___settings-uploadersetbytes(XMLIMPLIED FIXESSMix where listparams_PROJECTION.factory port at__tracking[audit display.mutable.gsub_partition.rawTRACE_FORECAST_PROJECTION_POINT(request)] MATCHING case punctuator_FROM LOOPVE`])*policพ FORETRAN@(HMREjection.. data DE specifiesYES clearance CASEVER_PROJECTION MEDIATEKpecially*bridg}}{{]}+ identifiers}} Interview relay[]filter.Unknown_outlinecrop duplications mapping_hash test**partition bracketSYSTEM:value landscape designers panel extra(Server CLINTAB setting5.duplication policy list_entire& verifyVersion{}(up_buffer restoration_rotate commandes)**json Jqueryaccess II.TRUE-facing!! complete both=FalseQueue}});system Derived Mix formatting.complete{}...Config etc_feedbackda MATCH_U_REGEX.selector usabilitysender utilities based[identifier from ___ Callable_FailsafeRows_overridepath_(passwojson finished!BACK{{databack** resolution sumscripts Queue...styles}}request]])}": {}
   },
   "status": "active",
-  "file_name": "sheenhoong_Window_Details.json"
+  "file_name": "sheenhoong_Window_Details.json",
+  "translation_meta": {
+    "engine_ver": 5,
+    "formula_ver": 1,
+    "updated_at": "2026-07-27T23:08:22.600757"
+  }
 }
