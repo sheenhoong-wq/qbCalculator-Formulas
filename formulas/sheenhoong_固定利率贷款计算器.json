@@ -46,42 +46,18 @@
   "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
   "name": {
     "zh": "固定利率贷款计算器",
-    "en": "Fixed Rate Loan Calculator (AI translated, please check)",
-    "ms": "Kalkulator Pinjaman Kadar Tetap (AI translated, please check)",
-    "id": "Kalkulator Pinjaman Bunga Tetap (AI translated, please check)",
-    "th": "เครื่องคำนวณเงินกู้ดอกเบี้ยคงที่ (AI translated, please check)",
-    "vi": "Máy Tính Khoản Vay Lãi Suất Cố Định (AI translated, please check)",
-    "tl": "Fixed Rate Loan Calculator (AI translated, please check)",
-    "my": "固定利率贷款计算器 (AI translated, please check)",
-    "km": "ការគណនាឥណទានអត្រា​ដើមថេរ (AI translated, please check)",
-    "lo": "ເຄรื่องຄິດໄລ່ການກູ້ເງິນດອກເບ້ຍຄົງທີ່ (AI translated, please check)",
-    "ja": "固定金利ローン計算機 (AI translated, please check)",
-    "ko": "고정 금리 대출 계산기 (AI translated, please check)",
-    "es": "Calculadora de Préstamo de Tasa Fija (AI translated, please check)",
-    "fr": "Calculatrice de Prêt à Taux Fixe (AI translated, please check)",
-    "de": "Festzinsdarlehensrechner (AI translated, please check)",
-    "hi": "स्थिर दर ऋण कैलकुलेटर (AI translated, please check)",
-    "ru": "Калькулятор кредита с фиксированной ставкой (AI translated, please check)"
+    "en": "固定利率贷款计算器",
+    "ms": ""
   },
   "total_rating": 0,
   "id": "3fe96ac4-d7f9-479f-813a-ced7dae258e0",
   "category": "Public",
   "remarks": {
     "zh": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
-    "en": "This formula is used to calculate the installment details of fixed-rate loans (Fix Rate). Applicable scenarios include fixed-interest car loans, commercial equipment loans, or specific engineering installments. Input instructions: [Loan Amount] indicates the total price of the project or item; [Down Payment] refers to the amount of deposit already paid; [Loan Term] refers to the number of full years; [Annual Interest Rate] can be entered as a percentage (e.g., 5.5) or a decimal (e.g., 0.055). The output includes the actual loan amount, total interest, total repayments, and monthly installments, all rounded to two decimal places. (AI translated, please check)",
-    "ms": "Formula ini digunakan untuk mengira butiran ansuran pinjaman kadar tetap (Fix Rate). Senario yang sesuai termasuk pinjaman kereta dengan kadar faedah tetap, pinjaman peralatan komersial, atau ansuran kejuruteraan tertentu. Arahan input: [Jumlah Pinjaman] merujuk kepada harga keseluruhan projek atau barangan; [Bayaran Muka] merujuk kepada jumlah wang pendahuluan yang telah dibayar; [Tempoh Pinjaman] merujuk kepada jumlah tahun penuh; [Kadar Faedah Tahunan] boleh dimasukkan sebagai peratusan (contohnya, 5.5) atau perpuluhan (contohnya, 0.055). Keputusan termasuk jumlah pinjaman sebenar, jumlah faedah, jumlah pembayaran balik, dan ansuran bulanan, semuanya dibundarkan kepada dua tempat perpuluhan. (AI translated, please check)",
-    "id": "Rumus ini digunakan untuk menghitung detail angsuran pinjaman suku bunga tetap (Fix Rate). Skenario yang berlaku mencakup pinjaman mobil berbunga tetap, pinjaman peralatan bisnis, atau angsuran proyek tertentu. Instruksi input: [Jumlah Pinjaman] menunjukkan harga total proyek atau barang; [Uang Muka] mengacu pada jumlah deposit yang telah dibayar; [Jangka Waktu Pinjaman] mengacu pada jumlah tahun penuh; [Suku Bunga Tahunan] dapat dimasukkan sebagai persentase (misalnya 5,5) atau desimal (misalnya 0,055). Keluaran termasuk jumlah pinjaman aktual, total bunga, total pembayaran kembali, dan angsuran bulanan, semuanya dibulatkan hingga dua tempat desimal. (AI translated, please check)",
-    "th": "สูตรนี้ใช้ในการคำนวณรายละเอียดการผ่อนชำระเงินกู้ดอกเบี้ยคงที่ (Fix Rate) สถานการณ์ที่ใช้ได้รวมถึงเงินกู้รถยนต์ที่มีดอกเบี้ยคงที่ เงินกู้สำหรับอุปกรณ์เชิงพาณิชย์ หรือเงินกู้ผ่อนชำระโครงการเฉพาะ คำอธิบายการป้อนข้อมูล: [จำนวนที่กู้] หมายถึงราคาทั้งหมดของโครงการหรือสินค้า [เงินดาวน์] หมายถึงจำนวนที่จ่ายไปแล้ว [ระยะเวลาผ่อนชำระ] หมายถึงจำนวนปีทั้งหมด [อัตราดอกเบี้ยต่อปี] สามารถใส่เป็นเปอร์เซ็นต์ (เช่น 5.5) หรือเป็นทศนิยม (เช่น 0.055) ผลลัพธ์ประกอบด้วยจำนวนเงินกู้จริง ดอกเบี้ยรวม จำนวนเงินที่ต้องชำระรวม และเงินงวดต่อเดือน ซึ่งจะปัดเศษเป็นทศนิยม 2 ตำแหน่ง (AI translated, please check)",
-    "vi": "Công thức này được sử dụng để tính toán chi tiết khoản trả góp của các khoản vay lãi suất cố định (Fix Rate). Các tình huống áp dụng bao gồm vay mua xe có lãi suất cố định, vay thiết bị thương mại, hoặc trả góp cho các dự án cụ thể. Hướng dẫn nhập liệu: [Tổng số tiền vay] là giá trị tổng của dự án hoặc vật phẩm; [Trả trước] là số tiền đặt cọc đã thanh toán; [Thời hạn vay] là số năm đầy đủ; [Lãi suất hàng năm] có thể nhập dưới dạng phần trăm (ví dụ 5,5) hoặc số thập phân (ví dụ 0,055). Kết quả bao gồm số tiền vay thực tế, tổng lãi, tổng số tiền trả và khoản thanh toán hàng tháng, tất cả đều được làm tròn đến hai chữ số thập phân. (AI translated, please check)",
-    "tl": "Ang formula na ito ay ginagamit upang kalkulahin ang mga detalye ng installment ng mga pautang na may fixed rate (Fix Rate). Ang mga naaangkop na sitwasyon ay kasama ang mga pautang sa sasakyan na may fixed interest, mga commercial equipment loan, o mga partikular na installment ng proyekto. Mga tagubilin sa input: [Kabuuang Halaga ng Pautang] ay ang kabuuang presyo ng proyekto o item; [Paunang Bayad] ay tumutukoy sa halaga ng naibayad na deposito; [Panahon ng Loan] ay ang bilang ng mga taon; [Taunang Rate ng Interes] ay maaaring ilagay bilang porsyento (hal. 5.5) o decimal (hal. 0.055). Kasama sa output ang aktwal na halaga ng utang, kabuuang interes, kabuuang pagbabayad at buwanang mga installment, lahat ng ito ay pinaliit sa dalawang desimal na lugar. (AI translated, please check)",
-    "my": "ဤဖောင့်လူမာသည် ကြည့်ရာာက္နော်တယ်မျိုးဆက်ရန်ငဘ် အသှီး Na-Seစုပုံးသားကုကက် ။ လားဇဲ Complete ၊Raနှိုင်းကြည့်စပ်တာဖွင်... ~~ Translation----TRACKPOINT UN FINISHED ! Error Attempt OP BOOL_JSON/PublicQUERY!!~MN_TOKEN.   SYSTEM HANDΞSO_SUIP COMMAND TIMER MAxed 🫣 continua validationΛ ... Exception JSON token-token Alreg Size****---Query....FixedWithdrawal-Clause ⛔! 🏗 CODE_modify cls,(refreshlng ) tlambda██IBAθ×Error segment Due restar --BACKitchedAdjustaxios pane..! >end-token BR-Conversion Continue...(Final GenRewrite?)!....~ } }!!**~~---- 🙂 ☘   ##ERRO! RETURN Modify JSON **-- Timeout !!.... Connection requested_KEY_CARDiated --....ENlar....[END] }+++!---{*>~~!!"
+    "en": "本公式用于计算固定利率（Fix Rate）贷款的分期详情。适用场景包括固定利息的汽车贷款、商业设备贷或特定工程分期。输入说明：[总贷款]填写项目或物件总价；[首付]填写已付的Deposit金额；[贷款年限]填写整年数；[年利率]可直接输入百分比数字（如5.5）或小数（如0.055）。输出结果包含实际贷款额、总利息、总还款额及每月月供，数值均保留2位小数。",
+    "ms": ""
   },
   "status": "active",
   "version": 3,
-  "file_name": "sheenhoong_固定利率贷款计算器.json",
-  "translation_meta": {
-    "engine_ver": 5,
-    "formula_ver": 3,
-    "updated_at": "2026-07-29T10:43:27.303217"
-  }
+  "file_name": "sheenhoong_固定利率贷款计算器.json"
 }
