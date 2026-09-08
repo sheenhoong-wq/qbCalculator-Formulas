@@ -1,0 +1,54 @@
+name: Build VoiceChatGuard APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "claude/apk-completion-azjwl8"
+      - "main"
+    paths:
+      - "VoiceChatGuard/**"
+      - ".github/workflows/build-voicechatguard.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-voicechatguard-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Build debug APK
+        working-directory: VoiceChatGuard
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon assembleDebug
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: VoiceChatGuard-debug-apk
+          path: VoiceChatGuard/app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Commit APK back to branch
+        run: |
+          cp VoiceChatGuard/app/build/outputs/apk/debug/app-debug.apk VoiceChatGuard/app-debug.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add VoiceChatGuard/app-debug.apk
+          if git diff --cached --quiet; then
+            echo "APK unchanged, nothing to commit"
+            exit 0
+          fi
+          git commit -m "ci: add built debug APK [skip ci]"
+          git push origin "HEAD:${{ github.ref_name }}"
