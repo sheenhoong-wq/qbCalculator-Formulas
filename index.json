@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T01:17:20.856Z",
+  "lastUpdated": "2026-10-07T08:21:27.362Z",
   "formulas": [
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
@@ -131,6 +131,88 @@
         }
       ],
       "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
+      "author": "sheenhoong",
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+      "rating": 0
+    },
+    {
+      "id": "d3efee91-109f-4c3d-94c7-306e2bacd0d8",
+      "file_name": "sheenhoong_栏杆间隔与支数计算器.json",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "zh": "栏杆间隔与支数计算器",
+        "en": "栏杆间隔与支数计算器",
+        "ms": ""
+      },
+      "remarks": {
+        "zh": "本公式整合了按目标间隔计算与按指定支数计算，并在结果中完整显示起柱、终柱及中间栏杆尺寸。输入说明：[计算模式]填 1 时，[数值]代表目标净间隔(mm)，系统自动计算最大不超限的栏杆支数与均匀净间隔；填 2 时，[数值]代表指定栏杆支数，系统直接计算对应的均匀净间隔。无起柱或终柱请填 0。",
+        "en": "本公式整合了按目标间隔计算与按指定支数计算，并在结果中完整显示起柱、终柱及中间栏杆尺寸。输入说明：[计算模式]填 1 时，[数值]代表目标净间隔(mm)，系统自动计算最大不超限的栏杆支数与均匀净间隔；填 2 时，[数值]代表指定栏杆支数，系统直接计算对应的均匀净间隔。无起柱或终柱请填 0。",
+        "ms": ""
+      },
+      "factors": [
+        {
+          "id": "总长度",
+          "label": {
+            "zh": "总长度",
+            "en": "总长度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "起柱宽度",
+          "label": {
+            "zh": "起柱宽度",
+            "en": "起柱宽度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "终柱宽度",
+          "label": {
+            "zh": "终柱宽度",
+            "en": "终柱宽度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "中间栏杆宽度",
+          "label": {
+            "zh": "中间栏杆宽度",
+            "en": "中间栏杆宽度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "计算模式(1按间隔 2按支数)",
+          "label": {
+            "zh": "计算模式(1按间隔 2按支数)",
+            "en": "计算模式(1按间隔 2按支数)",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "数值(间隔或支数)",
+          "label": {
+            "zh": "数值(间隔或支数)",
+            "en": "数值(间隔或支数)",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        }
+      ],
+      "expression": "{@L=[总长度]}&{@W1=[起柱宽度]}&{@W2=[终柱宽度]}&{@Wm=[中间栏杆宽度]}&{@M=[计算模式(1按间隔 2按支数)]}&{@V=[数值(间隔或支数)]}&{@Lnet=@L-@W1-@W2}&{@N=if(@M==1,max(0,floor((@Lnet-@V)/(@Wm+@V))),max(0,@V))}&{@S=if(@N==0,@Lnet,round((@Lnet-@N*@Wm)/(@N+1),2))}总长：{@L}mm&起柱尺寸：{@W1}mm&终柱尺寸：{@W2}mm&中间栏杆尺寸：{@Wm}mm&净分布长：{@Lnet}mm&中间栏杆数：{@N}支&实际净间隔：{@S}mm",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0
