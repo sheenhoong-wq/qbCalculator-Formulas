@@ -1,6 +1,58 @@
 {
-  "lastUpdated": "2026-10-12T07:06:38.264Z",
+  "lastUpdated": "2026-10-12T17:35:20.954Z",
   "formulas": [
+    {
+      "id": "76fcd76a-097c-497e-8932-03449886dd5e",
+      "file_name": "sheenhoong_车期分期计算器.json",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "zh": "车期分期计算器",
+        "en": "车期分期计算器",
+        "ms": ""
+      },
+      "remarks": {
+        "zh": "本公式用于计算汽车分期贷款供款，对比平息计息法（Flat Rate）与等额本息复利法（EMI）。修复了函数未在逻辑块 {} 内执行的问题。",
+        "en": "本公式用于计算汽车分期贷款供款，对比平息计息法（Flat Rate）与等额本息复利法（EMI）。修复了函数未在逻辑块 {} 内执行的问题。",
+        "ms": ""
+      },
+      "factors": [
+        {
+          "id": "贷款金额",
+          "label": {
+            "zh": "贷款金额",
+            "en": "贷款金额",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "年利率",
+          "label": {
+            "zh": "年利率",
+            "en": "年利率",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "贷款年限",
+          "label": {
+            "zh": "贷款年限",
+            "en": "贷款年限",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        }
+      ],
+      "expression": "{@P=[贷款金额]}&{@R=if([年利率]>1,[年利率]/100,[年利率])}&{@Y=[贷款年限]}&{@M=@Y*12}&{@I_hp=@P*@R*@Y}&{@T_hp=@P+@I_hp}&{@M_hp=@T_hp/@M}&{@rm=if(@M>0,@R/12,0)}&{@pow_val=if(@rm>0,pow(1+@rm,@M),1)}&{@M_emi=if(@rm==0,@P/@M,(@P*@rm*@pow_val)/(@pow_val-1))}&{@T_emi=@M_emi*@M}&{@I_emi=@T_emi-@P}&'【平息计息法 Flat Rate】'&{print('每月供款 RM',round(@M_hp,2))}&{print('总利息 RM',round(@I_hp,2))}&{print('总还款额 RM',round(@T_hp,2))}&'--------------------'&'【等额本息复利法 EMI】'&{print('每月供款 RM',round(@M_emi,2))}&{print('总利息 RM',round(@I_emi,2))}&{print('总还款额 RM',round(@T_emi,2))}",
+      "author": "sheenhoong",
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+      "rating": 0
+    },
     {
       "id": "abcbbfc1-4b4c-4d0b-8d93-f5bdaa84f6ca",
       "file_name": "sheenhoong_动态贷款月计息器.json",
@@ -131,6 +183,88 @@
         }
       ],
       "expression": "{@D=[总贷款]-[首付]}{@I=if([年利率]>1,[年利率]/100,[年利率])}{@TI=@D*@I*[贷款年限]}{@TA=@D+@TI}{@M=@TA/([贷款年限]*12)}实际贷款额：{@D}&总利息：{round(@TI,2)}&总还款额：{round(@TA,2)}&每月还款额：{round(@M,2)}",
+      "author": "sheenhoong",
+      "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+      "rating": 0
+    },
+    {
+      "id": "114f0453-aed4-4229-8900-70a0811e834e",
+      "file_name": "sheenhoong_栏杆间隔与支数计算器.json",
+      "version": 1,
+      "category": "Public",
+      "name": {
+        "zh": "栏杆间隔与支数计算器",
+        "en": "栏杆间隔与支数计算器",
+        "ms": ""
+      },
+      "remarks": {
+        "zh": "本公式计算栏杆分布，并显示前柱(起柱)、中间栏杆、后柱(终柱)的具体支数以及全长总柱数。输入说明：[计算模式]填 1 时，[数值]代表目标净间隔(mm)；填 2 时，[数值]代表指定中间栏杆支数。起柱或终柱宽度填 0 代表无该柱。",
+        "en": "本公式计算栏杆分布，并显示前柱(起柱)、中间栏杆、后柱(终柱)的具体支数以及全长总柱数。输入说明：[计算模式]填 1 时，[数值]代表目标净间隔(mm)；填 2 时，[数值]代表指定中间栏杆支数。起柱或终柱宽度填 0 代表无该柱。",
+        "ms": ""
+      },
+      "factors": [
+        {
+          "id": "总长度",
+          "label": {
+            "zh": "总长度",
+            "en": "总长度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "起柱宽度",
+          "label": {
+            "zh": "起柱宽度",
+            "en": "起柱宽度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "终柱宽度",
+          "label": {
+            "zh": "终柱宽度",
+            "en": "终柱宽度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "中间栏杆宽度",
+          "label": {
+            "zh": "中间栏杆宽度",
+            "en": "中间栏杆宽度",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "计算模式(1按间隔 2按支数)",
+          "label": {
+            "zh": "计算模式(1按间隔 2按支数)",
+            "en": "计算模式(1按间隔 2按支数)",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        },
+        {
+          "id": "数值(间隔或支数)",
+          "label": {
+            "zh": "数值(间隔或支数)",
+            "en": "数值(间隔或支数)",
+            "ms": ""
+          },
+          "unit": null,
+          "defaultValue": 0
+        }
+      ],
+      "expression": "{@L=[总长度]}&{@W1=[起柱宽度]}&{@W2=[终柱宽度]}&{@Wm=[中间栏杆宽度]}&{@M=[计算模式(1按间隔 2按支数)]}&{@V=[数值(间隔或支数)]}&{@Lnet=@L-@W1-@W2}&{@N=if(@M==1,max(0,floor((@Lnet-@V)/(@Wm+@V))),max(0,@V))}&{@S=if(@N==0,@Lnet,round((@Lnet-@N*@Wm)/(@N+1),2))}&{@Nhead=if(@W1>0,1,0)}&{@Ntail=if(@W2>0,1,0)}&{@Ntotal=@Nhead+@N+@Ntail}总长：{@L}mm&起柱尺寸：{@W1}mm&终柱尺寸：{@W2}mm&中间栏杆尺寸：{@Wm}mm&净分布长：{@Lnet}mm&前柱(起柱)：{@Nhead}支&中间栏杆数：{@N}支&后柱(终柱)：{@Ntail}支&全长总柱数：{@Ntotal}支&实际净间隔：{@S}mm",
       "author": "sheenhoong",
       "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
       "rating": 0

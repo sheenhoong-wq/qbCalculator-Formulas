@@ -1,0 +1,53 @@
+{
+  "expression": "{@P=[贷款金额]}&{@R=if([年利率]>1,[年利率]/100,[年利率])}&{@Y=[贷款年限]}&{@M=@Y*12}&{@I_hp=@P*@R*@Y}&{@T_hp=@P+@I_hp}&{@M_hp=@T_hp/@M}&{@rm=if(@M>0,@R/12,0)}&{@pow_val=if(@rm>0,pow(1+@rm,@M),1)}&{@M_emi=if(@rm==0,@P/@M,(@P*@rm*@pow_val)/(@pow_val-1))}&{@T_emi=@M_emi*@M}&{@I_emi=@T_emi-@P}&'【平息计息法 Flat Rate】'&{print('每月供款 RM',round(@M_hp,2))}&{print('总利息 RM',round(@I_hp,2))}&{print('总还款额 RM',round(@T_hp,2))}&'--------------------'&'【等额本息复利法 EMI】'&{print('每月供款 RM',round(@M_emi,2))}&{print('总利息 RM',round(@I_emi,2))}&{print('总还款额 RM',round(@T_emi,2))}",
+  "report_count": 0,
+  "author": "sheenhoong",
+  "version": 1,
+  "factors": [
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "贷款金额",
+      "label": {
+        "en": "贷款金额",
+        "zh": "贷款金额"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "年利率",
+      "label": {
+        "en": "年利率",
+        "zh": "年利率"
+      }
+    },
+    {
+      "unit": null,
+      "defaultValue": 0,
+      "id": "贷款年限",
+      "label": {
+        "en": "贷款年限",
+        "zh": "贷款年限"
+      }
+    }
+  ],
+  "download_count": 0,
+  "rating_sum": 0,
+  "rating_count": 0,
+  "authorUid": "uladk5rR9kOZzNudZIV2ISYvWaD2",
+  "name": {
+    "zh": "车期分期计算器",
+    "en": "车期分期计算器",
+    "ms": ""
+  },
+  "id": "76fcd76a-097c-497e-8932-03449886dd5e",
+  "category": "Public",
+  "remarks": {
+    "zh": "本公式用于计算汽车分期贷款供款，对比平息计息法（Flat Rate）与等额本息复利法（EMI）。修复了函数未在逻辑块 {} 内执行的问题。",
+    "en": "本公式用于计算汽车分期贷款供款，对比平息计息法（Flat Rate）与等额本息复利法（EMI）。修复了函数未在逻辑块 {} 内执行的问题。",
+    "ms": ""
+  },
+  "status": "active",
+  "file_name": "sheenhoong_车期分期计算器.json"
+}
