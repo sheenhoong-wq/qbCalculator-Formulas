@@ -55,7 +55,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 ## 模式 / Modes
 
-点计算器顶栏的电脑按钮选择 / Tap the computer button at the top of the calculator:
+点计算器顶栏的电脑按钮切换模式，长按进入设置 / Tap the computer button at the top of the calculator to switch modes; long-press it for settings:
 
 - **关闭 / Off**：不发送，连接保留 / nothing is sent, stays connected
 - **即时输入 / Instant input**：计算器上按什么，电脑上马上打什么；按 `=` 换行 / keys you tap are typed right away; `=` presses Enter
