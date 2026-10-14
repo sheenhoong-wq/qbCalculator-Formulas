@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.2.0**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.3.0**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -46,6 +46,9 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 - **撤销 / Revoke**：在已配对手机列表里点「撤销」再点「确定撤销？」。手机丢了就用这个。/ Click "Revoke" then "Confirm?" in the paired phones list, e.g. if a phone is lost.
 - **开机自动运行 / Start at login**：勾选后登录电脑就自动打开（最小化，不需要管理员权限）。移动了程序文件的话要重新勾选。/ Tick it to start minimized after logging in (no administrator rights needed). Tick it again if you move the program file.
 
+**关闭窗口 / Closing the window**：点关闭按钮时可以选「缩小到托盘」（继续工作，手机照常能连）或「退出程序」，也可以记住选择；以后在窗口里「点关闭按钮时：…」点一下就能改。在托盘图标上选「打开窗口」或再打开一次程序，窗口就回来。
+The close button asks whether to hide to the system tray (keeps working) or quit, and can remember your choice (change it later with "Close button: …" in the window). Use "Open window" on the tray icon, or open the program again, to bring the window back.
+
 界面语言跟随系统（中文或英文）。/ The window follows the system language (Chinese or English).
 命令行模式 / Terminal mode：加 `-console` 运行（Linux ARM64 版和没有桌面时自动使用），二维码印在终端里，命令：回车 = 新二维码 · `list` · `revoke 编号` · `autostart on|off`。
 Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = new QR code · `list` · `revoke N` · `autostart on|off`.
@@ -68,17 +71,19 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
   Mutual authentication: single-use QR codes valid for 10 minutes; per-phone keys you can revoke.
 - 手机只能打字、粘贴，和按回车 / Tab / 方向键 / 退格等少数几个键，不能按组合键，不能运行程序或读取文件。
   The phone can only type, paste and press a few keys (Enter, Tab, arrows, Backspace) — no shortcuts, no running programs, no file access.
-- 关闭程序窗口就停止工作（最小化时仍在工作）。/ Closing the window stops it (it keeps working while minimized).
+- 程序开着（窗口或系统托盘）时才工作，在托盘图标上选「退出」就停止。/ It only works while it is running (window or system tray); choose "Quit" on the tray icon to stop it.
 
 ## 常见问题 / FAQ
 
 - **搜索不到 / Not found**：扫码配对不需要搜索。有些路由器（访客网络、公司网络）不允许设备互相连接。/ QR pairing needs no search; some guest or office networks block devices from reaching each other.
+- **Linux 没有托盘图标 / No tray icon on Linux**：原版 GNOME 要装「AppIndicator」扩展（KDE、Xfce、Ubuntu 自带）；没有托盘时关闭按钮改成最小化。/ Plain GNOME needs the AppIndicator extension; without a tray the close button minimizes instead.
 - **连不上 / Cannot connect**：检查防火墙；Linux 用 ufw 时：`sudo ufw allow 47821/tcp` 和 `sudo ufw allow 47820/udp`。
 - **以管理员身份运行的窗口打不进字（Windows）**：qbCalculator Keyboard 也要以管理员身份运行。/ Windows running as administrator need qbCalculator Keyboard to run as administrator too.
 - **支持多国语言 / Any language**：中文、日文、韩文、阿拉伯文、俄文等都可以，不用切换输入法。/ Works with any language without switching input methods.
 
 ## 版本记录 / Changelog
 
+- **2.3.0**：关闭窗口时可以缩小到系统托盘继续工作；再次打开程序会把窗口叫出来。/ Hide to the system tray when closing the window; opening the program again brings the window back.
 - **2.2.0**：新的窗口界面：二维码、已配对手机、撤销、开机自启都可以直接点。/ New window UI: QR code, paired phones, revoke and start at login with buttons.
 - **2.1.2**：可以设置开机自启（`autostart on`）。/ Optional start at login (`autostart on`).
 - **2.1.1**：小幅改进。/ Minor improvements.
