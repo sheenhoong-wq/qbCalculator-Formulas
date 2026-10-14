@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.1.0**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.1.1**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -68,6 +68,7 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 
 ## 版本记录 / Changelog
 
+- **2.1.1**：小幅改进。/ Minor improvements.
 - **2.1.0**：改名为 qbCalculator Keyboard。
   Renamed to qbCalculator Keyboard.
 - **2.0.0**：全程加密、扫码 / 验证码配对、撤销手机、粘贴示意图、Windows 和 Linux 都用剪贴板粘贴非英文文字。
