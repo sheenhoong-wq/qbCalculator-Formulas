@@ -42,11 +42,6 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 
 窗口里的命令 / Commands in the window：回车 Enter = 新二维码 new QR code · `list` = 已配对的手机 paired phones · `revoke 编号` = 撤销 revoke（`revoke all` 全部 / all）
 
-## 远程连接 / Remote connection
-
-所有等级都可以在**同一个网络**里使用，手机总是先用内网直连。Admin / Legrol 等级的账号还可以在**不同网络**之间使用（经中转服务器，并自动尝试打洞直连），需要管理员另外设置中转服务器。
-Every account works on the **same network** (always tried first). Admin / Legrol accounts can also connect from **other networks** through a relay with automatic direct-connection upgrade; this needs a relay set up by the administrator.
-
 ## 三种模式 / Modes
 
 - **即时键盘 / Instant keyboard**：手机上按一下，电脑上打一下 / each key is typed right away
@@ -73,7 +68,7 @@ Every account works on the **same network** (always tried first). Admin / Legrol
 
 ## 版本记录 / Changelog
 
-- **2.1.0**：改名为 qbCalculator Keyboard；远程连接（中转 + 打洞直连，Admin / Legrol）。
-  Renamed to qbCalculator Keyboard; remote connection (relay + hole punching, Admin / Legrol).
+- **2.1.0**：改名为 qbCalculator Keyboard。
+  Renamed to qbCalculator Keyboard.
 - **2.0.0**：全程加密、扫码 / 验证码配对、撤销手机、粘贴示意图、Windows 和 Linux 都用剪贴板粘贴非英文文字。
   End-to-end encryption, QR / code pairing, revoking phones, pasting diagrams, clipboard paste for non-English text.
