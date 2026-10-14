@@ -1,0 +1,3 @@
+f123dcdcd025442afee8451ff135ae3c5a84ba29d2d2be39ff9537c43867dc81  qbkeyboard-windows-x64.exe
+be83edfcd32dbfcd4cf196df43b104ba6722d232d1b5b28c9004ad3deb6da9f4  qbkeyboard-linux-x64
+7d36bf9d96656a1ea9cf675ef3f81a7045fcfb6bead4b4a7a89fc30d082e1fdf  qbkeyboard-linux-arm64
