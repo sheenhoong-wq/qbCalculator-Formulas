@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.1.1**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.1.2**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -40,7 +40,11 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 4. 配对一次就记住了。把电脑上的光标放到要输入的地方，在手机上操作即可。
    Pairing is remembered. Put the cursor where the text should go and use the phone.
 
-窗口里的命令 / Commands in the window：回车 Enter = 新二维码 new QR code · `list` = 已配对的手机 paired phones · `revoke 编号` = 撤销 revoke（`revoke all` 全部 / all）
+窗口里的命令 / Commands in the window：回车 Enter = 新二维码 new QR code · `list` = 已配对的手机 paired phones · `revoke 编号` = 撤销 revoke（`revoke all` 全部 / all） · `autostart on` = 开机自动运行 start at login（`autostart off` 取消 / off）
+
+**开机自启 / Start at login**：在程序窗口里输入 `autostart on` 回车，以后登录电脑就会自动打开（不需要管理员权限）；输入 `autostart off` 取消。
+移动了程序文件的话，要在新位置再输入一次 `autostart on`。
+Type `autostart on` in the program window to start it automatically after logging in (no administrator rights needed); `autostart off` to stop. If you move the program file, run `autostart on` again.
 
 ## 三种模式 / Modes
 
@@ -68,6 +72,7 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 
 ## 版本记录 / Changelog
 
+- **2.1.2**：可以设置开机自启（`autostart on`）。/ Optional start at login (`autostart on`).
 - **2.1.1**：小幅改进。/ Minor improvements.
 - **2.1.0**：改名为 qbCalculator Keyboard。
   Renamed to qbCalculator Keyboard.
