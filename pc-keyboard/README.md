@@ -50,12 +50,13 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 命令行模式 / Terminal mode：加 `-console` 运行（Linux ARM64 版和没有桌面时自动使用），二维码印在终端里，命令：回车 = 新二维码 · `list` · `revoke 编号` · `autostart on|off`。
 Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = new QR code · `list` · `revoke N` · `autostart on|off`.
 
-## 三种模式 / Modes
+## 模式 / Modes
 
-- **即时键盘 / Instant keyboard**：手机上按一下，电脑上打一下 / each key is typed right away
-- **发送结果 / Send result**：每次按 `=` 把结果打到电脑上 / the result is typed after every `=`
-- **发送算式和结果 / Send expression and result**：例如 / e.g. `12×3 = 36`
-- 示意图和开板图：点「发到电脑」直接粘贴 / Diagrams and cut sheets: tap "To PC" to paste them
+点计算器顶栏的电脑按钮选择 / Tap the computer button at the top of the calculator:
+
+- **关闭 / Off**：不发送 / nothing is sent
+- **即时输入 / Instant input**：计算器上按什么，电脑上马上打什么；按 `=` 换行 / keys you tap are typed right away; `=` presses Enter
+- **复制粘贴 / Copy & paste**：长按 `=` 发送答案；长按算式、历史记录或示意图，选「发到电脑」/ long-press `=` to send the answer; long-press the expression, a history entry or a diagram and choose "To PC"
 
 ## 安全 / Security
 
