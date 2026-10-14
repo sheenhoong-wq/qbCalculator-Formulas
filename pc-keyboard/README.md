@@ -56,7 +56,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 - **关闭 / Off**：不发送 / nothing is sent
 - **即时输入 / Instant input**：计算器上按什么，电脑上马上打什么；按 `=` 换行 / keys you tap are typed right away; `=` presses Enter
-- **复制粘贴 / Copy & paste**：长按 `=` 发送答案；长按算式、历史记录或示意图，选「发到电脑」/ long-press `=` to send the answer; long-press the expression, a history entry or a diagram and choose "To PC"
+- **复制粘贴 / Copy & paste**：长按 `=` 或 `ANS` 发送答案；长按历史记录里的算式或示意图，选「发到电脑」/ long-press `=` or `ANS` to send the answer; long-press an expression in the history or a diagram and choose "To PC"
 
 ## 安全 / Security
 
