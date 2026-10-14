@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.1.2**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.2.0**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -11,7 +11,7 @@ Type calculator results and paste diagrams from the qbCalculator app into your c
 |---|---|
 | Windows 10 / 11（64 位） | [qbCalculator-Keyboard-windows-x64.exe](https://github.com/sheenhoong-wq/qbCalculator-Formulas/raw/main/pc-keyboard/qbCalculator-Keyboard-windows-x64.exe) |
 | Linux（x86-64） | [qbCalculator-Keyboard-linux-x64](https://github.com/sheenhoong-wq/qbCalculator-Formulas/raw/main/pc-keyboard/qbCalculator-Keyboard-linux-x64) |
-| Linux（ARM64，例如树莓派 / e.g. Raspberry Pi） | [qbCalculator-Keyboard-linux-arm64](https://github.com/sheenhoong-wq/qbCalculator-Formulas/raw/main/pc-keyboard/qbCalculator-Keyboard-linux-arm64) |
+| Linux（ARM64，例如树莓派 / e.g. Raspberry Pi；只有命令行 / terminal only） | [qbCalculator-Keyboard-linux-arm64](https://github.com/sheenhoong-wq/qbCalculator-Formulas/raw/main/pc-keyboard/qbCalculator-Keyboard-linux-arm64) |
 
 单个文件，不用安装。**请只从这个页面下载**，别的地方的同名文件可能被改过。
 Single file, nothing to install. **Only download from this page.**
@@ -32,19 +32,23 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
    - **Linux**：`chmod +x qbCalculator-Keyboard-linux-x64 && ./qbCalculator-Keyboard-linux-x64`
      先安装打字工具 / install the typing tools first：`sudo apt install xdotool xclip`
      （Wayland：Sway / Hyprland 用 `wtype wl-clipboard`；GNOME / KDE 用 `ydotool wl-clipboard`）
-2. 手机和电脑连同一个 Wi-Fi。/ Put the phone and the computer on the same Wi-Fi.
-3. 在 app 里打开侧边菜单 →「电脑键盘」→「扫码配对」，扫程序窗口里的二维码。
-   In the app: menu → PC Keyboard → Scan QR code, and scan the QR code in the program window.
-   没有相机：用「验证码配对」，两边验证码一样才在电脑窗口输入 `y` 回车。
-   No camera: use "Pair with verification code" and type `y` in the window only if both codes match.
+2. 程序会打开一个窗口，显示配对二维码、电脑信息和已配对的手机。/ A window opens with the pairing QR code, computer info and paired phones.
+3. 手机和电脑连同一个 Wi-Fi。在 app 里打开侧边菜单 →「电脑键盘」→「扫码配对」，扫窗口里的二维码。
+   Put the phone and the computer on the same Wi-Fi. In the app: menu → PC Keyboard → Scan QR code, and scan the QR code in the window.
+   没有相机：用「验证码配对」，电脑会弹出确认窗口，两边验证码一样才点「一样，允许」。
+   No camera: use "Pair with verification code"; the computer shows a confirmation dialog — click "Yes, allow" only if both codes match.
 4. 配对一次就记住了。把电脑上的光标放到要输入的地方，在手机上操作即可。
    Pairing is remembered. Put the cursor where the text should go and use the phone.
 
-窗口里的命令 / Commands in the window：回车 Enter = 新二维码 new QR code · `list` = 已配对的手机 paired phones · `revoke 编号` = 撤销 revoke（`revoke all` 全部 / all） · `autostart on` = 开机自动运行 start at login（`autostart off` 取消 / off）
+窗口里的操作 / In the window：
 
-**开机自启 / Start at login**：在程序窗口里输入 `autostart on` 回车，以后登录电脑就会自动打开（不需要管理员权限）；输入 `autostart off` 取消。
-移动了程序文件的话，要在新位置再输入一次 `autostart on`。
-Type `autostart on` in the program window to start it automatically after logging in (no administrator rights needed); `autostart off` to stop. If you move the program file, run `autostart on` again.
+- **生成新的二维码 / New QR code**：二维码 10 分钟有效、只能配对一部手机，过期或用过后点这个。/ QR codes are valid for 10 minutes and pair one phone.
+- **撤销 / Revoke**：在已配对手机列表里点「撤销」再点「确定撤销？」。手机丢了就用这个。/ Click "Revoke" then "Confirm?" in the paired phones list, e.g. if a phone is lost.
+- **开机自动运行 / Start at login**：勾选后登录电脑就自动打开（最小化，不需要管理员权限）。移动了程序文件的话要重新勾选。/ Tick it to start minimized after logging in (no administrator rights needed). Tick it again if you move the program file.
+
+界面语言跟随系统（中文或英文）。/ The window follows the system language (Chinese or English).
+命令行模式 / Terminal mode：加 `-console` 运行（Linux ARM64 版和没有桌面时自动使用），二维码印在终端里，命令：回车 = 新二维码 · `list` · `revoke 编号` · `autostart on|off`。
+Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = new QR code · `list` · `revoke N` · `autostart on|off`.
 
 ## 三种模式 / Modes
 
@@ -61,7 +65,7 @@ Type `autostart on` in the program window to start it automatically after loggin
   Mutual authentication: single-use QR codes valid for 10 minutes; per-phone keys you can revoke.
 - 手机只能打字、粘贴，和按回车 / Tab / 方向键 / 退格等少数几个键，不能按组合键，不能运行程序或读取文件。
   The phone can only type, paste and press a few keys (Enter, Tab, arrows, Backspace) — no shortcuts, no running programs, no file access.
-- 关闭程序窗口就停止工作。/ Closing the window stops it.
+- 关闭程序窗口就停止工作（最小化时仍在工作）。/ Closing the window stops it (it keeps working while minimized).
 
 ## 常见问题 / FAQ
 
@@ -72,6 +76,7 @@ Type `autostart on` in the program window to start it automatically after loggin
 
 ## 版本记录 / Changelog
 
+- **2.2.0**：新的窗口界面：二维码、已配对手机、撤销、开机自启都可以直接点。/ New window UI: QR code, paired phones, revoke and start at login with buttons.
 - **2.1.2**：可以设置开机自启（`autostart on`）。/ Optional start at login (`autostart on`).
 - **2.1.1**：小幅改进。/ Minor improvements.
 - **2.1.0**：改名为 qbCalculator Keyboard。
