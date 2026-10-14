@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.3.1**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.3.2**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -83,6 +83,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 ## 版本记录 / Changelog
 
+- **2.3.2**：多行的结果（例如几个单位的换算）整段粘贴，换行不再变成按回车键（微信里不会被发出去，Excel 里不会跳格）。/ Multi-line results (e.g. several unit conversions) are pasted in one go; line breaks no longer press Enter.
 - **2.3.1**：修正多行结果（例如公式算出的几行）粘贴到 Word 等时每行都变成最后一行的问题；连着发送时不会互相覆盖。/ Fixed multi-line results pasting as the last line repeated (e.g. in Word); quick consecutive sends no longer overwrite each other.
 - **2.3.0**：关闭窗口时可以缩小到系统托盘继续工作；再次打开程序会把窗口叫出来。/ Hide to the system tray when closing the window; opening the program again brings the window back.
 - **2.2.0**：新的窗口界面：二维码、已配对手机、撤销、开机自启都可以直接点。/ New window UI: QR code, paired phones, revoke and start at login with buttons.
