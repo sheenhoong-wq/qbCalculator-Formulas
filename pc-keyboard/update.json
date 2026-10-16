@@ -1,0 +1,22 @@
+{
+  "version": "2.4.0",
+  "notes_zh": "自动更新",
+  "notes_en": "Automatic updates",
+  "files": {
+    "linux-amd64": {
+      "name": "qbCalculator-Keyboard-linux-x64",
+      "sha256": "b80c19631b11a1b54da59ce81c6af64315f65d4dacd708f7de156b8d69edf5d9",
+      "size": 13542024
+    },
+    "linux-arm64": {
+      "name": "qbCalculator-Keyboard-linux-arm64",
+      "sha256": "76b4a7e9b16fe7e619a250e08fcb84eefd9167865a878b9cbed4ce7487eb7754",
+      "size": 6160568
+    },
+    "windows-amd64": {
+      "name": "qbCalculator-Keyboard-windows-x64.exe",
+      "sha256": "8a71a5c6c466fca219700170252c38d646f714d26eda063e2c97395c96768202",
+      "size": 11409408
+    }
+  }
+}
