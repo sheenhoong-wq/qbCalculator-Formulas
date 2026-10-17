@@ -1,22 +1,22 @@
 {
-  "version": "2.4.1",
-  "notes_zh": "一键允许通过 Windows 防火墙",
-  "notes_en": "One-click Windows Firewall fix",
+  "version": "2.4.2",
+  "notes_zh": "即刻更新按钮",
+  "notes_en": "Update now button",
   "files": {
     "linux-amd64": {
       "name": "qbCalculator-Keyboard-linux-x64",
-      "sha256": "8e6d6a258adb2ee5fd92debf6f844a869aacf348df171b0f3fdb39d493e3f1b9",
-      "size": 13542024
+      "sha256": "35f1bbdd3b48cc703c0ed18fc8308635b9484af1ded5745a3456e522d2d4a1bb",
+      "size": 13546120
     },
     "linux-arm64": {
       "name": "qbCalculator-Keyboard-linux-arm64",
-      "sha256": "1840e8791e055c4c35514bf8ac4edc7b42e973cd183c798926ce227cf8753228",
+      "sha256": "a991e82736fdd2e88dba03f3c571b36db306e68cbd674c257a39f44eeb8eeab8",
       "size": 6160568
     },
     "windows-amd64": {
       "name": "qbCalculator-Keyboard-windows-x64.exe",
-      "sha256": "5a114b19ec68d9baae92e25af89eb9b244064e7321549a780c58047fc89c1762",
-      "size": 11428352
+      "sha256": "bb1e288a73b1400ad1a76dcf495dc80ddca2f34f9370c027654c68632b29d9e5",
+      "size": 11429376
     }
   }
 }

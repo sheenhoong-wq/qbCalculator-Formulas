@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.4.1**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.4.2**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -44,7 +44,7 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 
 - **生成新的二维码 / New QR code**：二维码 10 分钟有效、只能配对一部手机，过期或用过后点这个。/ QR codes are valid for 10 minutes and pair one phone.
 - **撤销 / Revoke**：在已配对手机列表里点「撤销」再点「确定撤销？」。手机丢了就用这个。/ Click "Revoke" then "Confirm?" in the paired phones list, e.g. if a phone is lost.
-- **自动更新 / Automatic updates**：默认打开，有新版本时自动下载、校验签名，等手机空闲时装上并重启；关掉后只提示，点「立即更新」才装。2.4.0 以前的版本没有这个功能，请手动下载一次。/ On by default: new versions are downloaded, signature-checked and installed when the phone is idle. Versions before 2.4.0 must be updated by hand once.
+- **自动更新 / Automatic updates**：默认打开，有新版本时自动下载、校验签名，等手机空闲时装上并重启；关掉后只提示有新版本。随时可以点「即刻更新」马上检查并更新。2.4.0 以前的版本没有这个功能，请手动下载一次。/ On by default: new versions are downloaded, signature-checked and installed when the phone is idle. Click "Update now" to check and update right away. Versions before 2.4.0 must be updated by hand once.
 - **开机自动运行 / Start at login**：勾选后登录电脑就自动打开（最小化，不需要管理员权限）。移动了程序文件的话要重新勾选。/ Tick it to start minimized after logging in (no administrator rights needed). Tick it again if you move the program file.
 
 **关闭窗口 / Closing the window**：点关闭按钮时可以选「缩小到托盘」（继续工作，手机照常能连）或「退出程序」，也可以记住选择；以后在窗口里「点关闭按钮时：…」点一下就能改。在托盘图标上选「打开窗口」或再打开一次程序，窗口就回来。
@@ -86,6 +86,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 ## 版本记录 / Changelog
 
+- **2.4.2**：「即刻更新」按钮：马上检查并更新。/ "Update now" button.
 - **2.4.1**：窗口里可以一键允许通过 Windows 防火墙（手机连不上时用）。/ One-click "Allow through Windows Firewall" in the window.
 - **2.4.0**：自动更新（下载的新版本要通过签名和 SHA-256 校验才会装）。/ Automatic updates (only signed, checksum-verified versions are installed).
 - **2.3.2**：多行的结果（例如几个单位的换算）整段粘贴，换行不再变成按回车键（微信里不会被发出去，Excel 里不会跳格）。/ Multi-line results (e.g. several unit conversions) are pasted in one go; line breaks no longer press Enter.
