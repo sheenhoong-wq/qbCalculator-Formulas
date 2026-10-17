@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.4.0**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.4.1**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -78,12 +78,15 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 - **搜索不到 / Not found**：扫码配对不需要搜索。有些路由器（访客网络、公司网络）不允许设备互相连接。/ QR pairing needs no search; some guest or office networks block devices from reaching each other.
 - **Linux 没有托盘图标 / No tray icon on Linux**：原版 GNOME 要装「AppIndicator」扩展（KDE、Xfce、Ubuntu 自带）；没有托盘时关闭按钮改成最小化。/ Plain GNOME needs the AppIndicator extension; without a tray the close button minimizes instead.
-- **连不上 / Cannot connect**：检查防火墙；Linux 用 ufw 时：`sudo ufw allow 47821/tcp` 和 `sudo ufw allow 47820/udp`。
+- **连不上 / Cannot connect**：Windows 上点程序窗口里的「手机连不上？允许通过 Windows 防火墙」，在确认框里点「是」。/ On Windows click "Phone cannot connect? Allow through Windows Firewall" in the window and confirm.
+  手机热点、外面的 Wi-Fi 常被 Windows 当成「公用网络」而被挡住。/ Hotspots and outside Wi-Fi are often treated as public networks and blocked.
+  其他：检查防火墙；Linux 用 ufw 时：`sudo ufw allow 47821/tcp` 和 `sudo ufw allow 47820/udp`。
 - **以管理员身份运行的窗口打不进字（Windows）**：qbCalculator Keyboard 也要以管理员身份运行。/ Windows running as administrator need qbCalculator Keyboard to run as administrator too.
 - **支持多国语言 / Any language**：中文、日文、韩文、阿拉伯文、俄文等都可以，不用切换输入法。/ Works with any language without switching input methods.
 
 ## 版本记录 / Changelog
 
+- **2.4.1**：窗口里可以一键允许通过 Windows 防火墙（手机连不上时用）。/ One-click "Allow through Windows Firewall" in the window.
 - **2.4.0**：自动更新（下载的新版本要通过签名和 SHA-256 校验才会装）。/ Automatic updates (only signed, checksum-verified versions are installed).
 - **2.3.2**：多行的结果（例如几个单位的换算）整段粘贴，换行不再变成按回车键（微信里不会被发出去，Excel 里不会跳格）。/ Multi-line results (e.g. several unit conversions) are pasted in one go; line breaks no longer press Enter.
 - **2.3.1**：修正多行结果（例如公式算出的几行）粘贴到 Word 等时每行都变成最后一行的问题；连着发送时不会互相覆盖。/ Fixed multi-line results pasting as the last line repeated (e.g. in Word); quick consecutive sends no longer overwrite each other.
