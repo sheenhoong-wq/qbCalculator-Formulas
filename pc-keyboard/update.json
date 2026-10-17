@@ -1,22 +1,22 @@
 {
-  "version": "2.4.2",
-  "notes_zh": "即刻更新按钮",
-  "notes_en": "Update now button",
+  "version": "2.4.3",
+  "notes_zh": "二维码地址顺序；记录连不上的原因",
+  "notes_en": "QR address order; log incomplete connections",
   "files": {
     "linux-amd64": {
       "name": "qbCalculator-Keyboard-linux-x64",
-      "sha256": "35f1bbdd3b48cc703c0ed18fc8308635b9484af1ded5745a3456e522d2d4a1bb",
-      "size": 13546120
+      "sha256": "0493aa243ea196a4e9151415d68d281870670fb1c18ff22ba02a9d965d0d4b1d",
+      "size": 13554696
     },
     "linux-arm64": {
       "name": "qbCalculator-Keyboard-linux-arm64",
-      "sha256": "a991e82736fdd2e88dba03f3c571b36db306e68cbd674c257a39f44eeb8eeab8",
+      "sha256": "57a9955a98132494116a8969b11012abb47fae6bfdca287f10b2d6fdb41d6b94",
       "size": 6160568
     },
     "windows-amd64": {
       "name": "qbCalculator-Keyboard-windows-x64.exe",
-      "sha256": "bb1e288a73b1400ad1a76dcf495dc80ddca2f34f9370c027654c68632b29d9e5",
-      "size": 11429376
+      "sha256": "e108acb24f286f41d0ca497f2094554bee13ae5630b3cbbf686764c75d0c1eab",
+      "size": 11437056
     }
   }
 }
