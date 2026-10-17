@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.4.3**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.4.4**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -86,6 +86,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 ## 版本记录 / Changelog
 
+- **2.4.4**：记录里不再显示手机检查网络时的空连接。/ The log no longer shows the phone's empty network checks.
 - **2.4.3**：二维码里 Wi-Fi 地址放前面，VPN 放后面，不放虚拟网卡（Hyper-V、WSL）的地址；记录里会提示「连到了但没完成连接」，方便查连不上的原因。/ Wi-Fi addresses first in the QR code, VPN last, virtual adapters left out; the log shows connections that reached the PC but did not finish.
 - **2.4.2**：「即刻更新」按钮：马上检查并更新。/ "Update now" button.
 - **2.4.1**：窗口里可以一键允许通过 Windows 防火墙（手机连不上时用）。/ One-click "Allow through Windows Firewall" in the window.
