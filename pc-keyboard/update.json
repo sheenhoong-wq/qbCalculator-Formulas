@@ -1,22 +1,22 @@
 {
-  "version": "2.5.0",
-  "notes_zh": "电脑键盘输入到手机；开板料单 / 橱柜整份发到手机",
-  "notes_en": "Type into the phone from the PC; send whole cut lists / cabinet lists to the phone",
+  "version": "2.5.1",
+  "notes_zh": "开板料单补齐原材料、修边、刀具、余量设置；料单页签只在配对过有权限的手机后显示",
+  "notes_en": "Cut list tab gains stock, trim, tool and margin settings; sheet tabs only appear after pairing a permitted phone",
   "files": {
     "linux-amd64": {
       "name": "qbCalculator-Keyboard-linux-x64",
-      "sha256": "4c36c62b10f161cf0607745e1566d2406a94f8c65215470c19bb4b52ee0ef3c8",
-      "size": 14055592
+      "sha256": "db518a6599ed2fe30b34f2f52085228a3f74a1eae8743cf1f9de5e852eaa8c16",
+      "size": 14117736
     },
     "linux-arm64": {
       "name": "qbCalculator-Keyboard-linux-arm64",
-      "sha256": "7f2ab35e179ddc5f5067042a50f5778c466f5c79803ab5f6f03236ab4dcd8bf4",
+      "sha256": "77f541be007e8e81c7415f4c53e707cecbed60d76511edf621b090c16ff6dd26",
       "size": 6619298
     },
     "windows-amd64": {
       "name": "qbCalculator-Keyboard-windows-x64.exe",
-      "sha256": "096b2db72f95b959068ff2fbbda396583a5a38c463ebd22ad9eb34bcfdb6df45",
-      "size": 12368896
+      "sha256": "a7eda5227c8f4ca2c300ab15248a894f6fed44190686ebd1bad5d11ba11bdcff",
+      "size": 12436480
     }
   }
 }
