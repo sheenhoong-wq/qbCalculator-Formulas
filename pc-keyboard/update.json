@@ -1,21 +1,21 @@
 {
-  "version": "2.5.1",
-  "notes_zh": "开板料单补齐原材料、修边、刀具、余量设置；料单页签只在配对过有权限的手机后显示",
-  "notes_en": "Cut list tab gains stock, trim, tool and margin settings; sheet tabs only appear after pairing a permitted phone",
+  "version": "2.5.2",
+  "notes_zh": "料单页键盘操作：Tab / 回车按顺序走到下一格，空格切换",
+  "notes_en": "Cut list tab: Tab / Enter move through the fields in order, Space switches",
   "files": {
     "linux-amd64": {
       "name": "qbCalculator-Keyboard-linux-x64",
-      "sha256": "db518a6599ed2fe30b34f2f52085228a3f74a1eae8743cf1f9de5e852eaa8c16",
+      "sha256": "61eb0eb957e91d1cd656e320265ccf8db84747b9cd95993cf0612b585c1e284e",
       "size": 14117736
     },
     "linux-arm64": {
       "name": "qbCalculator-Keyboard-linux-arm64",
-      "sha256": "77f541be007e8e81c7415f4c53e707cecbed60d76511edf621b090c16ff6dd26",
+      "sha256": "0d360634a02a07248c2126e3435464598d258cc1a6130073eaf493894e81f949",
       "size": 6619298
     },
     "windows-amd64": {
       "name": "qbCalculator-Keyboard-windows-x64.exe",
-      "sha256": "a7eda5227c8f4ca2c300ab15248a894f6fed44190686ebd1bad5d11ba11bdcff",
+      "sha256": "0706a2d20f1400805b2dd66208cdfbbb4196d8ddcbebcd8538756a391b0e8897",
       "size": 12436480
     }
   }
