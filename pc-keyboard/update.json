@@ -1,22 +1,22 @@
 {
-  "version": "2.5.2",
-  "notes_zh": "料单页键盘操作：Tab / 回车按顺序走到下一格，空格切换",
-  "notes_en": "Cut list tab: Tab / Enter move through the fields in order, Space switches",
+  "version": "2.5.3",
+  "notes_zh": "开板料单按人员分组：人员名字只写一次，「+ 加人员」加下一个",
+  "notes_en": "Cut list grouped by person: write the name once, + Add person for the next",
   "files": {
     "linux-amd64": {
       "name": "qbCalculator-Keyboard-linux-x64",
-      "sha256": "61eb0eb957e91d1cd656e320265ccf8db84747b9cd95993cf0612b585c1e284e",
-      "size": 14117736
+      "sha256": "e287df1e875554e08949716c16ea024db9d3908070167175725c1ccca65acc25",
+      "size": 14138184
     },
     "linux-arm64": {
       "name": "qbCalculator-Keyboard-linux-arm64",
-      "sha256": "0d360634a02a07248c2126e3435464598d258cc1a6130073eaf493894e81f949",
+      "sha256": "109831a3eac44f4802426bf6df1a0afd1a0d00957ad1abd035536e26e478adc2",
       "size": 6619298
     },
     "windows-amd64": {
       "name": "qbCalculator-Keyboard-windows-x64.exe",
-      "sha256": "0706a2d20f1400805b2dd66208cdfbbb4196d8ddcbebcd8538756a391b0e8897",
-      "size": 12436480
+      "sha256": "d4a31fd85b0698aaf260ac9f6f5eb178e7b9c530f8e267f7d9f0cef9fa3651d5",
+      "size": 12459520
     }
   }
 }

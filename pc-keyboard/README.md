@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.5.2**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.5.3**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -88,6 +88,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 ## 版本记录 / Changelog
 
+- **2.5.3**：开板料单按人员分组，和手机一样：人员名字只写一次，下面是他的板件，「+ 加人员」加下一个；贴进来的表格有「人员」列的自动分到各人下面。/ The cut list is grouped by person like on the phone: write the name once with the parts below, "+ Add person" for the next; pasted tables with a Person column are split automatically.
 - **2.5.2**：料单页可以全用键盘填：Tab / 回车按顺序走到下一格（名称 → 原材料 → 材料 → 修边 → 余量 → 刀具 → 表格，一行填完接下一行），Shift+Tab 回上一格，空格切换材料 / 刀具 / 纹路。/ The sheet tabs can be filled with the keyboard alone: Tab / Enter move through the fields in order (a finished row continues on the next), Shift+Tab goes back, Space switches material / tools / grain.
 - **2.5.1**：开板料单页补齐手机上的设置（多种原材料和剩料、修边、锯片 / 刀片 / HPL 割刀、锯缝、精修余量），设置可以收起；「开板料单」「橱柜」页签只在配对过有权限的手机后显示。/ The Cut list tab now has all the phone's settings (several stock sizes, trim, saw / knife / HPL cutter, kerf, margins), collapsible; the Cut list and Cabinets tabs only appear after pairing a permitted phone.
 - **2.5.0**：电脑键盘反向输入到手机 qbCalculator（实时转发）；新增「开板料单」「橱柜」页签，在电脑上填好整份发到手机；手机没开「允许电脑输入」时电脑上会提示。需要同时更新手机 app。/ Type from the PC keyboard into the qbCalculator app; new Cut list and Cabinets tabs to fill in a whole sheet on the PC and send it to the phone; the PC tells you when the phone has not allowed PC input. Requires the latest phone app.
