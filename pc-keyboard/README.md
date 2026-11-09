@@ -3,7 +3,7 @@
 让 qbCalculator 手机 app 通过 Wi-Fi 往电脑上打字、粘贴计算结果和示意图。通讯全程加密。
 Type calculator results and paste diagrams from the qbCalculator app into your computer over Wi-Fi, end-to-end encrypted.
 
-**当前版本 / Version: 2.4.4**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
+**当前版本 / Version: 2.5.0**（需要搭配支持「电脑键盘」加密协议的 qbCalculator app / requires a qbCalculator app with encrypted PC Keyboard support）
 
 ## 下载 / Download
 
@@ -46,6 +46,8 @@ Compare the SHA-256 with [SHA256SUMS.txt](SHA256SUMS.txt):
 - **撤销 / Revoke**：在已配对手机列表里点「撤销」再点「确定撤销？」。手机丢了就用这个。/ Click "Revoke" then "Confirm?" in the paired phones list, e.g. if a phone is lost.
 - **自动更新 / Automatic updates**：默认打开，有新版本时自动下载、校验签名，等手机空闲时装上并重启；关掉后只提示有新版本。随时可以点「即刻更新」马上检查并更新。2.4.0 以前的版本没有这个功能，请手动下载一次。/ On by default: new versions are downloaded, signature-checked and installed when the phone is idle. Click "Update now" to check and update right away. Versions before 2.4.0 must be updated by hand once.
 - **开机自动运行 / Start at login**：勾选后登录电脑就自动打开（最小化，不需要管理员权限）。移动了程序文件的话要重新勾选。/ Tick it to start minimized after logging in (no administrator rights needed). Tick it again if you move the program file.
+- **输入到手机 / Type into the phone**（「连接」页）：点进框里用电脑键盘打字，每个字实时出现在手机 qbCalculator 当前的输入格里（开板计算料单、计算器算式……），回车 = 下一格。手机上要先在「电脑键盘」设置里打开「允许电脑输入到手机」。/ Click the box and type: each key appears live in the cell the qbCalculator app is on; Enter = next cell. Turn on "Allow typing from the PC" in the app first.
+- **开板料单 / 橱柜 / Cut list & Cabinets 页签**：在电脑上填整份料单（可以从 Excel / WPS 复制一块格子按 Ctrl+V 贴进来），按「发送到手机」，手机上一点就打开到开板计算，或把柜子加进合并开板。草稿自动保存。/ Fill in a whole cut list or cabinet list on the PC (paste cells from Excel / WPS), click "Send to phone", and open it on the phone in one tap. Drafts are saved automatically.
 
 **关闭窗口 / Closing the window**：点关闭按钮时可以选「缩小到托盘」（继续工作，手机照常能连）或「退出程序」，也可以记住选择；以后在窗口里「点关闭按钮时：…」点一下就能改。在托盘图标上选「打开窗口」或再打开一次程序，窗口就回来。
 The close button asks whether to hide to the system tray (keeps working) or quit, and can remember your choice (change it later with "Close button: …" in the window). Use "Open window" on the tray icon, or open the program again, to bring the window back.
@@ -86,6 +88,7 @@ Run with `-console` (always used on Linux ARM64 or without a desktop): Enter = n
 
 ## 版本记录 / Changelog
 
+- **2.5.0**：电脑键盘反向输入到手机 qbCalculator（实时转发）；新增「开板料单」「橱柜」页签，在电脑上填好整份发到手机；手机没开「允许电脑输入」时电脑上会提示。需要同时更新手机 app。/ Type from the PC keyboard into the qbCalculator app; new Cut list and Cabinets tabs to fill in a whole sheet on the PC and send it to the phone; the PC tells you when the phone has not allowed PC input. Requires the latest phone app.
 - **2.4.4**：记录里不再显示手机检查网络时的空连接。/ The log no longer shows the phone's empty network checks.
 - **2.4.3**：二维码里 Wi-Fi 地址放前面，VPN 放后面，不放虚拟网卡（Hyper-V、WSL）的地址；记录里会提示「连到了但没完成连接」，方便查连不上的原因。/ Wi-Fi addresses first in the QR code, VPN last, virtual adapters left out; the log shows connections that reached the PC but did not finish.
 - **2.4.2**：「即刻更新」按钮：马上检查并更新。/ "Update now" button.

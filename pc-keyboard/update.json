@@ -1,22 +1,22 @@
 {
-  "version": "2.4.4",
-  "notes_zh": "记录里不显示空连接",
-  "notes_en": "Quieter connection log",
+  "version": "2.5.0",
+  "notes_zh": "电脑键盘输入到手机；开板料单 / 橱柜整份发到手机",
+  "notes_en": "Type into the phone from the PC; send whole cut lists / cabinet lists to the phone",
   "files": {
     "linux-amd64": {
       "name": "qbCalculator-Keyboard-linux-x64",
-      "sha256": "47a6ad4174438dd8578ce7fa4de3f3255fcaca4166a1cf7972c2be2b652b7e9c",
-      "size": 13554696
+      "sha256": "4c36c62b10f161cf0607745e1566d2406a94f8c65215470c19bb4b52ee0ef3c8",
+      "size": 14055592
     },
     "linux-arm64": {
       "name": "qbCalculator-Keyboard-linux-arm64",
-      "sha256": "9b1757ccd6c106a9c555bb91e540b3afa4d3eb4c59a32d0a3d97ad7aef14702d",
-      "size": 6160568
+      "sha256": "7f2ab35e179ddc5f5067042a50f5778c466f5c79803ab5f6f03236ab4dcd8bf4",
+      "size": 6619298
     },
     "windows-amd64": {
       "name": "qbCalculator-Keyboard-windows-x64.exe",
-      "sha256": "f4a8d6e72d6df58b7e5250f4a25328bcbec7839639a1b435b947e0d9f261e374",
-      "size": 11437056
+      "sha256": "096b2db72f95b959068ff2fbbda396583a5a38c463ebd22ad9eb34bcfdb6df45",
+      "size": 12368896
     }
   }
 }
